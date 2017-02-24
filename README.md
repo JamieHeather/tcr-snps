@@ -2,7 +2,7 @@
 
 <h3>Extract reference and variant sequence for SNPs and other polymorphisms in the human T-cell receptor loci</h3>
 
-<h4>version 2, Jamie Heather, January 2017</h4>
+<h4>version 3.2, Jamie Heather, January 2017</h4>
 <hr>
 
 T-cell receptors (TCRs) are variable antigen receptors produced through somatic DNA recombination in developing T-cells, which fulfil key roles in maintaining a functional adaptive immune system. Recent advances in high-throughput DNA sequencing (HTS) have resulted in large amounts of TCR sequence data produced. 
@@ -15,6 +15,12 @@ Note that it currently seems that not all TCR genes have entries in these databa
 
 Similarly sometimes the supposed reference sequence at a given position does not match the actual hg19 exactly, and there are also ambiguous polymorphisms, thus not all described variants surive the process (particularly among duplications and deletions).
  
+<h4>New in v3.2:</h4>
+* Added IMGT-recorded TCR SNPs
+* Split functions out into separate document for readability
+
+Genes containing polymorphisms were taken from [IMGT/GENE-DB](http://www.imgt.org/genedb/) and outputting the V- or J-REGION for those genes with more than 1 allele. All output files were combined into the file 'Raw_Files/imgt_polymorphic_genes.fasta'. Polymorphisms are inferred using the [Levenshtein](https://pypi.python.org/pypi/python-Levenshtein/0.12.0) Python module.
+
 
 
 

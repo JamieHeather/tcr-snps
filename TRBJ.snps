@@ -1,4 +1,4 @@
-# SNPs produced with tcr-snps.py, version 3.1.1
+# SNPs produced with tcr-snps.py, version 3.2.2
 # See https://github.com/JamieHeather/tcr-snps
 TRBJ2-4,0002,142494617,ccggaactggggAgggggcgccccg,ccggaactggggGgggggcgccccg,upstream gene,1.29e-05,.
 TRBJ2-4,0003,142494620,gaactggggaggGggcgccccggga,gaactggggaggAggcgccccggga,upstream gene,0.000206,rs782253729
@@ -157,6 +157,88 @@ TRBJ2-5,0086,142494917,gggagtccccggGctgtgctctggg,gggagtccccggActgtgctctggg,downs
 TRBJ2-5,0087,142494917,gggagtccccggGctgtgctctggg,gggagtccccggCctgtgctctggg,downstream gene,0.00012,rs189301915
 TRBJ2-5,0088,142494919,gagtccccgggcTgtgctctggggc,gagtccccgggcGgtgctctggggc,downstream gene,4.28e-06,.
 TRBJ2-5,0089,142494923,ccccgggctgtgCtctggggccaac,ccccgggctgtgGtctggggccaac,downstream gene,4.26e-06,.
+TRBJ2-2P,0001,142494310,aggaggcggttgGggctccggagag,aggaggcggttgAggctccggagag,upstream gene,1.12e-05,rs781983930
+TRBJ2-2P,0002,142494317,ggttggggctccGgagagctccgag,ggttggggctccAgagagctccgag,upstream gene,4.22e-06,.
+TRBJ2-2P,0003,142494323,ggctccggagagCtccgagagggcg,ggctccggagagTtccgagagggcg,upstream gene,4.23e-06,.
+TRBJ2-2P,0004,142494324,gctccggagagcTccgagagggcgg,gctccggagagcCccgagagggcgg,upstream gene,4.23e-06,.
+TRBJ2-2P,0005,142494325,ctccggagagctCcgagagggcggg,ctccggagagctAcgagagggcggg,upstream gene,4.23e-06,.
+TRBJ2-2P,0006,142494325,ctccggagagctCcgagagggcggg,ctccggagagctTcgagagggcggg,upstream gene,4.23e-06,.
+TRBJ2-2P,0007,142494327,ccggagagctccGagagggcgggat,ccggagagctccAagagggcgggat,upstream gene,0.000113,rs112566537
+TRBJ2-2P,0008,142494329,ggagagctccgaGagggcgggatgg,ggagagctccgaAagggcgggatgg,upstream gene,3.31e-05,.
+TRBJ2-2P,0009,142494334,gctccgagagggCgggatgggcaga,gctccgagagggAgggatgggcaga,upstream gene,2.13e-05,.
+TRBJ2-2P,0010,142494341,gagggcgggatgGgcagaggtaagc,gagggcgggatgAgcagaggtaagc,upstream gene,4.29e-06,.
+TRBJ2-2P,0011,142494342,agggcgggatggGcagaggtaagca,agggcgggatggTcagaggtaagca,upstream gene,8.69e-06,.
+TRBJ2-2P,0012,142494353,ggcagaggtaagCagctgccccact,ggcagaggtaagTagctgccccact,upstream gene,1.33e-05,.
+TRBJ2-2P,0013,142494355,cagaggtaagcaGctgccccactct,cagaggtaagcaActgccccactct,upstream gene,3.32e-05,rs568435453
+TRBJ2-2P,0014,142494356,agaggtaagcagCtgccccactctg,agaggtaagcagGtgccccactctg,upstream gene,4.54e-06,.
+TRBJ2-2P,0015,142494356,agaggtaagcagCtgccccactctg,agaggtaagcagTtgccccactctg,upstream gene,4.54e-06,.
+TRBJ2-2P,0016,142494357,gaggtaagcagcTgccccactctga,gaggtaagcagcGgccccactctga,upstream gene,4.53e-06,.
+TRBJ2-2P,0017,142494359,ggtaagcagctgCcccactctgaga,ggtaagcagctgAcccactctgaga,upstream gene,9.08e-06,.
+TRBJ2-2P,0018,142494359,ggtaagcagctgCcccactctgaga,ggtaagcagctgTcccactctgaga,upstream gene,4.54e-06,.
+TRBJ2-2P,0019,142494360,gtaagcagctgcCccactctgagag,gtaagcagctgcAccactctgagag,upstream gene,9.1e-06,.
+TRBJ2-2P,0021,142494368,ctgccccactctGagaggggctgtg,ctgccccactctAagaggggctgtg,upstream gene,4.69e-06,.
+TRBJ2-2P,0022,142494368,ctgccccactctGagaggggctgtg,ctgccccactctTagaggggctgtg,upstream gene,9.38e-06,.
+TRBJ2-2P,0023,142494373,ccactctgagagGggctgtgctgag,ccactctgagagCggctgtgctgag,upstream gene,4.79e-06,.
+TRBJ2-2P,0024,142494374,cactctgagaggGgctgtgctgaga,cactctgagaggAgctgtgctgaga,upstream gene,1.44e-05,.
+TRBJ2-2P,0025,142494376,ctctgagaggggCtgtgctgagagg,ctctgagaggggTtgtgctgagagg,upstream gene,9.66e-06,.
+TRBJ2-2P,0026,142494378,ctgagaggggctGtgctgagaggcg,ctgagaggggctAtgctgagaggcg,upstream gene,3.31e-05,.
+TRBJ2-2P,0027,142494382,gaggggctgtgcTgagaggcgctgc,gaggggctgtgcCgagaggcgctgc,missense,1.52e-05,.
+TRBJ2-2P,0028,142494385,gggctgtgctgaGaggcgctgctgg,gggctgtgctgaAaggcgctgctgg,missense,5.09e-06,.
+TRBJ2-2P,0029,142494389,tgtgctgagaggCgctgctgggcgt,tgtgctgagaggTgctgctgggcgt,synonymous,1.07e-05,.
+TRBJ2-2P,0030,142494392,gctgagaggcgcTgctgggcgtctg,gctgagaggcgcCgctgggcgtctg,synonymous,5.37e-06,.
+TRBJ2-2P,0031,142494397,gaggcgctgctgGgcgtctgggcgg,gaggcgctgctgCgcgtctgggcgg,missense,5.78e-06,.
+TRBJ2-2P,0032,142494399,ggcgctgctgggCgtctgggcggag,ggcgctgctgggAgtctgggcggag,missense,1.74e-05,.
+TRBJ2-2P,0033,142494400,gcgctgctgggcGtctgggcggagg,gcgctgctgggcAtctgggcggagg,missense,5.81e-06,.
+TRBJ2-2P,0034,142494400,gcgctgctgggcGtctgggcggagg,gcgctgctgggcCtctgggcggagg,missense,5.81e-06,rs781985653
+TRBJ2-2P,0035,142494401,cgctgctgggcgTctgggcggagga,cgctgctgggcgCctgggcggagga,synonymous,5.86e-06,.
+TRBJ2-2P,0036,142494402,gctgctgggcgtCtgggcggaggac,gctgctgggcgtGtgggcggaggac,missense,3.32e-05,.
+TRBJ2-2P,0037,142494406,ctgggcgtctggGcggaggactcct,ctgggcgtctggCcggaggactcct,missense,6.12e-06,.
+TRBJ2-2P,0038,142494407,tgggcgtctgggCggaggactcctg,tgggcgtctgggAggaggactcctg,synonymous,6.21e-06,.
+TRBJ2-2P,0039,142494408,gggcgtctgggcGgaggactcctgg,gggcgtctgggcTgaggactcctgg,stop gained,2.09e-05,.
+TRBJ2-2P,0040,142494410,gcgtctgggcggAggactcctggtt,gcgtctgggcggCggactcctggtt,synonymous,6.29e-06,.
+TRBJ2-2P,0041,142494416,gggcggaggactCctggttctgggt,gggcggaggactTctggttctgggt,synonymous,1.29e-05,.
+TRBJ2-2P,0042,142494423,ggactcctggttCtgggtgctggga,ggactcctggttGtgggtgctggga,missense,1.67e-05,.
+TRBJ2-2P,0043,142494424,gactcctggttcTgggtgctgggag,gactcctggttcCgggtgctgggag,missense,6.71e-06,.
+TRBJ2-2P,0044,142494427,tcctggttctggGtgctgggagagc,tcctggttctggAtgctgggagagc,downstream gene,1.35e-05,.
+TRBJ2-2P,0045,142494441,gctgggagagcgAtggggctctcag,gctgggagagcgTtggggctctcag,downstream gene,3.34e-05,.
+TRBJ2-2P,0046,142494442,ctgggagagcgaTggggctctcagc,ctgggagagcgaCggggctctcagc,downstream gene,7.13e-06,.
+TRBJ2-2P,0047,142494444,gggagagcgatgGggctctcagcgg,gggagagcgatgCggctctcagcgg,downstream gene,2.16e-05,.
+TRBJ2-2P,0048,142494452,gatggggctctcAgcggtgggaagg,gatggggctctcGgcggtgggaagg,downstream gene,7.54e-06,.
+TRBJ2-2P,0051,142494455,ggggctctcagcGgtgggaaggacc,ggggctctcagcAgtgggaaggacc,downstream gene,7.6e-06,.
+TRBJ2-2P,0052,142494465,gcggtgggaaggAcccgagctgagt,gcggtgggaaggGcccgagctgagt,downstream gene,7.94e-06,.
+TRBJ2-2P,0053,142494467,ggtgggaaggacCcgagctgagtct,ggtgggaaggacAcgagctgagtct,downstream gene,7.95e-06,.
+TRBJ2-2P,0054,142494473,aaggacccgagcTgagtctgggaca,aaggacccgagcAgagtctgggaca,downstream gene,5.19e-05,rs574388124
+TRBJ2-2P,0055,142494474,aggacccgagctGagtctgggacag,aggacccgagctAagtctgggacag,downstream gene,8.02e-06,.
+TRBJ2-2P,0056,142494476,gacccgagctgaGtctgggacagca,gacccgagctgaAtctgggacagca,downstream gene,8.05e-06,.
+TRBJ2-2P,0057,142494482,agctgagtctggGacagcagagcgg,agctgagtctggCacagcagagcgg,downstream gene,8.34e-06,.
+TRBJ2-2P,0058,142494485,tgagtctgggacAgcagagcgggca,tgagtctgggacTgcagagcgggca,downstream gene,8.55e-06,.
+TRBJ2-2P,0059,142494493,ggacagcagagcGggcagcaccggt,ggacagcagagcTggcagcaccggt,downstream gene,2.16e-05,.
+TRBJ1-6,*02-1,,ccactttgggaaTgggaccaggctc,ccactttgggaaCgggaccaggctc,,,
+TRBJ2-1,0001,142494005,ctgtttttgtacAaagctgtaacat,ctgtttttgtacGaagctgtaacat,upstream gene,1.57e-05,rs776993465
+TRBJ2-1,0002,142494008,tttttgtacaaaGctgtaacattgt,tttttgtacaaaActgtaacattgt,upstream gene,7.05e-06,.
+TRBJ2-1,0003,142494009,ttttgtacaaagCtgtaacattgtg,ttttgtacaaagTtgtaacattgtg,upstream gene,3.82e-05,rs185962362
+TRBJ2-1,0004,142494017,aaagctgtaacaTtgtggggacagg,aaagctgtaacaCtgtggggacagg,upstream gene,4.57e-05,.
+TRBJ2-1,0005,142494022,tgtaacattgtgGggacagggtccc,tgtaacattgtgTggacagggtccc,upstream gene,0.05,.
+TRBJ2-1,0012,142494033,ggggacagggtcCctagcgggccag,ggggacagggtcTctagcgggccag,upstream gene,0.0263,rs782383881
+TRBJ2-1,0024,142494084,ggccagggacacGgctcaccgtgct,ggccagggacacAgctcaccgtgct,missense,6.1e-06,.
+TRBJ2-1,0025,142494086,ccagggacacggCtcaccgtgctag,ccagggacacggTtcaccgtgctag,missense,3.43e-05,rs782016133
+TRBJ2-1,0026,142494096,ggctcaccgtgcTaggtaagaaggg,ggctcaccgtgcCaggtaagaaggg,missense,1.04e-05,.
+TRBJ2-1,0027,142494098,ctcaccgtgctaGgtaagaaggggg,ctcaccgtgctaAgtaagaaggggg,incomplete terminal codon,7.43e-05,rs782774230
+TRBJ2-1,0028,142494108,taggtaagaaggGggctccaggtgg,taggtaagaaggAggctccaggtgg,downstream gene,2.07e-05,.
+TRBJ2-1,0029,142494109,aggtaagaagggGgctccaggtggg,aggtaagaagggCgctccaggtggg,downstream gene,4.96e-06,.
+TRBJ2-1,0030,142494112,taagaagggggcTccaggtgggaga,taagaagggggcGccaggtgggaga,downstream gene,4.95e-06,.
+TRBJ2-1,0031,142494113,aagaagggggctCcaggtgggagag,aagaagggggctTcaggtgggagag,downstream gene,4.96e-06,.
+TRBJ2-1,0032,142494121,ggctccaggtggGagagagggtgag,ggctccaggtggAagagagggtgag,downstream gene,0.000112,rs781813879
+TRBJ2-1,0033,142494121,ggctccaggtggGagagagggtgag,ggctccaggtggTagagagggtgag,downstream gene,9.79e-06,.
+TRBJ2-1,0034,142494127,aggtgggagagaGggtgagcagccc,aggtgggagagaAggtgagcagccc,downstream gene,0.0129,rs115049825
+TRBJ2-1,0035,142494130,tgggagagagggTgagcagcccagc,tgggagagagggCgagcagcccagc,downstream gene,1.38e-05,.
+TRBJ2-1,0036,142494131,gggagagagggtGagcagcccagcc,gggagagagggtAagcagcccagcc,downstream gene,4.31e-05,rs375701734
+TRBJ2-1,0037,142494133,gagagagggtgaGcagcccagcctg,gagagagggtgaAcagcccagcctg,downstream gene,4.88e-06,.
+TRBJ2-1,0038,142494134,agagagggtgagCagcccagcctgc,agagagggtgagTagcccagcctgc,downstream gene,6.38e-05,.
+TRBJ2-1,0039,142494138,agggtgagcagcCcagcctgcacga,agggtgagcagcAcagcctgcacga,downstream gene,0.000167,rs370053809
+TRBJ2-1,0040,142494141,gtgagcagcccaGcctgcacgaccc,gtgagcagcccaAcctgcacgaccc,downstream gene,4.64e-06,.
+TRBJ2-1,0041,142494142,tgagcagcccagCctgcacgacccc,tgagcagcccagActgcacgacccc,downstream gene,3.31e-05,rs56046467
+TRBJ2-1,0042,142494142,tgagcagcccagCctgcacgacccc,tgagcagcccagGctgcacgacccc,downstream gene,0.00816,rs56046467
 TRBJ2-2,0001,142494195,tgggcaatccagGgccctcctcgag,tgggcaatccagAgccctcctcgag,upstream gene,8.51e-06,.
 TRBJ2-2,0002,142494201,atccagggccctCctcgagggaagc,atccagggccctGctcgagggaagc,upstream gene,3.34e-05,.
 TRBJ2-2,0003,142494204,cagggccctcctCgagggaagcggg,cagggccctcctTgagggaagcggg,upstream gene,6.68e-05,.
@@ -216,62 +298,55 @@ TRBJ2-2,0057,142494359,ggtaagcagctgCcccactctgaga,ggtaagcagctgTcccactctgaga,downs
 TRBJ2-2,0058,142494360,gtaagcagctgcCccactctgagag,gtaagcagctgcAccactctgagag,downstream gene,9.1e-06,.
 TRBJ2-2,0060,142494368,ctgccccactctGagaggggctgtg,ctgccccactctAagaggggctgtg,downstream gene,4.69e-06,.
 TRBJ2-2,0061,142494368,ctgccccactctGagaggggctgtg,ctgccccactctTagaggggctgtg,downstream gene,9.38e-06,.
-TRBJ2-2P,0001,142494310,aggaggcggttgGggctccggagag,aggaggcggttgAggctccggagag,upstream gene,1.12e-05,rs781983930
-TRBJ2-2P,0002,142494317,ggttggggctccGgagagctccgag,ggttggggctccAgagagctccgag,upstream gene,4.22e-06,.
-TRBJ2-2P,0003,142494323,ggctccggagagCtccgagagggcg,ggctccggagagTtccgagagggcg,upstream gene,4.23e-06,.
-TRBJ2-2P,0004,142494324,gctccggagagcTccgagagggcgg,gctccggagagcCccgagagggcgg,upstream gene,4.23e-06,.
-TRBJ2-2P,0005,142494325,ctccggagagctCcgagagggcggg,ctccggagagctAcgagagggcggg,upstream gene,4.23e-06,.
-TRBJ2-2P,0006,142494325,ctccggagagctCcgagagggcggg,ctccggagagctTcgagagggcggg,upstream gene,4.23e-06,.
-TRBJ2-2P,0007,142494327,ccggagagctccGagagggcgggat,ccggagagctccAagagggcgggat,upstream gene,0.000113,rs112566537
-TRBJ2-2P,0008,142494329,ggagagctccgaGagggcgggatgg,ggagagctccgaAagggcgggatgg,upstream gene,3.31e-05,.
-TRBJ2-2P,0009,142494334,gctccgagagggCgggatgggcaga,gctccgagagggAgggatgggcaga,upstream gene,2.13e-05,.
-TRBJ2-2P,0010,142494341,gagggcgggatgGgcagaggtaagc,gagggcgggatgAgcagaggtaagc,upstream gene,4.29e-06,.
-TRBJ2-2P,0011,142494342,agggcgggatggGcagaggtaagca,agggcgggatggTcagaggtaagca,upstream gene,8.69e-06,.
-TRBJ2-2P,0012,142494353,ggcagaggtaagCagctgccccact,ggcagaggtaagTagctgccccact,upstream gene,1.33e-05,.
-TRBJ2-2P,0013,142494355,cagaggtaagcaGctgccccactct,cagaggtaagcaActgccccactct,upstream gene,3.32e-05,rs568435453
-TRBJ2-2P,0014,142494356,agaggtaagcagCtgccccactctg,agaggtaagcagGtgccccactctg,upstream gene,4.54e-06,.
-TRBJ2-2P,0015,142494356,agaggtaagcagCtgccccactctg,agaggtaagcagTtgccccactctg,upstream gene,4.54e-06,.
-TRBJ2-2P,0016,142494357,gaggtaagcagcTgccccactctga,gaggtaagcagcGgccccactctga,upstream gene,4.53e-06,.
-TRBJ2-2P,0017,142494359,ggtaagcagctgCcccactctgaga,ggtaagcagctgAcccactctgaga,upstream gene,9.08e-06,.
-TRBJ2-2P,0018,142494359,ggtaagcagctgCcccactctgaga,ggtaagcagctgTcccactctgaga,upstream gene,4.54e-06,.
-TRBJ2-2P,0019,142494360,gtaagcagctgcCccactctgagag,gtaagcagctgcAccactctgagag,upstream gene,9.1e-06,.
-TRBJ2-2P,0021,142494368,ctgccccactctGagaggggctgtg,ctgccccactctAagaggggctgtg,upstream gene,4.69e-06,.
-TRBJ2-2P,0022,142494368,ctgccccactctGagaggggctgtg,ctgccccactctTagaggggctgtg,upstream gene,9.38e-06,.
-TRBJ2-2P,0023,142494373,ccactctgagagGggctgtgctgag,ccactctgagagCggctgtgctgag,upstream gene,4.79e-06,.
-TRBJ2-2P,0024,142494374,cactctgagaggGgctgtgctgaga,cactctgagaggAgctgtgctgaga,upstream gene,1.44e-05,.
-TRBJ2-2P,0025,142494376,ctctgagaggggCtgtgctgagagg,ctctgagaggggTtgtgctgagagg,upstream gene,9.66e-06,.
-TRBJ2-2P,0026,142494378,ctgagaggggctGtgctgagaggcg,ctgagaggggctAtgctgagaggcg,upstream gene,3.31e-05,.
-TRBJ2-2P,0027,142494382,gaggggctgtgcTgagaggcgctgc,gaggggctgtgcCgagaggcgctgc,missense,1.52e-05,.
-TRBJ2-2P,0028,142494385,gggctgtgctgaGaggcgctgctgg,gggctgtgctgaAaggcgctgctgg,missense,5.09e-06,.
-TRBJ2-2P,0029,142494389,tgtgctgagaggCgctgctgggcgt,tgtgctgagaggTgctgctgggcgt,synonymous,1.07e-05,.
-TRBJ2-2P,0030,142494392,gctgagaggcgcTgctgggcgtctg,gctgagaggcgcCgctgggcgtctg,synonymous,5.37e-06,.
-TRBJ2-2P,0031,142494397,gaggcgctgctgGgcgtctgggcgg,gaggcgctgctgCgcgtctgggcgg,missense,5.78e-06,.
-TRBJ2-2P,0032,142494399,ggcgctgctgggCgtctgggcggag,ggcgctgctgggAgtctgggcggag,missense,1.74e-05,.
-TRBJ2-2P,0033,142494400,gcgctgctgggcGtctgggcggagg,gcgctgctgggcAtctgggcggagg,missense,5.81e-06,.
-TRBJ2-2P,0034,142494400,gcgctgctgggcGtctgggcggagg,gcgctgctgggcCtctgggcggagg,missense,5.81e-06,rs781985653
-TRBJ2-2P,0035,142494401,cgctgctgggcgTctgggcggagga,cgctgctgggcgCctgggcggagga,synonymous,5.86e-06,.
-TRBJ2-2P,0036,142494402,gctgctgggcgtCtgggcggaggac,gctgctgggcgtGtgggcggaggac,missense,3.32e-05,.
-TRBJ2-2P,0037,142494406,ctgggcgtctggGcggaggactcct,ctgggcgtctggCcggaggactcct,missense,6.12e-06,.
-TRBJ2-2P,0038,142494407,tgggcgtctgggCggaggactcctg,tgggcgtctgggAggaggactcctg,synonymous,6.21e-06,.
-TRBJ2-2P,0039,142494408,gggcgtctgggcGgaggactcctgg,gggcgtctgggcTgaggactcctgg,stop gained,2.09e-05,.
-TRBJ2-2P,0040,142494410,gcgtctgggcggAggactcctggtt,gcgtctgggcggCggactcctggtt,synonymous,6.29e-06,.
-TRBJ2-2P,0041,142494416,gggcggaggactCctggttctgggt,gggcggaggactTctggttctgggt,synonymous,1.29e-05,.
-TRBJ2-2P,0042,142494423,ggactcctggttCtgggtgctggga,ggactcctggttGtgggtgctggga,missense,1.67e-05,.
-TRBJ2-2P,0043,142494424,gactcctggttcTgggtgctgggag,gactcctggttcCgggtgctgggag,missense,6.71e-06,.
-TRBJ2-2P,0044,142494427,tcctggttctggGtgctgggagagc,tcctggttctggAtgctgggagagc,downstream gene,1.35e-05,.
-TRBJ2-2P,0045,142494441,gctgggagagcgAtggggctctcag,gctgggagagcgTtggggctctcag,downstream gene,3.34e-05,.
-TRBJ2-2P,0046,142494442,ctgggagagcgaTggggctctcagc,ctgggagagcgaCggggctctcagc,downstream gene,7.13e-06,.
-TRBJ2-2P,0047,142494444,gggagagcgatgGggctctcagcgg,gggagagcgatgCggctctcagcgg,downstream gene,2.16e-05,.
-TRBJ2-2P,0048,142494452,gatggggctctcAgcggtgggaagg,gatggggctctcGgcggtgggaagg,downstream gene,7.54e-06,.
-TRBJ2-2P,0051,142494455,ggggctctcagcGgtgggaaggacc,ggggctctcagcAgtgggaaggacc,downstream gene,7.6e-06,.
-TRBJ2-2P,0052,142494465,gcggtgggaaggAcccgagctgagt,gcggtgggaaggGcccgagctgagt,downstream gene,7.94e-06,.
-TRBJ2-2P,0053,142494467,ggtgggaaggacCcgagctgagtct,ggtgggaaggacAcgagctgagtct,downstream gene,7.95e-06,.
-TRBJ2-2P,0054,142494473,aaggacccgagcTgagtctgggaca,aaggacccgagcAgagtctgggaca,downstream gene,5.19e-05,rs574388124
-TRBJ2-2P,0055,142494474,aggacccgagctGagtctgggacag,aggacccgagctAagtctgggacag,downstream gene,8.02e-06,.
-TRBJ2-2P,0056,142494476,gacccgagctgaGtctgggacagca,gacccgagctgaAtctgggacagca,downstream gene,8.05e-06,.
-TRBJ2-2P,0057,142494482,agctgagtctggGacagcagagcgg,agctgagtctggCacagcagagcgg,downstream gene,8.34e-06,.
-TRBJ2-2P,0058,142494485,tgagtctgggacAgcagagcgggca,tgagtctgggacTgcagagcgggca,downstream gene,8.55e-06,.
-TRBJ2-2P,0059,142494493,ggacagcagagcGggcagcaccggt,ggacagcagagcTggcagcaccggt,downstream gene,2.16e-05,.
+TRBJ2-3,0001,142494465,gcggtgggaaggAcccgagctgagt,gcggtgggaaggGcccgagctgagt,upstream gene,7.94e-06,.
+TRBJ2-3,0002,142494467,ggtgggaaggacCcgagctgagtct,ggtgggaaggacAcgagctgagtct,upstream gene,7.95e-06,.
+TRBJ2-3,0003,142494473,aaggacccgagcTgagtctgggaca,aaggacccgagcAgagtctgggaca,upstream gene,5.19e-05,rs574388124
+TRBJ2-3,0004,142494474,aggacccgagctGagtctgggacag,aggacccgagctAagtctgggacag,upstream gene,8.02e-06,.
+TRBJ2-3,0005,142494476,gacccgagctgaGtctgggacagca,gacccgagctgaAtctgggacagca,upstream gene,8.05e-06,.
+TRBJ2-3,0006,142494482,agctgagtctggGacagcagagcgg,agctgagtctggCacagcagagcgg,upstream gene,8.34e-06,.
+TRBJ2-3,0007,142494485,tgagtctgggacAgcagagcgggca,tgagtctgggacTgcagagcgggca,upstream gene,8.55e-06,.
+TRBJ2-3,0008,142494493,ggacagcagagcGggcagcaccggt,ggacagcagagcTggcagcaccggt,upstream gene,2.16e-05,.
+TRBJ2-3,0009,142494502,agcgggcagcacCggtttttgtcct,agcgggcagcacAggtttttgtcct,upstream gene,2.23e-05,.
+TRBJ2-3,0010,142494503,gcgggcagcaccGgtttttgtcctg,gcgggcagcaccAgtttttgtcctg,upstream gene,9.41e-06,.
+TRBJ2-3,0011,142494514,cggtttttgtccTgggcctccaggc,cggtttttgtccCgggcctccaggc,upstream gene,9.07e-06,.
+TRBJ2-3,0012,142494516,gtttttgtcctgGgcctccaggctg,gtttttgtcctgAgcctccaggctg,upstream gene,9.08e-06,.
+TRBJ2-3,0013,142494524,cctgggcctccaGgctgtgagcaca,cctgggcctccaCgctgtgagcaca,upstream gene,1.74e-05,.
+TRBJ2-3,0014,142494528,ggcctccaggctGtgagcacagata,ggcctccaggctAtgagcacagata,upstream gene,8.61e-06,.
+TRBJ2-3,0015,142494542,gagcacagatacGcagtattttggc,gagcacagatacAcagtattttggc,synonymous,0.000117,.
+TRBJ2-3,0016,142494543,agcacagatacgCagtattttggcc,agcacagatacgAagtattttggcc,missense,0.000116,.
+TRBJ2-3,0017,142494543,agcacagatacgCAgtattttggccc,agcacagatacgCgtattttggccc,frameshift,8.61e-05,rs559315599
+TRBJ2-3,0018,142494545,cacagatacgcaGtattttggccca,cacagatacgcaAtattttggccca,synonymous,8.27e-06,.
+TRBJ2-3,0019,142494563,tggcccaggcacCcggctgacagtg,tggcccaggcacAcggctgacagtg,synonymous,3.46e-05,rs782481413
+TRBJ2-3,0020,142494563,tggcccaggcacCcggctgacagtg,tggcccaggcacTcggctgacagtg,synonymous,1.75e-05,.
+TRBJ2-3,0021,142494572,cacccggctgacAgtgctcggtaag,cacccggctgacCgtgctcggtaag,synonymous,9.23e-06,.
+TRBJ2-3,0022,142494579,ctgacagtgctcGgtaagcgggggc,ctgacagtgctcAgtaagcgggggc,incomplete terminal codon,9.65e-06,.
+TRBJ2-3,0024,142494583,cagtgctcggtaAgcgggggctccc,cagtgctcggtaGgcgggggctccc,downstream gene,9.66e-06,.
+TRBJ2-3,0025,142494586,tgctcggtaagcGggggctcccgct,tgctcggtaagcCggggctcccgct,downstream gene,3.06e-05,.
+TRBJ2-3,0026,142494591,ggtaagcgggggCtcccgctgaagc,ggtaagcgggggAtcccgctgaagc,downstream gene,1.05e-05,.
+TRBJ2-3,0027,142494592,gtaagcgggggcTcccgctgaagcc,gtaagcgggggcAcccgctgaagcc,downstream gene,1.06e-05,.
+TRBJ2-3,0028,142494601,ggctcccgctgaAgccccggaactg,ggctcccgctgaGgccccggaactg,downstream gene,1.16e-05,.
+TRBJ2-3,0030,142494603,ctcccgctgaagCcccggaactggg,ctcccgctgaagTcccggaactggg,downstream gene,1.17e-05,.
+TRBJ2-3,0031,142494606,ccgctgaagcccCggaactggggag,ccgctgaagcccAggaactggggag,downstream gene,0.000156,rs2071361
+TRBJ2-3,0032,142494606,ccgctgaagcccCggaactggggag,ccgctgaagcccGggaactggggag,downstream gene,0.516,rs2071361
+TRBJ2-3,0034,142494617,ccggaactggggAgggggcgccccg,ccggaactggggGgggggcgccccg,downstream gene,1.29e-05,.
+TRBJ2-3,0035,142494620,gaactggggaggGggcgccccggga,gaactggggaggAggcgccccggga,downstream gene,0.000206,rs782253729
+TRBJ2-3,0037,142494622,actggggaggggGcgccccgggacg,actggggaggggAcgccccgggacg,downstream gene,1.29e-05,.
+TRBJ2-3,0038,142494623,ctggggagggggCgccccgggacgc,ctggggagggggGgccccgggacgc,downstream gene,1.33e-05,.
+TRBJ2-3,0039,142494623,ctggggagggggCgccccgggacgc,ctggggagggggTgccccgggacgc,downstream gene,1.33e-05,.
+TRBJ2-3,0040,142494625,ggggagggggcgCcccgggacgccg,ggggagggggcgAcccgggacgccg,downstream gene,0.000504,rs376802154
+TRBJ2-3,0041,142494628,gagggggcgcccCgggacgccgggg,gagggggcgcccTgggacgccgggg,downstream gene,1.18e-05,.
+TRBJ2-3,0042,142494629,agggggcgccccGggacgccggggg,agggggcgccccAggacgccggggg,downstream gene,0.000133,.
+TRBJ2-3,0043,142494629,agggggcgccccGggacgccggggg,agggggcgccccCggacgccggggg,downstream gene,6.67e-05,.
+TRBJ2-3,0044,142494636,gccccgggacgcCgggggcgtcgca,gccccgggacgcTgggggcgtcgca,downstream gene,1.68e-05,.
+TRBJ2-3,0045,142494637,ccccgggacgccGggggcgtcgcag,ccccgggacgccAggggcgtcgcag,downstream gene,0.00106,rs55750354
+TRBJ2-3,0046,142494637,ccccgggacgccGggggcgtcgcag,ccccgggacgccCggggcgtcgcag,downstream gene,1.1e-05,rs55750354
+TRBJ2-3,0047,142494639,ccgggacgccggGggcgtcgcaggg,ccgggacgccggAggcgtcgcaggg,downstream gene,1.09e-05,.
+TRBJ2-3,0048,142494641,gggacgccggggGcgtcgcagggcc,gggacgccggggAcgtcgcagggcc,downstream gene,6.67e-05,rs781786378
+TRBJ2-3,0049,142494643,gacgccgggggcGtcgcagggccag,gacgccgggggcAtcgcagggccag,downstream gene,2.06e-05,.
+TRBJ2-3,0050,142494645,cgccgggggcgtCgcagggccagtt,cgccgggggcgtTgcagggccagtt,downstream gene,1e-05,.
+TRBJ2-3,0051,142494649,gggggcgtcgcaGggccagtttctg,gggggcgtcgcaAggccagtttctg,downstream gene,2.91e-05,rs782725841
+TRBJ2-3,0052,142494651,gggcgtcgcaggGccagtttctgtg,gggcgtcgcaggAccagtttctgtg,downstream gene,1.85e-05,.
+TRBJ2-7,*02-1,,tacgagcagtacTtcgggccgggca,tacgagcagtacGtcgggccgggca,,,
 TRBJ2-7,0001,142495100,ggcaggagctcgGggagccttagag,ggcaggagctcgAggagccttagag,upstream gene,4.36e-06,.
 TRBJ2-7,0002,142495101,gcaggagctcggGgagccttagagg,gcaggagctcggAgagccttagagg,upstream gene,2.18e-05,.
 TRBJ2-7,0003,142495102,caggagctcgggGagccttagaggt,caggagctcgggAagccttagaggt,upstream gene,4.35e-06,.
@@ -332,76 +407,3 @@ TRBJ2-7,0059,142495229,cccctcggtcccCggagtcggaggg,cccctcggtcccGggagtcggaggg,downs
 TRBJ2-7,0060,142495230,ccctcggtccccGgagtcggagggt,ccctcggtccccAgagtcggagggt,downstream gene,1.28e-05,.
 TRBJ2-7,0061,142495232,ctcggtccccggAgtcggagggtgg,ctcggtccccggGgtcggagggtgg,downstream gene,8.55e-06,.
 TRBJ2-7,0062,142495236,gtccccggagtcGgagggtggaccg,gtccccggagtcCgagggtggaccg,downstream gene,7.57e-06,.
-TRBJ2-1,0001,142494005,ctgtttttgtacAaagctgtaacat,ctgtttttgtacGaagctgtaacat,upstream gene,1.57e-05,rs776993465
-TRBJ2-1,0002,142494008,tttttgtacaaaGctgtaacattgt,tttttgtacaaaActgtaacattgt,upstream gene,7.05e-06,.
-TRBJ2-1,0003,142494009,ttttgtacaaagCtgtaacattgtg,ttttgtacaaagTtgtaacattgtg,upstream gene,3.82e-05,rs185962362
-TRBJ2-1,0004,142494017,aaagctgtaacaTtgtggggacagg,aaagctgtaacaCtgtggggacagg,upstream gene,4.57e-05,.
-TRBJ2-1,0005,142494022,tgtaacattgtgGggacagggtccc,tgtaacattgtgTggacagggtccc,upstream gene,0.05,.
-TRBJ2-1,0012,142494033,ggggacagggtcCctagcgggccag,ggggacagggtcTctagcgggccag,upstream gene,0.0263,rs782383881
-TRBJ2-1,0024,142494084,ggccagggacacGgctcaccgtgct,ggccagggacacAgctcaccgtgct,missense,6.1e-06,.
-TRBJ2-1,0025,142494086,ccagggacacggCtcaccgtgctag,ccagggacacggTtcaccgtgctag,missense,3.43e-05,rs782016133
-TRBJ2-1,0026,142494096,ggctcaccgtgcTaggtaagaaggg,ggctcaccgtgcCaggtaagaaggg,missense,1.04e-05,.
-TRBJ2-1,0027,142494098,ctcaccgtgctaGgtaagaaggggg,ctcaccgtgctaAgtaagaaggggg,incomplete terminal codon,7.43e-05,rs782774230
-TRBJ2-1,0028,142494108,taggtaagaaggGggctccaggtgg,taggtaagaaggAggctccaggtgg,downstream gene,2.07e-05,.
-TRBJ2-1,0029,142494109,aggtaagaagggGgctccaggtggg,aggtaagaagggCgctccaggtggg,downstream gene,4.96e-06,.
-TRBJ2-1,0030,142494112,taagaagggggcTccaggtgggaga,taagaagggggcGccaggtgggaga,downstream gene,4.95e-06,.
-TRBJ2-1,0031,142494113,aagaagggggctCcaggtgggagag,aagaagggggctTcaggtgggagag,downstream gene,4.96e-06,.
-TRBJ2-1,0032,142494121,ggctccaggtggGagagagggtgag,ggctccaggtggAagagagggtgag,downstream gene,0.000112,rs781813879
-TRBJ2-1,0033,142494121,ggctccaggtggGagagagggtgag,ggctccaggtggTagagagggtgag,downstream gene,9.79e-06,.
-TRBJ2-1,0034,142494127,aggtgggagagaGggtgagcagccc,aggtgggagagaAggtgagcagccc,downstream gene,0.0129,rs115049825
-TRBJ2-1,0035,142494130,tgggagagagggTgagcagcccagc,tgggagagagggCgagcagcccagc,downstream gene,1.38e-05,.
-TRBJ2-1,0036,142494131,gggagagagggtGagcagcccagcc,gggagagagggtAagcagcccagcc,downstream gene,4.31e-05,rs375701734
-TRBJ2-1,0037,142494133,gagagagggtgaGcagcccagcctg,gagagagggtgaAcagcccagcctg,downstream gene,4.88e-06,.
-TRBJ2-1,0038,142494134,agagagggtgagCagcccagcctgc,agagagggtgagTagcccagcctgc,downstream gene,6.38e-05,.
-TRBJ2-1,0039,142494138,agggtgagcagcCcagcctgcacga,agggtgagcagcAcagcctgcacga,downstream gene,0.000167,rs370053809
-TRBJ2-1,0040,142494141,gtgagcagcccaGcctgcacgaccc,gtgagcagcccaAcctgcacgaccc,downstream gene,4.64e-06,.
-TRBJ2-1,0041,142494142,tgagcagcccagCctgcacgacccc,tgagcagcccagActgcacgacccc,downstream gene,3.31e-05,rs56046467
-TRBJ2-1,0042,142494142,tgagcagcccagCctgcacgacccc,tgagcagcccagGctgcacgacccc,downstream gene,0.00816,rs56046467
-TRBJ2-3,0001,142494465,gcggtgggaaggAcccgagctgagt,gcggtgggaaggGcccgagctgagt,upstream gene,7.94e-06,.
-TRBJ2-3,0002,142494467,ggtgggaaggacCcgagctgagtct,ggtgggaaggacAcgagctgagtct,upstream gene,7.95e-06,.
-TRBJ2-3,0003,142494473,aaggacccgagcTgagtctgggaca,aaggacccgagcAgagtctgggaca,upstream gene,5.19e-05,rs574388124
-TRBJ2-3,0004,142494474,aggacccgagctGagtctgggacag,aggacccgagctAagtctgggacag,upstream gene,8.02e-06,.
-TRBJ2-3,0005,142494476,gacccgagctgaGtctgggacagca,gacccgagctgaAtctgggacagca,upstream gene,8.05e-06,.
-TRBJ2-3,0006,142494482,agctgagtctggGacagcagagcgg,agctgagtctggCacagcagagcgg,upstream gene,8.34e-06,.
-TRBJ2-3,0007,142494485,tgagtctgggacAgcagagcgggca,tgagtctgggacTgcagagcgggca,upstream gene,8.55e-06,.
-TRBJ2-3,0008,142494493,ggacagcagagcGggcagcaccggt,ggacagcagagcTggcagcaccggt,upstream gene,2.16e-05,.
-TRBJ2-3,0009,142494502,agcgggcagcacCggtttttgtcct,agcgggcagcacAggtttttgtcct,upstream gene,2.23e-05,.
-TRBJ2-3,0010,142494503,gcgggcagcaccGgtttttgtcctg,gcgggcagcaccAgtttttgtcctg,upstream gene,9.41e-06,.
-TRBJ2-3,0011,142494514,cggtttttgtccTgggcctccaggc,cggtttttgtccCgggcctccaggc,upstream gene,9.07e-06,.
-TRBJ2-3,0012,142494516,gtttttgtcctgGgcctccaggctg,gtttttgtcctgAgcctccaggctg,upstream gene,9.08e-06,.
-TRBJ2-3,0013,142494524,cctgggcctccaGgctgtgagcaca,cctgggcctccaCgctgtgagcaca,upstream gene,1.74e-05,.
-TRBJ2-3,0014,142494528,ggcctccaggctGtgagcacagata,ggcctccaggctAtgagcacagata,upstream gene,8.61e-06,.
-TRBJ2-3,0015,142494542,gagcacagatacGcagtattttggc,gagcacagatacAcagtattttggc,synonymous,0.000117,.
-TRBJ2-3,0016,142494543,agcacagatacgCagtattttggcc,agcacagatacgAagtattttggcc,missense,0.000116,.
-TRBJ2-3,0017,142494543,agcacagatacgCAgtattttggccc,agcacagatacgCgtattttggccc,frameshift,8.61e-05,rs559315599
-TRBJ2-3,0018,142494545,cacagatacgcaGtattttggccca,cacagatacgcaAtattttggccca,synonymous,8.27e-06,.
-TRBJ2-3,0019,142494563,tggcccaggcacCcggctgacagtg,tggcccaggcacAcggctgacagtg,synonymous,3.46e-05,rs782481413
-TRBJ2-3,0020,142494563,tggcccaggcacCcggctgacagtg,tggcccaggcacTcggctgacagtg,synonymous,1.75e-05,.
-TRBJ2-3,0021,142494572,cacccggctgacAgtgctcggtaag,cacccggctgacCgtgctcggtaag,synonymous,9.23e-06,.
-TRBJ2-3,0022,142494579,ctgacagtgctcGgtaagcgggggc,ctgacagtgctcAgtaagcgggggc,incomplete terminal codon,9.65e-06,.
-TRBJ2-3,0024,142494583,cagtgctcggtaAgcgggggctccc,cagtgctcggtaGgcgggggctccc,downstream gene,9.66e-06,.
-TRBJ2-3,0025,142494586,tgctcggtaagcGggggctcccgct,tgctcggtaagcCggggctcccgct,downstream gene,3.06e-05,.
-TRBJ2-3,0026,142494591,ggtaagcgggggCtcccgctgaagc,ggtaagcgggggAtcccgctgaagc,downstream gene,1.05e-05,.
-TRBJ2-3,0027,142494592,gtaagcgggggcTcccgctgaagcc,gtaagcgggggcAcccgctgaagcc,downstream gene,1.06e-05,.
-TRBJ2-3,0028,142494601,ggctcccgctgaAgccccggaactg,ggctcccgctgaGgccccggaactg,downstream gene,1.16e-05,.
-TRBJ2-3,0030,142494603,ctcccgctgaagCcccggaactggg,ctcccgctgaagTcccggaactggg,downstream gene,1.17e-05,.
-TRBJ2-3,0031,142494606,ccgctgaagcccCggaactggggag,ccgctgaagcccAggaactggggag,downstream gene,0.000156,rs2071361
-TRBJ2-3,0032,142494606,ccgctgaagcccCggaactggggag,ccgctgaagcccGggaactggggag,downstream gene,0.516,rs2071361
-TRBJ2-3,0034,142494617,ccggaactggggAgggggcgccccg,ccggaactggggGgggggcgccccg,downstream gene,1.29e-05,.
-TRBJ2-3,0035,142494620,gaactggggaggGggcgccccggga,gaactggggaggAggcgccccggga,downstream gene,0.000206,rs782253729
-TRBJ2-3,0037,142494622,actggggaggggGcgccccgggacg,actggggaggggAcgccccgggacg,downstream gene,1.29e-05,.
-TRBJ2-3,0038,142494623,ctggggagggggCgccccgggacgc,ctggggagggggGgccccgggacgc,downstream gene,1.33e-05,.
-TRBJ2-3,0039,142494623,ctggggagggggCgccccgggacgc,ctggggagggggTgccccgggacgc,downstream gene,1.33e-05,.
-TRBJ2-3,0040,142494625,ggggagggggcgCcccgggacgccg,ggggagggggcgAcccgggacgccg,downstream gene,0.000504,rs376802154
-TRBJ2-3,0041,142494628,gagggggcgcccCgggacgccgggg,gagggggcgcccTgggacgccgggg,downstream gene,1.18e-05,.
-TRBJ2-3,0042,142494629,agggggcgccccGggacgccggggg,agggggcgccccAggacgccggggg,downstream gene,0.000133,.
-TRBJ2-3,0043,142494629,agggggcgccccGggacgccggggg,agggggcgccccCggacgccggggg,downstream gene,6.67e-05,.
-TRBJ2-3,0044,142494636,gccccgggacgcCgggggcgtcgca,gccccgggacgcTgggggcgtcgca,downstream gene,1.68e-05,.
-TRBJ2-3,0045,142494637,ccccgggacgccGggggcgtcgcag,ccccgggacgccAggggcgtcgcag,downstream gene,0.00106,rs55750354
-TRBJ2-3,0046,142494637,ccccgggacgccGggggcgtcgcag,ccccgggacgccCggggcgtcgcag,downstream gene,1.1e-05,rs55750354
-TRBJ2-3,0047,142494639,ccgggacgccggGggcgtcgcaggg,ccgggacgccggAggcgtcgcaggg,downstream gene,1.09e-05,.
-TRBJ2-3,0048,142494641,gggacgccggggGcgtcgcagggcc,gggacgccggggAcgtcgcagggcc,downstream gene,6.67e-05,rs781786378
-TRBJ2-3,0049,142494643,gacgccgggggcGtcgcagggccag,gacgccgggggcAtcgcagggccag,downstream gene,2.06e-05,.
-TRBJ2-3,0050,142494645,cgccgggggcgtCgcagggccagtt,cgccgggggcgtTgcagggccagtt,downstream gene,1e-05,.
-TRBJ2-3,0051,142494649,gggggcgtcgcaGggccagtttctg,gggggcgtcgcaAggccagtttctg,downstream gene,2.91e-05,rs782725841
-TRBJ2-3,0052,142494651,gggcgtcgcaggGccagtttctgtg,gggcgtcgcaggAccagtttctgtg,downstream gene,1.85e-05,.
