@@ -2,7 +2,7 @@
 
 <h3>Extract reference and variant sequences for SNPs and other polymorphisms in the human T-cell receptor loci</h3>
 
-### version 3.3, [Jamie Heather](http://jamieheather.github.io), January 2017 [ExAC](http://exac.broadinstitute.org/)
+### version 3.3, [Jamie Heather](http://jamieheather.github.io), February 2017 
 <hr>
 
 T-cell receptors (TCRs) are variable antigen receptors produced through somatic DNA recombination in developing T-cells, which fulfil key roles in maintaining a functional adaptive immune system. Recent advances in high-throughput DNA sequencing (HTS) have resulted in large numbers of TCR sequences being produced, with more data, library preparations and analysis techniques being published on a regular basis. 
