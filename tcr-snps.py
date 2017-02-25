@@ -11,7 +11,8 @@ import sys
 import snpfunctions as fnx
 import Levenshtein as lev
 
-__version__ = '3.2.2'
+__version__ = '3.3.2'
+
 
 def populate_empty_imgt_fields(gene, snp_id):
     """
@@ -19,7 +20,7 @@ def populate_empty_imgt_fields(gene, snp_id):
     In order to get it to plot the same these need to be populated with empty strings
     """
     for field in ['position', 'type', 'freq', 'rsid']:
-        snps[gene][snp_id][field] = ""
+        out_snps[gene][snp_id][field] = ""
     return
 
 
@@ -110,7 +111,7 @@ if __name__ == '__main__':
                     cnt += 1
 
     # Loop through IMGT file, taking the prototypic allele (*01) as reference infer and record variant positions
-
+    imgt_snps = coll.defaultdict(fnx.double_nest)
     generic_error = "Double check input IMGT fasta file:", \
         "must contain ordered alleles (including *01), only for genes with polymorphisms"
     for readid, seq, qual in fnx.readfq(open(imgt_files[0], 'rU')):
@@ -152,11 +153,10 @@ if __name__ == '__main__':
                     left_pad = position
                 if len(prototype_check) - position < pad:
                     right_pad = len(prototype_check) - position
-                snps[gene]['*'+allele+'-1']['ref'] = fnx.capitalise_position(
+                imgt_snps[gene]['*'+allele+'-1']['ref'] = fnx.capitalise_position(
                     prototype_check[position-left_pad:position+right_pad+1], left_pad)
-                snps[gene]['*'+allele+'-1']['alt'] = fnx.capitalise_position(
+                imgt_snps[gene]['*'+allele+'-1']['alt'] = fnx.capitalise_position(
                     seq_check[position-left_pad:position+right_pad+1], left_pad)
-                populate_empty_imgt_fields(gene, '*'+allele+'-1')
             elif len(diffs) > 1 and set([x[0] for x in diffs]) == set(['replace']):
                 # If more than one difference relative to reference, output each separately unless their pad overlaps
                 if diffs[0][1] < pad:
@@ -169,22 +169,53 @@ if __name__ == '__main__':
                     # If have hit end, round it off
                     if i+1 == len(diffs):
                         end = diffs[i][1] + 1 + pad
-                        snps[gene][snp_id]['ref'] = fnx.multiple_capitalise(prototype_check, to_capitalise)[start:end]
-                        snps[gene][snp_id]['alt'] = fnx.multiple_capitalise(seq_check, to_capitalise)[start:end]
-                        populate_empty_imgt_fields(gene, snp_id)
+                        imgt_snps[gene][snp_id]['ref'] = fnx.multiple_capitalise(prototype_check,
+                                                                                 to_capitalise)[start:end]
+                        imgt_snps[gene][snp_id]['alt'] = fnx.multiple_capitalise(seq_check, to_capitalise)[start:end]
                     # Otherwise check whether the next polymorphism would fall in the pad of the current
                     elif diffs[i+1][1] - diffs[i][1] < pad:
                         to_capitalise.append(diffs[i+1][1])
                     else:
                         end = diffs[i][1] + 1 + pad
-                        snps[gene][snp_id]['ref'] = fnx.multiple_capitalise(prototype_check, to_capitalise)[start:end]
-                        snps[gene][snp_id]['alt'] = fnx.multiple_capitalise(seq_check, to_capitalise)[start:end]
-                        populate_empty_imgt_fields(gene, snp_id)
+                        imgt_snps[gene][snp_id]['ref'] = fnx.multiple_capitalise(prototype_check,
+                                                                                 to_capitalise)[start:end]
+                        imgt_snps[gene][snp_id]['alt'] = fnx.multiple_capitalise(seq_check, to_capitalise)[start:end]
                         start = diffs[i+1][1] - pad
                         to_capitalise = [diffs[i+1][1]]
 
-    # TODO - add in option to get none-replace variants
-    # TODO - check whether SNPs covered by ExAC? If so try to retain both infos. Then output all to same files
+    # See whether the IMGT polymorphism is already present in the ExAC data
+    # If it is, combine the two (keeping the name from IMGT and the rest of the data from ExAC) in third dict
+    out_snps = coll.defaultdict(fnx.double_nest)
+
+    for gene in snps.keys():
+        if gene in imgt_snps.keys():
+            # If the ExAC SNP is also present in the IMGT data, find which it is and combine them
+            imgt_combos = [imgt_snps[gene][x]['ref']+'|'+imgt_snps[gene][x]['alt'] for x in imgt_snps[gene]]
+            for snp_id in snps[gene]:
+                if snps[gene][snp_id]['ref'] not in ['', []] and snps[gene][snp_id]['alt'] not in ['', []]:
+                    this_combo = snps[gene][snp_id]['ref'] + '|' + snps[gene][snp_id]['alt']
+                    if this_combo in imgt_combos:
+                        for imgt_id in imgt_snps[gene]:
+                            imgt_combo = imgt_snps[gene][imgt_id]['ref'] + '|' + imgt_snps[gene][imgt_id]['alt']
+                            if imgt_combo == this_combo:
+                                out_snps[gene][imgt_id] = snps[gene][snp_id]
+                                imgt_snps[gene][imgt_id]['ignore'] = True
+                                break
+                    else:
+                        out_snps[gene][snp_id] = snps[gene][snp_id]
+
+            # Having added all the IMGT sequences that are also in ExAC, add the remaining IMGT SNPs
+            for imgt_id in imgt_snps[gene]:
+                if imgt_snps[gene][imgt_id]['ignore'] is not True:
+                    out_snps[gene][imgt_id] = imgt_snps[gene][imgt_id]
+                    # Need to add empty values for IMGT-only SNPs for writing section to work
+                    populate_empty_imgt_fields(gene, imgt_id)
+
+        else:
+            # If this particular gene shows no variants in IMGT, just take the dict at gene level
+            out_snps[gene] = snps[gene]
+
+    # TODO (potentially) - add in option to get non-'replace' variants? Only 1 or 2, maybe not worth its
 
     # Write data out to those gene specific files
     print "Writing data out..."
@@ -197,35 +228,24 @@ if __name__ == '__main__':
                           "\n# See https://github.com/JamieHeather/tcr-snps\n"
             out_file.write(summary_str)
 
-        for g in snps:
-            snp_ids = snps[g].keys()
+        # Write out only those SNPs for which we could find appropriate info
+        for g in out_snps:
+            snp_ids = out_snps[g].keys()
             snp_ids.sort()
             for s in snp_ids:
-                if snps[g][s]['ref'] not in [[], ''] and snps[g][s]['alt'] not in [[], '']:
-                    outline = ','.join([g, str(s), str(snps[g][s]['position']),
-                                        snps[g][s]['ref'], snps[g][s]['alt'],
-                                        snps[g][s]['type'], str(snps[g][s]['freq']),
-                                        snps[g][s]['rsid'], ]) + "\n"
-                    if 'TRAV' in g or 'TRDV' in g:
-                        av_file.write(outline)
-                    elif 'TRBV' in g:
-                        bv_file.write(outline)
-                    elif 'TRAJ' in g:
-                        aj_file.write(outline)
-                    elif 'TRBJ' in g:
-                        bj_file.write(outline)
-                    else:
-                        print "Error: missing chain info?"
-
-        # TODO : write SNPs to own directory?
-
-
-sys.exit()
-# TODO use the following kind of approach to go through and check whether the IMGT-data is covered by the ExAC data - if it is just change the name of the ExAC data so all info is retained
-for gg in snps.keys():
-    for x in snps[gg]:
-        for y in snps[gg]:
-            if x != y:
-                # if snps[gg][x]['ref'] != "" and snps[gg][y]['ref'] == "":
-                    if snps[gg][x]['ref'] == snps[gg][y]['ref'] and snps[gg][x]['alt'] == snps[gg][y]['alt']:
-                        print gg, x,y
+                if out_snps[g][s]['ref'] not in [[], ''] and out_snps[g][s]['alt'] not in [[], '']:
+                    if out_snps[g][s]['ignore'] is not True:
+                        outline = ','.join([g, str(s), str(out_snps[g][s]['position']),
+                                            out_snps[g][s]['ref'], out_snps[g][s]['alt'],
+                                            out_snps[g][s]['type'], str(out_snps[g][s]['freq']),
+                                            out_snps[g][s]['rsid'], ]) + "\n"
+                        if 'TRAV' in g or 'TRDV' in g:
+                            av_file.write(outline)
+                        elif 'TRBV' in g:
+                            bv_file.write(outline)
+                        elif 'TRAJ' in g:
+                            aj_file.write(outline)
+                        elif 'TRBJ' in g:
+                            bj_file.write(outline)
+                        else:
+                            print "Error: missing chain info?"

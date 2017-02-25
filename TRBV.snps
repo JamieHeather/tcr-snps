@@ -1,4 +1,4 @@
-# SNPs produced with tcr-snps.py, version 3.2.2
+# SNPs produced with tcr-snps.py, version 3.3.2
 # See https://github.com/JamieHeather/tcr-snps
 TRBV6-8,0001,142124087,gggtggagggcaGagcctccctgcc,gggtggagggcaCagcctccctgcc,downstream gene,9.65e-06,.
 TRBV6-8,0002,142124088,ggtggagggcagAgcctccctgcct,ggtggagggcagGgcctccctgcct,downstream gene,4.81e-06,.
@@ -726,188 +726,300 @@ TRBV6-1,0101,142028648,tctgcacataaaGgcagggaggctc,tctgcacataaaTgcagggaggctc,downs
 TRBV6-1,0102,142028652,cacataaaggcaGggaggctctgcc,cacataaaggcaAggaggctctgcc,downstream gene,2.1e-05,.
 TRBV6-1,0103,142028658,aaggcagggaggCtctgccctcctc,aaggcagggaggAtctgccctcctc,downstream gene,5.38e-06,.
 TRBV6-1,0104,142028658,aaggcagggaggCtctgccctcctc,aaggcagggaggTtctgccctcctc,downstream gene,5.38e-06,.
-TRBV19,*02-1,,ggtaccgacaggAcccagggcaagg,ggtaccgacaggTcccagggcaagg,,,
-TRBV19,*02-2,,ctactactcacaGatagtaaatgac,ctactactcacaCatagtaaatgac,,,
-TRBV19,*03-1,,ctactactcacaGatagtaaatgac,ctactactcacaCatagtaaatgac,,,
-TRBV19,0001,142326349,cagcacagatgcAatgcagagttat,cagcacagatgcGatgcagagttat,upstream gene,3.36e-05,.
-TRBV19,0002,142326357,atgcaatgcagaGttatgggaggtg,atgcaatgcagaTttatgggaggtg,upstream gene,3.35e-05,.
-TRBV19,0003,142326370,ttatgggaggtgCgaatgactctgc,ttatgggaggtgTgaatgactctgc,5' UTR,3.36e-05,.
-TRBV19,0004,142326371,tatgggaggtgcGaatgactctgct,tatgggaggtgcAaatgactctgct,5' UTR,0.000101,rs561737918
-TRBV19,0005,142326410,ctcatctgcaaaAttaggaagcctg,ctcatctgcaaaCttaggaagcctg,5' UTR,3.33e-05,.
-TRBV19,0006,142326416,tgcaaaattaggAagcctgtcttga,tgcaaaattaggTagcctgtcttga,5' UTR,3.33e-05,.
-TRBV19,0007,142326420,aaattaggaagcCtgtcttgattat,aaattaggaagcGtgtcttgattat,5' UTR,0.0002,rs17258
-TRBV19,0008,142326424,taggaagcctgtCTtgattatctcca,taggaagcctgtCtgattatctcca,5' UTR,6.64e-05,.
-TRBV19,0009,142326425,aggaagcctgtcTtgattatctcca,aggaagcctgtcAtgattatctcca,5' UTR,3.32e-05,.
-TRBV19,0010,142326445,ctccaggaacctCccacctcttcat,ctccaggaacctTccacctcttcat,5' UTR,0.000133,.
-TRBV19,0011,142326478,ctgacaaactctGcacattaggcca,ctgacaaactctAcacattaggcca,5' UTR,6.67e-05,rs540786469
-TRBV19,0012,142326485,actctgcacattAggccaggagaag,actctgcacattCggccaggagaag,5' UTR,3.34e-05,.
-TRBV19,0013,142326502,aggagaagccccCgagccaagtctc,aggagaagccccTgagccaagtctc,5' UTR,9.96e-05,rs545508000
-TRBV19,0014,142326511,ccccgagccaagTctcttttctcat,ccccgagccaagCctcttttctcat,5' UTR,6.63e-05,rs559369773
-TRBV19,0015,142326521,agtctcttttctCattctcttccaa,agtctcttttctTattctcttccaa,5' UTR,4.33e-06,.
-TRBV19,0016,142326522,gtctcttttctcAttctcttccaac,gtctcttttctcGttctcttccaac,5' UTR,8.65e-06,.
-TRBV19,0017,142326523,tctcttttctcaTtctcttccaaca,tctcttttctcaCtctcttccaaca,5' UTR,4.31e-06,.
-TRBV19,0018,142326530,tctcattctcttCcaacaagtgctt,tctcattctcttTcaacaagtgctt,5' UTR,4.25e-06,.
-TRBV19,0019,142326536,tctcttccaacaAgtgcttggagct,tctcttccaacaGgtgcttggagct,5' UTR,4.24e-06,.
-TRBV19,0020,142326545,acaagtgcttggAgctccaagaagg,acaagtgcttggCgctccaagaagg,5' UTR,4.22e-06,.
-TRBV19,0021,142326552,cttggagctccaAgaaggccccctt,cttggagctccaGgaaggccccctt,5' UTR,4.21e-05,rs377078138
-TRBV19,0022,142326554,tggagctccaagAaggccccctttg,tggagctccaagGaggccccctttg,5' UTR,0.000101,rs192110604
-TRBV19,0023,142326556,gagctccaagaaGgccccctttgca,gagctccaagaaTgccccctttgca,5' UTR,8.42e-06,.
-TRBV19,0024,142326557,agctccaagaagGccccctttgcac,agctccaagaagAccccctttgcac,5' UTR,1.26e-05,.
-TRBV19,0025,142326558,gctccaagaaggCcccctttgcact,gctccaagaaggAcccctttgcact,5' UTR,8.21e-05,rs371203587
-TRBV19,0026,142326558,gctccaagaaggCcccctttgcact,gctccaagaaggTcccctttgcact,5' UTR,4.21e-06,rs371203587
-TRBV19,0027,142326560,tccaagaaggccCcctttgcactat,tccaagaaggccGcctttgcactat,5' UTR,8.41e-06,.
-TRBV19,0028,142326562,caagaaggccccCtttgcactatga,caagaaggccccAtttgcactatga,5' UTR,1.12e-05,rs17259
-TRBV19,0029,142326568,ggccccctttgcActatgagcaacc,ggccccctttgcTctatgagcaacc,5' UTR,4.2e-06,.
-TRBV19,0030,142326571,cccctttgcactAtgagcaaccagg,cccctttgcactGtgagcaaccagg,start lost,1.49e-05,rs375953149
-TRBV19,0031,142326572,ccctttgcactaTgagcaaccaggt,ccctttgcactaAgagcaaccaggt,start lost,3.31e-05,.
-TRBV19,0032,142326579,cactatgagcaaCcaggtgctctgc,cactatgagcaaTcaggtgctctgc,synonymous,4.2e-06,.
-TRBV19,0033,142326585,gagcaaccaggtGctctgctgtgtg,gagcaaccaggtActctgctgtgtg,synonymous,4.2e-06,.
-TRBV19,0034,142326587,gcaaccaggtgcTctgctgtgtggt,gcaaccaggtgcCctgctgtgtggt,missense,7.45e-06,rs774171066
-TRBV19,0035,142326592,caggtgctctgcTgtgtggtccttt,caggtgctctgcCgtgtggtccttt,missense,1.26e-05,.
-TRBV19,0036,142326598,ctctgctgtgtgGtcctttgtctcc,ctctgctgtgtgTtcctttgtctcc,missense,4.2e-06,.
-TRBV19,0037,142326599,tctgctgtgtggTcctttgtctcct,tctgctgtgtggCcctttgtctcct,missense,8.4e-06,.
-TRBV19,0038,142326600,ctgctgtgtggtCctttgtctcctg,ctgctgtgtggtActttgtctcctg,synonymous,7.45e-06,rs368328202
-TRBV19,0039,142326606,tgtggtcctttgTctcctgggagca,tgtggtcctttgGctcctgggagca,missense,8.39e-06,.
-TRBV19,0040,142326607,gtggtcctttgtCtcctgggagcaa,gtggtcctttgtTtcctgggagcaa,missense,0.485,rs17260
-TRBV19,0041,142326610,gtcctttgtctcCtgggagcaagtg,gtcctttgtctcTtgggagcaagtg,synonymous,4.2e-06,.
-TRBV19,0042,142326616,tgtctcctgggaGcaagtgagtcct,tgtctcctgggaAcaagtgagtcct,missense,4.2e-06,.
-TRBV19,0043,142326622,ctgggagcaagtGagtcctgggttc,ctgggagcaagtAagtcctgggttc,splice region,4.2e-06,.
-TRBV19,0044,142326622,ctgggagcaagtGagtcctgggttc,ctgggagcaagtCagtcctgggttc,splice region,1.26e-05,.
-TRBV19,0045,142326624,gggagcaagtgaGtcctgggttcag,gggagcaagtgaAtcctgggttcag,splice region,4.2e-06,.
-TRBV19,0046,142326626,gagcaagtgagtCctgggttcaggg,gagcaagtgagtTctgggttcaggg,splice region,4.2e-06,.
-TRBV19,0047,142326627,agcaagtgagtcCtgggttcaggga,agcaagtgagtcTtgggttcaggga,splice region,8.4e-06,.
-TRBV19,0048,142326640,tgggttcagggaGAaaattcctatct,tgggttcagggaGaaattcctatct,intron,4.22e-06,.
-TRBV19,0049,142326642,ggttcagggagaAaattcctatctg,ggttcagggagaCaattcctatctg,intron,3.31e-05,.
-TRBV19,0050,142326644,ttcagggagaaaAttcctatctgga,ttcagggagaaaATttcctatctgga,intron,8.42e-06,.
-TRBV19,0051,142326645,tcagggagaaaaTtcctatctggag,tcagggagaaaaAtcctatctggag,intron,4.21e-06,.
-TRBV19,0052,142326648,gggagaaaattcCtatctggagtgc,gggagaaaattcGtatctggagtgc,intron,1.5e-05,rs374009396
-TRBV19,0053,142326654,aaattcctatctGgagtgctgcaag,aaattcctatctCgagtgctgcaag,intron,4.22e-06,.
-TRBV19,0054,142326658,tcctatctggagTgctgcaagttcc,tcctatctggagCgctgcaagttcc,intron,0.0013,rs113039372
-TRBV19,0055,142326661,tatctggagtgcTgcaagttccaaa,tatctggagtgcCgcaagttccaaa,intron,4.23e-06,.
-TRBV19,0056,142326662,atctggagtgctGcaagttccaaat,atctggagtgctAcaagttccaaat,intron,2.12e-05,.
-TRBV19,0057,142326668,agtgctgcaagtTccaaatctaagg,agtgctgcaagtCccaaatctaagg,intron,4.24e-06,.
-TRBV19,0058,142326669,gtgctgcaagttCcaaatctaaggc,gtgctgcaagttAcaaatctaaggc,intron,4.24e-06,.
-TRBV19,0059,142326703,ggacagcagcatCaggcgcctccct,ggacagcagcatAaggcgcctccct,intron,8.63e-06,.
-TRBV19,0060,142326707,agcagcatcaggCgcctccctgggc,agcagcatcaggTgcctccctgggc,intron,1.53e-05,rs746045759
-TRBV19,0061,142326708,gcagcatcaggcGcctccctgggct,gcagcatcaggcAcctccctgggct,intron,3.91e-05,.
-TRBV19,0062,142326710,agcatcaggcgcCtccctgggctgt,agcatcaggcgcTtccctgggctgt,intron,1.3e-05,.
-TRBV19,0063,142326724,ccctgggctgtaCtcaggcatgcct,ccctgggctgtaGtcaggcatgcct,intron,8.56e-06,.
-TRBV19,0064,142326729,ggctgtactcagGcatgcctctctt,ggctgtactcagAcatgcctctctt,intron,1.71e-05,.
-TRBV19,0065,142326730,gctgtactcaggCatgcctctcttt,gctgtactcaggTatgcctctcttt,intron,3.84e-05,.
-TRBV19,0066,142326732,tgtactcaggcaTgcctctctttct,tgtactcaggcaCgcctctctttct,intron,8.52e-06,.
-TRBV19,0067,142326734,tactcaggcatgCCTctctttcttttc,tactcaggcatgCctctttcttttc,intron,6.62e-05,.
-TRBV19,0068,142326748,tctctttcttttCcagacaccgtgg,tctctttcttttGcagacaccgtgg,splice region,8.47e-06,.
-TRBV19,0069,142326752,tttcttttccagAcaccgtggatgg,tttcttttccagGcaccgtggatgg,missense,3.31e-05,.
-TRBV19,0070,142326755,cttttccagacaCcgtggatggtgg,cttttccagacaTcgtggatggtgg,missense,4.22e-06,.
-TRBV19,0071,142326756,ttttccagacacCgtggatggtgga,ttttccagacacTgtggatggtgga,synonymous,1.5e-05,rs535183506
-TRBV19,0072,142326757,tttccagacaccGtggatggtggaa,tttccagacaccAtggatggtggaa,missense,8.43e-06,rs766103666
-TRBV19,0073,142326766,accgtggatggtGgaatcactcagt,accgtggatggtAgaatcactcagt,missense,6.35e-05,rs200808082
-TRBV19,0074,142326774,tggtggaatcacTcagtccccaaag,tggtggaatcacCcagtccccaaag,synonymous,4.2e-06,.
-TRBV19,0075,142326775,ggtggaatcactCagtccccaaagt,ggtggaatcactTagtccccaaagt,stop gained,3.73e-05,rs372253307
-TRBV19,0076,142326776,gtggaatcactcAgtccccaaagta,gtggaatcactcGgtccccaaagta,missense,5.04e-05,.
-TRBV19,0077,142326783,cactcagtccccAaagtacctgttc,cactcagtccccGaagtacctgttc,synonymous,0.119,rs17262
-TRBV19,0078,142326788,agtccccaaagtAcctgttcagaaa,agtccccaaagtCcctgttcagaaa,missense,4.2e-06,.
-TRBV19,0079,142326789,gtccccaaagtaCctgttcagaaag,gtccccaaagtaTctgttcagaaag,synonymous,1.26e-05,.
-TRBV19,0080,142326791,ccccaaagtaccTgttcagaaagga,ccccaaagtaccCgttcagaaagga,missense,1.26e-05,.
-TRBV19,0081,142326792,cccaaagtacctGttcagaaaggaa,cccaaagtacctAttcagaaaggaa,synonymous,4.2e-06,.
-TRBV19,0082,142326799,tacctgttcagaAaggaaggacaga,tacctgttcagaGaggaaggacaga,missense,1.26e-05,.
-TRBV19,0083,142326806,tcagaaaggaagGacagaatgtgac,tcagaaaggaagCacagaatgtgac,missense,4.2e-06,rs369595214
-TRBV19,0084,142326812,aggaaggacagaAtgtgaccctgag,aggaaggacagaGtgtgaccctgag,missense,6.62e-05,.
-TRBV19,0085,142326814,gaaggacagaatGtgaccctgagtt,gaaggacagaatAtgaccctgagtt,missense,4.2e-06,.
-TRBV19,0086,142326818,gacagaatgtgaCcctgagttgtga,gacagaatgtgaAcctgagttgtga,missense,4.2e-06,.
-TRBV19,0087,142326821,agaatgtgacccTgagttgtgaaca,agaatgtgacccCgagttgtgaaca,missense,5.88e-05,.
-TRBV19,0088,142326821,agaatgtgacccTgagttgtgaaca,agaatgtgacccGgagttgtgaaca,missense,4.2e-06,.
-TRBV19,0089,142326823,aatgtgaccctgAgttgtgaacaga,aatgtgaccctgCgttgtgaacaga,missense,8.39e-06,rs372321937
-TRBV19,0090,142326824,atgtgaccctgaGttgtgaacagaa,atgtgaccctgaAttgtgaacagaa,missense,4.2e-06,.
-TRBV19,0091,142326825,tgtgaccctgagTtgtgaacagaat,tgtgaccctgagAtgtgaacagaat,missense,7.45e-06,rs780118965
-TRBV19,0092,142326825,tgtgaccctgagTtgtgaacagaat,tgtgaccctgagCtgtgaacagaat,synonymous,2.52e-05,.
-TRBV19,0093,142326832,ctgagttgtgaaCagaatttgaacc,ctgagttgtgaaGagaatttgaacc,missense,4.2e-06,.
-TRBV19,0094,142326841,gaacagaatttgAaccacgatgcca,gaacagaatttgTaccacgatgcca,missense,3.31e-05,.
-TRBV19,0095,142326843,acagaatttgaaCcacgatgccatg,acagaatttgaaAcacgatgccatg,missense,1.49e-05,rs375356152
-TRBV19,0096,142326846,gaatttgaaccaCgatgccatgtac,gaatttgaaccaTgatgccatgtac,synonymous,2.98e-05,rs17263
-TRBV19,0097,142326847,aatttgaaccacGatgccatgtact,aatttgaaccacAatgccatgtact,missense,2.94e-05,rs369379997
-TRBV19,0098,142326850,ttgaaccacgatGccatgtactggt,ttgaaccacgatAccatgtactggt,missense,4.2e-06,.
-TRBV19,0099,142326854,accacgatgccaTgtactggtaccg,accacgatgccaGgtactggtaccg,missense,4.2e-06,.
-TRBV19,0100,142326865,atgtactggtacCgacaggacccag,atgtactggtacTgacaggacccag,stop gained,1.68e-05,.
-TRBV19,0101,142326866,tgtactggtaccGacaggacccagg,tgtactggtaccAacaggacccagg,missense,0.00035,rs372708256
-TRBV19,0102,142326873,gtaccgacaggaCccagggcaaggg,gtaccgacaggaGccagggcaaggg,missense,3.31e-05,.
-TRBV19,0103,142326877,cgacaggacccaGggcaagggctga,cgacaggacccaAggcaagggctga,missense,4.19e-06,.
-TRBV19,0104,142326879,acaggacccaggGcaagggctgaga,acaggacccaggAcaagggctgaga,synonymous,4.19e-06,.
-TRBV19,0105,142326883,gacccagggcaaGggctgagattga,gacccagggcaaAggctgagattga,missense,4.19e-06,.
-TRBV19,0106,142326884,acccagggcaagGgctgagattgat,acccagggcaagAgctgagattgat,missense,4.19e-06,.
-TRBV19,0107,142326885,cccagggcaaggGctgagattgatc,cccagggcaaggActgagattgatc,synonymous,1.68e-05,.
-TRBV19,0108,142326886,ccagggcaagggCtgagattgatct,ccagggcaagggGtgagattgatct,missense,1.26e-05,.
-TRBV19,0109,142326888,agggcaagggctGagattgatctac,agggcaagggctAagattgatctac,synonymous,4.19e-06,.
-TRBV19,0110,142326890,ggcaagggctgaGattgatctacta,ggcaagggctgaAattgatctacta,missense,1.68e-05,rs377012137
-TRBV19,0111,142326890,ggcaagggctgaGattgatctacta,ggcaagggctgaTattgatctacta,missense,4.19e-06,rs377012137
-TRBV19,0112,142326897,gctgagattgatCtactactcacac,gctgagattgatTtactactcacac,synonymous,4.19e-06,rs368678205
-TRBV19,0113,142326903,attgatctactaCtcacacatagta,attgatctactaTtcacacatagta,synonymous,4.19e-06,rs374559992
-TRBV19,0114,142326907,atctactactcaCACATagtaaatgactt,atctactactcaCAgtaaatgactt,frameshift,4.19e-06,.
-TRBV19,0115,142326909,ctactactcacaCatagtaaatgac,ctactactcacaAatagtaaatgac,missense,4.19e-06,rs76454382
-TRBV19,0116,142326909,ctactactcacaCatagtaaatgac,ctactactcacaGatagtaaatgac,missense,0.994,rs76454382
-TRBV19,0117,142326911,actactcacacaTagtaaatgactt,actactcacacaCagtaaatgactt,missense,8.39e-06,.
-TRBV19,0118,142326912,ctactcacacatAgtaaatgacttt,ctactcacacatGgtaaatgacttt,missense,8.39e-06,.
-TRBV19,0119,142326917,cacacatagtaaAtgactttcagaa,cacacatagtaaGtgactttcagaa,missense,1.49e-05,rs780326957
-TRBV19,0120,142326919,cacatagtaaatGactttcagaaag,cacatagtaaatTactttcagaaag,missense,4.19e-06,.
-TRBV19,0121,142326926,taaatgactttcAgaaaggagatat,taaatgactttcTgaaaggagatat,missense,4.19e-06,.
-TRBV19,0122,142326931,gactttcagaaaGgagatatagctg,gactttcagaaaCgagatatagctg,missense,4.2e-06,.
-TRBV19,0123,142326932,actttcagaaagGagatatagctga,actttcagaaagCagatatagctga,missense,8.39e-06,.
-TRBV19,0124,142326934,tttcagaaaggaGatatagctgaag,tttcagaaaggaTatatagctgaag,missense,8.39e-06,.
-TRBV19,0125,142326938,agaaaggagataTagctgaagggta,agaaaggagataCagctgaagggta,missense,2.52e-05,rs755178943
-TRBV19,0126,142326946,gatatagctgaaGggtacagcgtct,gatatagctgaaAggtacagcgtct,missense,4.19e-06,.
-TRBV19,0127,142326951,agctgaagggtaCagcgtctctcgg,agctgaagggtaTagcgtctctcgg,synonymous,8.39e-06,.
-TRBV19,0128,142326952,gctgaagggtacAgcgtctctcggg,gctgaagggtacGgcgtctctcggg,missense,4.19e-06,.
-TRBV19,0129,142326955,gaagggtacagcGtctctcgggaga,gaagggtacagcAtctctcgggaga,missense,6.33e-05,rs371076167
-TRBV19,0130,142326958,gggtacagcgtcTctcgggagaaga,gggtacagcgtcGctcgggagaaga,missense,4.2e-06,.
-TRBV19,0131,142326960,gtacagcgtctcTcgggagaagaag,gtacagcgtctcCcgggagaagaag,synonymous,8.39e-06,.
-TRBV19,0132,142326961,tacagcgtctctCgggagaagaagg,tacagcgtctctTgggagaagaagg,missense,1.68e-05,rs78434792
-TRBV19,0133,142326962,acagcgtctctcGggagaagaagga,acagcgtctctcAggagaagaagga,missense,2.1e-05,.
-TRBV19,0134,142326964,agcgtctctcggGagaagaaggaat,agcgtctctcggAagaagaaggaat,missense,3.31e-05,.
-TRBV19,0135,142326965,gcgtctctcgggAgaagaaggaatc,gcgtctctcgggGgaagaaggaatc,missense,4.2e-06,.
-TRBV19,0136,142326980,agaaggaatcctTtcctctcactgt,agaaggaatcctCtcctctcactgt,missense,8.39e-06,.
-TRBV19,0137,142326982,aaggaatcctttCctctcactgtga,aaggaatcctttTctctcactgtga,missense,8.39e-06,.
-TRBV19,0138,142326985,gaatcctttcctCtcactgtgacat,gaatcctttcctTtcactgtgacat,missense,4.2e-06,.
-TRBV19,0139,142326989,cctttcctctcaCtgtgacatcggc,cctttcctctcaTtgtgacatcggc,missense,4.2e-06,.
-TRBV19,0140,142326990,ctttcctctcacTgtgacatcggcc,ctttcctctcacCgtgacatcggcc,synonymous,4.2e-06,.
-TRBV19,0141,142326990,ctttcctctcacTgtgacatcggcc,ctttcctctcacGgtgacatcggcc,synonymous,4.2e-06,.
-TRBV19,0142,142326992,ttcctctcactgTgacatcggccca,ttcctctcactgCgacatcggccca,missense,8.39e-06,.
-TRBV19,0143,142326998,tcactgtgacatCggcccaaaagaa,tcactgtgacatTggcccaaaagaa,missense,3.36e-05,.
-TRBV19,0144,142326999,cactgtgacatcGgcccaaaagaac,cactgtgacatcAgcccaaaagaac,synonymous,1.12e-05,rs774045320
-TRBV19,0145,142327001,ctgtgacatcggCccaaaagaaccc,ctgtgacatcggAccaaaagaaccc,missense,5.04e-05,.
-TRBV19,0146,142327002,tgtgacatcggcCcaaaagaacccg,tgtgacatcggcTcaaaagaacccg,synonymous,4.2e-06,.
-TRBV19,0147,142327011,ggcccaaaagaaCccgacagctttc,ggcccaaaagaaGccgacagctttc,missense,3.32e-05,.
-TRBV19,0148,142327011,ggcccaaaagaaCccgacagctttc,ggcccaaaagaaTccgacagctttc,synonymous,3.32e-05,.
-TRBV19,0149,142327013,cccaaaagaaccCgacagctttcta,cccaaaagaaccGgacagctttcta,missense,4.2e-06,.
-TRBV19,0150,142327013,cccaaaagaaccCgacagctttcta,cccaaaagaaccTgacagctttcta,missense,4.85e-05,rs750828059
-TRBV19,0151,142327014,ccaaaagaacccGacagctttctat,ccaaaagaacccAacagctttctat,synonymous,2.94e-05,.
-TRBV19,0152,142327018,aagaacccgacaGctttctatctct,aagaacccgacaActttctatctct,missense,1.49e-05,rs375094911
-TRBV19,0153,142327020,gaacccgacagcTttctatctctgt,gaacccgacagcCttctatctctgt,synonymous,4.2e-06,.
-TRBV19,0154,142327038,tctctgtgccagTagtatagacaca,tctctgtgccagCagtatagacaca,synonymous,2.96e-05,.
-TRBV19,0155,142327040,tctgtgccagtaGtatagacacagt,tctgtgccagtaCtatagacacagt,missense,4.23e-06,.
-TRBV19,0156,142327044,tgccagtagtatAgacacagtgaag,tgccagtagtatCgacacagtgaag,synonymous,4.26e-05,.
-TRBV19,0157,142327059,cacagtgaagcaCggatgtcgcctc,cacagtgaagcaTggatgtcgcctc,downstream gene,1.33e-05,.
-TRBV19,0158,142327060,acagtgaagcacGgatgtcgcctct,acagtgaagcacAgatgtcgcctct,downstream gene,2.21e-05,rs745739118
-TRBV19,0159,142327066,aagcacggatgtCgcctctctgtgc,aagcacggatgtTgcctctctgtgc,downstream gene,4.37e-05,rs370712398
-TRBV19,0160,142327067,agcacggatgtcGcctctctgtgca,agcacggatgtcAcctctctgtgca,downstream gene,6.84e-05,rs367710642
-TRBV19,0161,142327067,agcacggatgtcGcctctctgtgca,agcacggatgtcCcctctctgtgca,downstream gene,4.57e-06,rs367710642
-TRBV19,0162,142327067,agcacggatgtcGcctctctgtgca,agcacggatgtcTcctctctgtgca,downstream gene,9.14e-06,rs367710642
-TRBV19,0163,142327071,cggatgtcgcctCtctgtgcataaa,cggatgtcgcctTtctgtgcataaa,downstream gene,4.58e-06,.
-TRBV19,0164,142327076,gtcgcctctctgTgcataaatgtgc,gtcgcctctctgCgcataaatgtgc,downstream gene,1.88e-05,.
-TRBV19,0165,142327077,tcgcctctctgtGcataaatgtgcc,tcgcctctctgtTcataaatgtgcc,downstream gene,4.71e-06,.
-TRBV19,0166,142327085,ctgtgcataaatGtgcccagtcctg,ctgtgcataaatAtgcccagtcctg,downstream gene,4.78e-06,.
-TRBV26/OR9-2,*02-1,,gttacacaattcTcaagacacagaa,gttacacaattcCcaagacacagaa,,,
-TRBV7-9,*02-1,,ccccagacacaaGatcacaaagagg,ccccagacacaaCatcacaaagagg,,,
-TRBV7-9,*03-1,,ggagtctcccagAaccccagacaca,ggagtctcccagGaccccagacaca,,,
-TRBV7-9,*05-1,,cctaagggatctTtctccaccttgg,cctaagggatctCtctccaccttgg,,,
-TRBV7-9,*05-4,,tctgtgccagcaGcTTa,tctgtgccagcaCcAAa,,,
-TRBV7-9,*06-2,,cctaagggatctTtCtccaccttggag,cctaagggatctCtTtccaccttggag,,,
-TRBV7-9,*06-5,,tctgtgccagcaGCttA,tctgtgccagcaCGttG,,,
-TRBV20/OR9-2,*02-1,,Agtgctgtcgtct,Ggtgctgtcgtct,,,
-TRBV20/OR9-2,*02-2,,atgctgatggcaActtccaatgagg,atgctgatggcaGcttccaatgagg,,,
-TRBV20/OR9-2,*02-3,,ctgacagtgaccAgtgcccatcctg,ctgacagtgaccTgtgcccatcctg,,,
-TRBV20/OR9-2,*03-1,,atgctgatggcaActtccaatgagg,atgctgatggcaGcttccaatgagg,,,
-TRBV12-4,*02-1,,aatttcaggacaCgactaccttttc,aatttcaggacaTgactaccttttc,,,
-TRBV12-4,*02-2,,tctccactctgaAgatccagccctc,tctccactctgaGgatccagccctc,,,
+TRBV5-6,0001,142131364,caaggcaaagctAaggcaggaagtt,caaggcaaagctGaggcaggaagtt,downstream gene,5.66e-06,.
+TRBV5-6,0002,142131371,aagctaaggcagGaagtttatatac,aagctaaggcagAaagtttatatac,downstream gene,1.1e-05,.
+TRBV5-6,0003,142131388,ttatatacagaaCgtcagtgactct,ttatatacagaaTgtcagtgactct,downstream gene,0.000456,rs200456675
+TRBV5-6,0004,142131389,tatatacagaacGtcagtgactctg,tatatacagaacAtcagtgactctg,downstream gene,3.38e-05,rs369605010
+TRBV5-6,0005,142131389,tatatacagaacGtcagtgactctg,tatatacagaacCtcagtgactctg,downstream gene,4.83e-06,rs369605010
+TRBV5-6,0006,142131390,atatacagaacgTcagtgactctga,atatacagaacgCcagtgactctga,downstream gene,4.82e-06,.
+TRBV5-6,0007,142131401,gtcagtgactctGatgggctgtgcc,gtcagtgactctAatgggctgtgcc,downstream gene,8.98e-06,.
+TRBV5-6,0008,142131402,tcagtgactctgAtgggctgtgcca,tcagtgactctgCtgggctgtgcca,downstream gene,0.000193,rs781309363
+TRBV5-6,0009,142131402,tcagtgactctgAtgggctgtgcca,tcagtgactctgGtgggctgtgcca,downstream gene,4.5e-06,rs781309363
+TRBV5-6,0010,142131403,cagtgactctgaTgggctgtgccaa,cagtgactctgaCgggctgtgccaa,downstream gene,4.48e-06,.
+TRBV5-6,0011,142131405,gtgactctgatgGgctgtgccaagc,gtgactctgatgTgctgtgccaagc,downstream gene,4.43e-06,.
+TRBV5-6,0012,142131407,gactctgatgggCtgtgccaagctg,gactctgatgggGtgtgccaagctg,downstream gene,4.42e-06,.
+TRBV5-6,0013,142131408,actctgatgggcTgtgccaagctgc,actctgatgggcAgtgccaagctgc,downstream gene,4.41e-06,.
+TRBV5-6,0015,142131412,tgatgggctgtgCcaagctgctggc,tgatgggctgtgAcaagctgctggc,incomplete terminal codon,4.35e-06,rs373004633
+TRBV5-6,0016,142131412,tgatgggctgtgCcaagctgctggc,tgatgggctgtgTcaagctgctggc,incomplete terminal codon,0.000109,rs373004633
+TRBV5-6,0017,142131414,atgggctgtgccAagctgctggcac,atgggctgtgccCagctgctggcac,missense,8.66e-06,.
+TRBV5-6,0018,142131417,ggctgtgccaagCtgctggcacaga,ggctgtgccaagTtgctggcacaga,missense,4.31e-06,.
+TRBV5-6,0019,142131423,gccaagctgctgGcacagagataga,gccaagctgctgAcacagagataga,missense,4.27e-06,.
+TRBV5-6,0020,142131431,gctggcacagagAtagagggccgag,gctggcacagagTtagagggccgag,stop gained,4.23e-06,.
+TRBV5-6,0021,142131434,ggcacagagataGagggccgagtcc,ggcacagagataCagggccgagtcc,synonymous,0.00022,rs56063968
+TRBV5-6,0022,142131435,gcacagagatagAgggccgagtccc,gcacagagatagTgggccgagtccc,missense,8.88e-05,rs750974195
+TRBV5-6,0023,142131439,agagatagagggCcgagtcccccag,agagatagagggTcgagtcccccag,missense,4.22e-06,.
+TRBV5-6,0024,142131440,gagatagagggcCgagtcccccagc,gagatagagggcTgagtcccccagc,synonymous,4.22e-05,rs376080913
+TRBV5-6,0025,142131441,agatagagggccGagtcccccagca,agatagagggccAagtcccccagca,missense,8.43e-06,rs754204312
+TRBV5-6,0026,142131445,agagggccgagtCccccagcaacaa,agagggccgagtTccccagcaacaa,missense,1.26e-05,rs370489868
+TRBV5-6,0027,142131449,ggccgagtccccCagcaacaaggcg,ggccgagtccccTagcaacaaggcg,synonymous,4.63e-05,rs752782110
+TRBV5-6,0028,142131453,gagtcccccagcAacaaggcgttca,gagtcccccagcCacaaggcgttca,missense,0.0273,rs361336
+TRBV5-6,0029,142131453,gagtcccccagcAacaaggcgttca,gagtcccccagcTacaaggcgttca,stop gained,2.1e-05,rs361336
+TRBV5-6,0030,142131460,ccagcaacaaggCgttcacattcag,ccagcaacaaggAgttcacattcag,missense,4.2e-06,.
+TRBV5-6,0031,142131460,ccagcaacaaggCgttcacattcag,ccagcaacaaggTgttcacattcag,missense,1.26e-05,.
+TRBV5-6,0032,142131461,cagcaacaaggcGttcacattcagc,cagcaacaaggcAttcacattcagc,synonymous,0.00987,rs361335
+TRBV5-6,0033,142131464,caacaaggcgttCacattcagctca,caacaaggcgttTacattcagctca,synonymous,5.46e-05,rs773840103
+TRBV5-6,0034,142131479,attcagctcagaGctatagttaggg,attcagctcagaActatagttaggg,synonymous,4.19e-06,.
+TRBV5-6,0035,142131480,ttcagctcagagCtatagttaggga,ttcagctcagagTtatagttaggga,missense,1.26e-05,.
+TRBV5-6,0036,142131484,gctcagagctatAgttagggaactg,gctcagagctatGgttagggaactg,missense,8.39e-05,rs368407856
+TRBV5-6,0037,142131487,cagagctatagtTagggaactggtg,cagagctatagtCagggaactggtg,missense,1.26e-05,rs759789987
+TRBV5-6,0038,142131489,gagctatagttaGggaactggtgac,gagctatagttaCggaactggtgac,missense,4.61e-05,rs372426965
+TRBV5-6,0039,142131492,ctatagttagggAactggtgacctg,ctatagttagggTactggtgacctg,missense,0.0198,rs361334
+TRBV5-6,0040,142131495,tagttagggaacTggtgacctgaga,tagttagggaacAggtgacctgaga,missense,4.19e-06,.
+TRBV5-6,0041,142131502,ggaactggtgacCtgagaatcgatc,ggaactggtgacTtgagaatcgatc,missense,1.26e-05,.
+TRBV5-6,0042,142131510,tgacctgagaatCgatcagggaagt,tgacctgagaatTgatcagggaagt,missense,1.68e-05,.
+TRBV5-6,0043,142131511,gacctgagaatcGatcagggaagtt,gacctgagaatcAatcagggaagtt,stop gained,5.45e-05,rs55963817
+TRBV5-6,0044,142131511,gacctgagaatcGatcagggaagtt,gacctgagaatcCatcagggaagtt,missense,0.00735,rs55963817
+TRBV5-6,0045,142131511,gacctgagaatcGatcagggaagtt,gacctgagaatcTatcagggaagtt,synonymous,8.39e-05,rs55963817
+TRBV5-6,0046,142131518,gaatcgatcaggGAagttgcctctct,gaatcgatcaggGAagtgcctctct,frameshift,4.19e-06,.
+TRBV5-6,0047,142131520,atcgatcagggaAgttgcctctctg,atcgatcagggaCgttgcctctctg,missense,4.19e-06,.
+TRBV5-6,0048,142131520,atcgatcagggaAgttgcctctctg,atcgatcagggaGgttgcctctctg,missense,8.39e-06,.
+TRBV5-6,0049,142131536,gcctctctgtctCtcttcctcctca,gcctctctgtctAtcttcctcctca,missense,8.39e-06,.
+TRBV5-6,0050,142131536,gcctctctgtctCtcttcctcctca,gcctctctgtctGtcttcctcctca,missense,4.19e-06,.
+TRBV5-6,0051,142131544,gtctctcttcctCctcataatactg,gtctctcttcctTctcataatactg,missense,2.94e-05,rs757377667
+TRBV5-6,0052,142131545,tctctcttcctcCtcataatactga,tctctcttcctcTtcataatactga,synonymous,4.19e-06,.
+TRBV5-6,0053,142131549,tcttcctcctcaTaatactgaaaga,tcttcctcctcaCaatactgaaaga,missense,4.19e-06,.
+TRBV5-6,0054,142131554,ctcctcataataCtgaaagataaac,ctcctcataataAtgaaagataaac,missense,4.19e-06,rs375947690
+TRBV5-6,0055,142131558,tcataatactgaAagataaactggg,tcataatactgaGagataaactggg,missense,8.39e-06,rs369049240
+TRBV5-6,0056,142131564,tactgaaagataAactggggcccct,tactgaaagataCactggggcccct,missense,4.19e-06,.
+TRBV5-6,0057,142131566,ctgaaagataaaCtggggcccctga,ctgaaagataaaGtggggcccctga,missense,4.19e-06,.
+TRBV5-6,0058,142131571,agataaactgggGcccctgacccag,agataaactgggTcccctgacccag,missense,4.19e-06,.
+TRBV5-6,0059,142131573,ataaactggggcCcctgacccaggg,ataaactggggcTcctgacccaggg,missense,0.000273,rs371240407
+TRBV5-6,0060,142131574,taaactggggccCctgacccagggc,taaactggggccActgacccagggc,missense,8.39e-06,rs375436892
+TRBV5-6,0061,142131574,taaactggggccCctgacccagggc,taaactggggccTctgacccagggc,missense,0.000147,rs375436892
+TRBV5-6,0062,142131582,ggcccctgacccAgggcctgttggt,ggcccctgacccGgggcctgttggt,missense,1.68e-05,rs762002362
+TRBV5-6,0063,142131585,ccctgacccaggGcctgttggtacc,ccctgacccaggAcctgttggtacc,missense,4.19e-06,.
+TRBV5-6,0064,142131586,cctgacccagggCctgttggtacca,cctgacccagggTctgttggtacca,missense,8.39e-06,.
+TRBV5-6,0065,142131588,tgacccagggccTgttggtaccagg,tgacccagggccCgttggtaccagg,missense,1.26e-05,rs369808312
+TRBV5-6,0066,142131590,acccagggcctgTtggtaccaggac,acccagggcctgGtggtaccaggac,missense,4.19e-06,.
+TRBV5-6,0067,142131592,ccagggcctgttGgtaccaggacac,ccagggcctgttCgtaccaggacac,missense,4.19e-06,.
+TRBV5-6,0068,142131594,agggcctgttggTaccaggacacag,agggcctgttggCaccaggacacag,missense,1.68e-05,rs752477141
+TRBV5-6,0069,142131596,ggcctgttggtaCcaggacacagtg,ggcctgttggtaTcaggacacagtg,stop gained,4.19e-06,rs373263986
+TRBV5-6,0070,142131615,acagtgtcatgcCcagacttaggag,acagtgtcatgcAcagacttaggag,missense,1.26e-05,.
+TRBV5-6,0071,142131625,gcccagacttagGagagcatctcag,gcccagacttagAagagcatctcag,missense,1.68e-05,.
+TRBV5-6,0072,142131629,agacttaggagaGcatctcagagtc,agacttaggagaAcatctcagagtc,synonymous,4.19e-06,.
+TRBV5-6,0073,142131631,acttaggagagcAtctcagagtcac,acttaggagagcGtctcagagtcac,missense,4.19e-06,.
+TRBV5-6,0074,142131634,taggagagcatcTcagagtcacttg,taggagagcatcCcagagtcacttg,missense,4.19e-06,.
+TRBV5-6,0075,142131637,gagagcatctcaGagtcacttgctg,gagagcatctcaAagtcacttgctg,synonymous,4.19e-06,.
+TRBV5-6,0076,142131644,tctcagagtcacTtgctgtcctctc,tctcagagtcacGtgctgtcctctc,missense,2.52e-05,.
+TRBV5-6,0077,142131646,tcagagtcacttGctgtcctctcgt,tcagagtcacttActgtcctctcgt,stop gained,4.19e-06,.
+TRBV5-6,0078,142131649,gagtcacttgctGtcctctcgtttt,gagtcacttgctAtcctctcgtttt,stop gained,4.19e-06,.
+TRBV5-6,0079,142131656,ttgctgtcctctCgttttgatcagg,ttgctgtcctctTgttttgatcagg,synonymous,0.00329,rs141086683
+TRBV5-6,0080,142131657,tgctgtcctctcGttttgatcaggt,tgctgtcctctcAttttgatcaggt,missense,1.68e-05,rs765119804
+TRBV5-6,0081,142131657,tgctgtcctctcGttttgatcaggt,tgctgtcctctcTttttgatcaggt,missense,4.19e-06,.
+TRBV5-6,0082,142131659,ctgtcctctcgtTttgatcaggtgt,ctgtcctctcgtGttgatcaggtgt,missense,8.39e-06,.
+TRBV5-6,0083,142131663,cctctcgttttgAtcaggtgtgtgg,cctctcgttttgTtcaggtgtgtgg,missense,8.39e-06,.
+TRBV5-6,0084,142131664,ctctcgttttgaTcaggtgtgtggg,ctctcgttttgaGcaggtgtgtggg,missense,8.39e-06,.
+TRBV5-6,0085,142131665,tctcgttttgatCaggtgtgtggga,tctcgttttgatCAGGTaggtgtgtggga,frameshift,4.2e-06,.
+TRBV5-6,0086,142131670,ttttgatcaggtGtgtgggactttg,ttttgatcaggtAtgtgggactttg,missense,2.94e-05,.
+TRBV5-6,0087,142131672,ttgatcaggtgtGtgggactttggg,ttgatcaggtgtTtgggactttggg,missense,1.68e-05,.
+TRBV5-6,0089,142131685,tgggactttgggTgactccagcgtc,tgggactttgggGgactccagcgtc,missense,4.2e-06,.
+TRBV5-6,0090,142131687,ggactttgggtgActccagcgtcca,ggactttgggtgCctccagcgtcca,missense,8.4e-06,.
+TRBV5-6,0091,142131694,gggtgactccagCgtccactaagcc,gggtgactccagTgtccactaagcc,missense,1.68e-05,.
+TRBV5-6,0092,142131704,agcgtccactaaGcctgtgggaaaa,agcgtccactaaAcctgtgggaaaa,splice region,4.2e-06,.
+TRBV5-6,0093,142131705,gcgtccactaagCctgtgggaaaag,gcgtccactaagTctgtgggaaaag,missense,4.2e-06,.
+TRBV5-6,0094,142131707,gtccactaagccTgtgggaaaagca,gtccactaagccGgtgggaaaagca,splice acceptor,0.000988,rs189046786
+TRBV5-6,0095,142131712,ctaagcctgtggGAaaagcagatgga,ctaagcctgtggGAaaagcagagga,splice region,4.2e-06,.
+TRBV5-6,0096,142131721,tgggaaaagcagAtggaggatgagc,tgggaaaagcagGtggaggatgagc,intron,4.62e-05,.
+TRBV5-6,0097,142131722,gggaaaagcagaTggaggatgagca,gggaaaagcagaGggaggatgagca,intron,3.78e-05,rs370212550
+TRBV5-6,0098,142131730,cagatggaggatGagcacagggaca,cagatggaggatAagcacagggaca,intron,8.4e-06,.
+TRBV5-6,0099,142131732,gatggaggatgaGcacagggacagc,gatggaggatgaAcacagggacagc,intron,8.4e-06,.
+TRBV5-6,0100,142131739,gatgagcacaggGacagcctggagg,gatgagcacaggAacagcctggagg,intron,5.52e-06,.
+TRBV5-6,0101,142131741,tgagcacagggaCagcctggaggtc,tgagcacagggaTagcctggaggtc,intron,4.2e-06,.
+TRBV5-6,0102,142131749,gggacagcctggAggtcctccccaa,gggacagcctggGggtcctccccaa,intron,4.2e-06,.
+TRBV5-6,0103,142131751,gacagcctggagGtcctccccaagg,gacagcctggagAtcctccccaagg,intron,4.2e-06,.
+TRBV5-6,0104,142131780,gtggaggacacaGgggtgggaaagc,gtggaggacacaAgggtgggaaagc,intron,1.26e-05,.
+TRBV5-6,0105,142131782,ggaggacacaggGgtgggaaagctg,ggaggacacaggAgtgggaaagctg,intron,4.19e-06,.
+TRBV5-6,0106,142131783,gaggacacagggGtgggaaagctga,gaggacacagggTtgggaaagctga,intron,4.19e-06,rs745924492
+TRBV5-6,0107,142131785,ggacacaggggtGggaaagctgaga,ggacacaggggtAggaaagctgaga,intron,1.68e-05,.
+TRBV5-6,0108,142131791,aggggtgggaaaGctgagaatgggg,aggggtgggaaaActgagaatgggg,intron,4.19e-06,.
+TRBV5-6,0109,142131792,ggggtgggaaagCtgagaatggggc,ggggtgggaaagGtgagaatggggc,intron,8.39e-06,.
+TRBV5-6,0110,142131800,aaagctgagaatGgggctgctgtcc,aaagctgagaatAgggctgctgtcc,intron,4.19e-06,.
+TRBV5-6,0111,142131801,aagctgagaatgGggctgctgtcct,aagctgagaatgCggctgctgtcct,intron,0.000654,rs200291291
+TRBV5-6,0112,142131807,agaatggggctgCtgtcctgtgccc,agaatggggctgAtgtcctgtgccc,intron,8.39e-06,.
+TRBV5-6,0113,142131807,agaatggggctgCtgtcctgtgccc,agaatggggctgTtgtcctgtgccc,intron,4.19e-06,.
+TRBV5-6,0114,142131808,gaatggggctgcTgtcctgtgccca,gaatggggctgcCgtcctgtgccca,intron,5.45e-05,rs371249859
+TRBV5-6,0115,142131809,aatggggctgctGtcctgtgcccag,aatggggctgctCtcctgtgcccag,intron,4.19e-06,.
+TRBV5-6,0116,142131810,atggggctgctgTcctgtgcccagg,atggggctgctgCcctgtgcccagg,intron,4.19e-06,.
+TRBV5-6,0117,142131814,ggctgctgtcctGtgcccaggactc,ggctgctgtcctAtgcccaggactc,intron,4.19e-06,.
+TRBV5-6,0118,142131818,gctgtcctgtgcCcaggactcacct,gctgtcctgtgcTcaggactcacct,intron,4.19e-06,.
+TRBV5-6,0119,142131820,tgtcctgtgcccAggactcacctgc,tgtcctgtgcccGggactcacctgc,intron,0.000268,rs545099787
+TRBV5-6,0120,142131825,tgtgcccaggacTcacctgctccca,tgtgcccaggacAcacctgctccca,splice region,4.2e-06,.
+TRBV5-6,0121,142131827,tgcccaggactcAcctgctcccagg,tgcccaggactcGcctgctcccagg,splice donor,4.19e-06,.
+TRBV5-6,0122,142131829,cccaggactcacCtgctcccaggag,cccaggactcacGtgctcccaggag,missense,4.19e-06,.
+TRBV5-6,0123,142131830,ccaggactcaccTgctcccaggaga,ccaggactcaccGgctcccaggaga,splice region,4.2e-06,.
+TRBV5-6,0124,142131831,caggactcacctGctcccaggagac,caggactcacctActcccaggagac,missense,0.0016,rs758694947
+TRBV5-6,0125,142131837,tcacctgctcccAggagacaaagca,tcacctgctcccGggagacaaagca,missense,4.2e-06,.
+TRBV5-6,0126,142131839,acctgctcccagGagacaaagcagt,acctgctcccagAagacaaagcagt,synonymous,0.000155,.
+TRBV5-6,0127,142131843,gctcccaggagaCaaagcagtgccc,gctcccaggagaAaaagcagtgccc,missense,4.2e-06,.
+TRBV5-6,0128,142131843,gctcccaggagaCaaagcagtgccc,gctcccaggagaTaaagcagtgccc,missense,1.68e-05,.
+TRBV5-6,0129,142131844,ctcccaggagacAaagcagtgccca,ctcccaggagacCaagcagtgccca,missense,4.2e-06,.
+TRBV5-6,0130,142131844,ctcccaggagacAaagcagtgccca,ctcccaggagacGaagcagtgccca,missense,4.2e-06,.
+TRBV5-6,0131,142131847,ccaggagacaaaGcagtgcccagca,ccaggagacaaaAcagtgcccagca,missense,8.4e-05,rs368322921
+TRBV5-6,0132,142131848,caggagacaaagCagtgcccagcag,caggagacaaagGagtgcccagcag,synonymous,8.4e-05,rs760358877
+TRBV5-6,0133,142131851,gagacaaagcagTgcccagcagagg,gagacaaagcagCgcccagcagagg,synonymous,1.68e-05,.
+TRBV5-6,0134,142131852,agacaaagcagtGcccagcagagga,agacaaagcagtAcccagcagagga,missense,8.4e-06,.
+TRBV5-6,0135,142131860,cagtgcccagcaGaggagcccgggg,cagtgcccagcaTaggagcccgggg,synonymous,4.2e-06,.
+TRBV5-6,0136,142131863,tgcccagcagagGagcccggggccc,tgcccagcagagAagcccggggccc,synonymous,4.2e-06,.
+TRBV5-6,0137,142131866,ccagcagaggagCccggggcccatg,ccagcagaggagGccggggcccatg,synonymous,1.26e-05,rs371031893
+TRBV5-6,0138,142131866,ccagcagaggagCccggggcccatg,ccagcagaggagTccggggcccatg,synonymous,1.68e-05,rs371031893
+TRBV5-6,0139,142131869,gcagaggagcccGgggcccatggca,gcagaggagcccAgggcccatggca,synonymous,3.37e-05,rs374052253
+TRBV5-6,0140,142131869,gcagaggagcccGgggcccatggca,gcagaggagcccCgggcccatggca,synonymous,0.000152,rs374052253
+TRBV5-6,0141,142131874,ggagcccggggcCcatggcacagag,ggagcccggggcGcatggcacagag,missense,1.69e-05,.
+TRBV5-6,0142,142131882,gggcccatggcaCagagggacagga,gggcccatggcaTagagggacagga,5' UTR,3.8e-05,rs367865237
+TRBV5-6,0143,142131887,catggcacagagGgacaggaagcac,catggcacagagAgacaggaagcac,5' UTR,4.25e-06,.
+TRBV5-6,0144,142131925,gggcttggttctCctggggaagagc,gggcttggttctGctggggaagagc,upstream gene,4.58e-06,.
+TRBV5-4,*02-1,,tccctaattataGctctgagctgaa,tccctaattataActctgagctgaa,,,
+TRBV5-4,0001,142168333,aagtcaaagctaAggcaggaagttt,aagtcaaagctaGggcaggaagttt,downstream gene,1e-05,.
+TRBV5-4,0002,142168334,agtcaaagctaaGgcaggaagttta,agtcaaagctaaCgcaggaagttta,downstream gene,4.95e-06,.
+TRBV5-4,0003,142168335,gtcaaagctaagGcaggaagtttat,gtcaaagctaagAcaggaagtttat,downstream gene,4.93e-06,.
+TRBV5-4,0004,142168336,tcaaagctaaggCaggaagtttatg,tcaaagctaaggAaggaagtttatg,downstream gene,4.93e-06,.
+TRBV5-4,0005,142168347,gcaggaagtttaTgtatagaatgtc,gcaggaagtttaGgtatagaatgtc,downstream gene,4.67e-06,.
+TRBV5-4,0006,142168350,ggaagtttatgtAtagaatgtcaga,ggaagtttatgtGtagaatgtcaga,downstream gene,0.00016,rs747646758
+TRBV5-4,0007,142168353,agtttatgtataGaatgtcagagac,agtttatgtataTaatgtcagagac,downstream gene,4.5e-06,rs773701767
+TRBV5-4,0008,142168356,ttatgtatagaaTgtcagagactct,ttatgtatagaaCgtcagagactct,downstream gene,4.46e-06,.
+TRBV5-4,0009,142168359,tgtatagaatgtCagagactctgcc,tgtatagaatgtTagagactctgcc,downstream gene,4.38e-06,.
+TRBV5-4,0010,142168375,gactctgccgggCtgtgccaagctg,gactctgccgggAtgtgccaagctg,downstream gene,4.26e-06,.
+TRBV5-4,0011,142168375,gactctgccgggCtgtgccaagctg,gactctgccgggTtgtgccaagctg,downstream gene,4.26e-06,.
+TRBV5-4,0012,142168379,ctgccgggctgtGccaagctgctgg,ctgccgggctgtCccaagctgctgg,downstream gene,4.24e-06,.
+TRBV5-4,0013,142168383,cgggctgtgccaAgctgctggcaca,cgggctgtgccaGgctgctggcaca,synonymous,4.23e-06,.
+TRBV5-4,0014,142168391,gccaagctgctgGcacagagataca,gccaagctgctgAcacagagataca,missense,8.42e-06,rs374249368
+TRBV5-4,0015,142168392,ccaagctgctggCacagagatacag,ccaagctgctggTacagagatacag,missense,4.21e-06,rs368162693
+TRBV5-4,0016,142168393,caagctgctggcAcagagatacagg,caagctgctggcCcagagatacagg,missense,4.21e-06,rs370309453
+TRBV5-4,0017,142168393,caagctgctggcAcagagatacagg,caagctgctggcGcagagatacagg,synonymous,0.000135,rs370309453
+TRBV5-4,0018,142168393,caagctgctggcAcagagatacagg,caagctgctggcTcagagatacagg,stop gained,4.21e-06,rs370309453
+TRBV5-4,0019,142168395,agctgctggcacAgagatacagggc,agctgctggcacGgagatacagggc,missense,7.16e-05,rs370382184
+TRBV5-4,0020,142168399,gctggcacagagAtacagggccgag,gctggcacagagGtacagggccgag,synonymous,8.4e-06,rs373833727
+TRBV5-4,0021,142168399,gctggcacagagAtacagggccgag,gctggcacagagTtacagggccgag,stop gained,4.2e-06,rs373833727
+TRBV5-4,0022,142168400,ctggcacagagaTacagggccgagt,ctggcacagagaCacagggccgagt,missense,4.2e-06,.
+TRBV5-4,0023,142168402,ggcacagagataCagggccgagtcg,ggcacagagataGagggccgagtcg,synonymous,3.36e-05,.
+TRBV5-4,0024,142168404,cacagagatacaGggccgagtcgtc,cacagagatacaAggccgagtcgtc,synonymous,8.39e-06,.
+TRBV5-4,0025,142168406,cagagatacaggGccgagtcgtcca,cagagatacaggAccgagtcgtcca,missense,4.2e-06,.
+TRBV5-4,0026,142168408,gagatacagggcCgagtcgtccagc,gagatacagggcTgagtcgtccagc,synonymous,9.23e-05,.
+TRBV5-4,0027,142168409,agatacagggccGagtcgtccagct,agatacagggccAagtcgtccagct,missense,0.000193,rs367757087
+TRBV5-4,0028,142168411,atacagggccgaGtcgtccagctcc,atacagggccgaCtcgtccagctcc,missense,4.2e-06,rs371234774
+TRBV5-4,0029,142168413,acagggccgagtCgtccagctccaa,acagggccgagtTgtccagctccaa,missense,8.39e-06,.
+TRBV5-4,0030,142168416,gggccgagtcgtCcagctccaaggc,gggccgagtcgtTcagctccaaggc,missense,8.39e-06,rs375537633
+TRBV5-4,0031,142168418,gccgagtcgtccAgctccaaggcat,gccgagtcgtccGgctccaaggcat,missense,4.2e-06,.
+TRBV5-4,0032,142168418,gccgagtcgtccAgctccaaggcat,gccgagtcgtccTgctccaaggcat,missense,2.94e-05,.
+TRBV5-4,0033,142168419,ccgagtcgtccaGctccaaggcatt,ccgagtcgtccaCctccaaggcatt,missense,4.2e-06,.
+TRBV5-4,0034,142168421,gagtcgtccagcTccaaggcattca,gagtcgtccagcAccaaggcattca,missense,4.2e-06,.
+TRBV5-4,0035,142168424,tcgtccagctccAaggcattcacat,tcgtccagctccGaggcattcacat,missense,1.26e-05,.
+TRBV5-4,0036,142168427,tccagctccaagGcattcacattca,tccagctccaagAcattcacattca,missense,0.000206,rs770998855
+TRBV5-4,0037,142168428,ccagctccaaggCattcacattcag,ccagctccaaggTattcacattcag,missense,8.39e-06,rs776776371
+TRBV5-4,0038,142168432,ctccaaggcattCacattcagctca,ctccaaggcattAacattcagctca,synonymous,6.29e-05,rs368544870
+TRBV5-4,0039,142168438,ggcattcacattCagctcagagcta,ggcattcacattTagctcagagcta,synonymous,4.19e-06,.
+TRBV5-4,0040,142168439,gcattcacattcAgctcagagctat,gcattcacattcTgctcagagctat,missense,8.39e-06,.
+TRBV5-4,0041,142168445,acattcagctcaGagctatcattag,acattcagctcaCagctatcattag,missense,4.19e-06,.
+TRBV5-4,0042,142168448,ttcagctcagagCtatcattaggga,ttcagctcagagTtatcattaggga,missense,3.77e-05,rs751070848
+TRBV5-4,0043,142168450,cagctcagagctAtcattagggaac,cagctcagagctGtcattagggaac,synonymous,8.39e-06,.
+TRBV5-4,0044,142168452,gctcagagctatCattagggaactg,gctcagagctatAattagggaactg,missense,0.991,rs361355
+TRBV5-4,0045,142168452,gctcagagctatCattagggaactg,gctcagagctatGattagggaactg,missense,4.19e-06,rs361355
+TRBV5-4,0046,142168461,tatcattagggaActggagacctga,tatcattagggaGctggagacctga,missense,1.26e-05,.
+TRBV5-4,0047,142168462,atcattagggaaCtggagacctgag,atcattagggaaAtggagacctgag,missense,8.39e-06,.
+TRBV5-4,0048,142168478,agacctgagaatCtaggagggaagt,agacctgagaatTtaggagggaagt,missense,4.19e-06,rs779210354
+TRBV5-4,0049,142168484,gagaatctaggaGggaagtttcctc,gagaatctaggaAggaagtttcctc,missense,4.19e-06,.
+TRBV5-4,0050,142168488,atctaggagggaAgtttcctctgcc,atctaggagggaGgtttcctctgcc,missense,4.19e-06,.
+TRBV5-4,0051,142168491,taggagggaagtTtcctctgccatt,taggagggaagtGtcctctgccatt,missense,4.19e-06,.
+TRBV5-4,0052,142168494,gagggaagtttcCtctgccattctc,gagggaagtttcTtctgccattctc,missense,0.000235,rs375542057
+TRBV5-4,0053,142168497,ggaagtttcctcTgccattctcttc,ggaagtttcctcCgccattctcttc,missense,4.19e-06,.
+TRBV5-4,0054,142168504,tcctctgccattCtcttcctcccta,tcctctgccattAtcttcctcccta,missense,4.19e-06,.
+TRBV5-4,0055,142168506,ctctgccattctCttcctccctata,ctctgccattctTttcctccctata,missense,0.000193,rs369547603
+TRBV5-4,0056,142168512,cattctcttcctCcctataatactg,cattctcttcctTcctataatactg,missense,0.00173,rs361354
+TRBV5-4,0057,142168513,attctcttcctcCctataatactga,attctcttcctcTctataatactga,synonymous,4.19e-06,.
+TRBV5-4,0058,142168517,tcttcctccctaTaatactgaaaga,tcttcctccctaGaatactgaaaga,missense,4.19e-06,.
+TRBV5-4,0059,142168528,ataatactgaaaGataaactggggc,ataatactgaaaAataaactggggc,synonymous,0.00373,rs11977127
+TRBV5-4,0060,142168539,agataaactgggGcccctgacccag,agataaactgggAcccctgacccag,missense,4.61e-05,rs368800410
+TRBV5-4,0061,142168547,tggggcccctgaCccagggcctgtt,tggggcccctgaGccagggcctgtt,missense,4.19e-06,.
+TRBV5-4,0062,142168549,gggcccctgaccCagggcctgttgg,gggcccctgaccGagggcctgttgg,synonymous,4.19e-06,.
+TRBV5-4,0063,142168550,ggcccctgacccAgggcctgttggt,ggcccctgacccTgggcctgttggt,missense,1.68e-05,.
+TRBV5-4,0064,142168551,gcccctgacccaGggcctgttggta,gcccctgacccaAggcctgttggta,synonymous,4.19e-06,.
+TRBV5-4,0065,142168552,cccctgacccagGgcctgttggtac,cccctgacccagTgcctgttggtac,synonymous,4.19e-06,.
+TRBV5-4,0066,142168553,ccctgacccaggGcctgttggtacc,ccctgacccaggAcctgttggtacc,missense,3.77e-05,rs761487633
+TRBV5-4,0067,142168558,acccagggcctgTtggtaccaggac,acccagggcctgCtggtaccaggac,synonymous,4.19e-06,rs199635193
+TRBV5-4,0069,142168561,cagggcctgttgGtaccaggacaca,cagggcctgttgTtaccaggacaca,stop gained,4.19e-06,.
+TRBV5-4,0070,142168570,ttggtaccaggaCacagtgttgtgc,ttggtaccaggaAacagtgttgtgc,synonymous,4.19e-06,.
+TRBV5-4,0071,142168571,tggtaccaggacAcagtgttgtgcc,tggtaccaggacCcagtgttgtgcc,missense,4.19e-06,rs200880146
+TRBV5-4,0072,142168572,ggtaccaggacaCagtgttgtgccc,ggtaccaggacaTagtgttgtgccc,missense,7.55e-05,rs369889647
+TRBV5-4,0073,142168581,acacagtgttgtGCccagactgagaa,acacagtgttgtCccagactgagaa,frameshift,4.19e-06,.
+TRBV5-4,0074,142168596,cagactgagaagAgcatctcagagt,cagactgagaagGgcatctcagagt,missense,2.1e-05,rs747250434
+TRBV5-4,0075,142168610,catctcagagtcActtgctgtcctc,catctcagagtcGcttgctgtcctc,missense,8.39e-06,rs768544039
+TRBV5-4,0076,142168612,tctcagagtcacTtgctgtcctctc,tctcagagtcacGtgctgtcctctc,missense,4.19e-06,rs774157174
+TRBV5-4,0077,142168615,cagagtcacttgCtgtcctctcgtt,cagagtcacttgTtgtcctctcgtt,synonymous,8.39e-06,.
+TRBV5-4,0078,142168624,ttgctgtcctctCgttttgatcagg,ttgctgtcctctAgttttgatcagg,synonymous,4.19e-05,rs772807796
+TRBV5-4,0079,142168625,tgctgtcctctcGttttgatcaggt,tgctgtcctctcAttttgatcaggt,missense,2.52e-05,.
+TRBV5-4,0080,142168629,gtcctctcgtttTgatcaggtgtgt,gtcctctcgtttCgatcaggtgtgt,missense,2.94e-05,rs373707148
+TRBV5-4,0081,142168630,tcctctcgttttGAtcaggtgtgtgg,tcctctcgttttGAcaggtgtgtgg,frameshift,2.52e-05,.
+TRBV5-4,0082,142168636,cgttttgatcagGtgtgtgggactt,cgttttgatcagAtgtgtgggactt,synonymous,0.000365,rs187985527
+TRBV5-4,0083,142168636,cgttttgatcagGtgtgtgggactt,cgttttgatcagTtgtgtgggactt,missense,1.68e-05,rs187985527
+TRBV5-4,0084,142168638,ttttgatcaggtGtgtgggactttg,ttttgatcaggtAtgtgggactttg,missense,4.19e-06,.
+TRBV5-4,0085,142168640,ttgatcaggtgtGtgggactttggg,ttgatcaggtgtAtgggactttggg,missense,1.26e-05,.
+TRBV5-4,0086,142168641,tgatcaggtgtgTgggactttgggt,tgatcaggtgtgCgggactttgggt,missense,5.45e-05,rs753116262
+TRBV5-4,0087,142168649,tgtgtgggacttTgggtgactccag,tgtgtgggacttCgggtgactccag,missense,4.2e-06,.
+TRBV5-4,0088,142168650,gtgtgggactttGggtgactccagc,gtgtgggactttTggtgactccagc,missense,2.1e-05,.
+TRBV5-4,0089,142168651,tgtgggactttgGgtgactccagcg,tgtgggactttgAgtgactccagcg,synonymous,1.68e-05,.
+TRBV5-4,0090,142168652,gtgggactttggGtgactccagcgt,gtgggactttggAtgactccagcgt,missense,1.26e-05,.
+TRBV5-4,0091,142168653,tgggactttgggTgactccagcgtc,tgggactttgggGgactccagcgtc,missense,8.4e-06,.
+TRBV5-4,0092,142168662,gggtgactccagCgtccactgagcc,gggtgactccagGgtccactgagcc,missense,4.2e-06,rs73742240
+TRBV5-4,0093,142168662,gggtgactccagCgtccactgagcc,gggtgactccagTgtccactgagcc,missense,0.991,rs73742240
+TRBV5-4,0094,142168663,ggtgactccagcGtccactgagcct,ggtgactccagcCtccactgagcct,missense,0.991,rs361352
+TRBV5-4,0095,142168667,actccagcgtccActgagcctgtgg,actccagcgtccGctgagcctgtgg,missense,2.1e-05,.
+TRBV5-4,0096,142168668,ctccagcgtccaCtgagcctgtggg,ctccagcgtccaAtgagcctgtggg,missense,4.2e-06,.
+TRBV5-4,0097,142168668,ctccagcgtccaCtgagcctgtggg,ctccagcgtccaTtgagcctgtggg,missense,4.2e-06,.
+TRBV5-4,0098,142168669,tccagcgtccacTgagcctgtggga,tccagcgtccacAgagcctgtggga,synonymous,2.1e-05,.
+TRBV5-4,0099,142168670,ccagcgtccactGagcctgtgggaa,ccagcgtccactAagcctgtgggaa,missense,4.2e-06,.
+TRBV5-4,0100,142168673,gcgtccactgagCctgtgggaaaag,gcgtccactgagTctgtgggaaaag,missense,4.2e-06,.
+TRBV5-4,0101,142168674,cgtccactgagcCtgtgggaaaagc,cgtccactgagcTtgtgggaaaagc,splice acceptor,4.2e-06,.
+TRBV5-4,0102,142168675,gtccactgagccTgtgggaaaagca,gtccactgagccCgtgggaaaagca,splice acceptor,2.52e-05,.
+TRBV5-4,0103,142168676,tccactgagcctGtgggaaaagcag,tccactgagcctAtgggaaaagcag,splice region,4.2e-06,.
+TRBV5-4,0104,142168683,agcctgtgggaaAagcagatggagg,agcctgtgggaaTagcagatggagg,intron,1.26e-05,rs776197102
+TRBV5-4,0105,142168685,cctgtgggaaaaGcagatggaggat,cctgtgggaaaaAcagatggaggat,intron,4.2e-06,.
+TRBV5-4,0106,142168689,tgggaaaagcagAtggaggatgagc,tgggaaaagcagTtggaggatgagc,intron,1.26e-05,.
+TRBV5-4,0107,142168690,gggaaaagcagaTggaggatgagca,gggaaaagcagaAggaggatgagca,intron,4.2e-06,.
+TRBV5-4,0108,142168695,aagcagatggagGatgagcacagca,aagcagatggagAatgagcacagca,intron,1.26e-05,rs375833786
+TRBV5-4,0109,142168697,gcagatggaggaTgagcacagcaga,gcagatggaggaCgagcacagcaga,intron,4.2e-06,.
+TRBV5-4,0110,142168698,cagatggaggatGagcacagcagaa,cagatggaggatAagcacagcagaa,intron,5.46e-05,rs764402400
+TRBV5-4,0111,142168700,gatggaggatgaGcacagcagaaag,gatggaggatgaAcacagcagaaag,intron,8.4e-06,.
+TRBV5-4,0112,142168703,ggaggatgagcaCagcagaaagcct,ggaggatgagcaTagcagaaagcct,intron,2.52e-05,.
+TRBV5-4,0113,142168706,ggatgagcacagCagaaagcctgga,ggatgagcacagAagaaagcctgga,intron,4.21e-06,.
+TRBV5-4,0114,142168706,ggatgagcacagCagaaagcctgga,ggatgagcacagTagaaagcctgga,intron,4.21e-06,.
+TRBV5-4,0115,142168708,atgagcacagcaGaaagcctggagg,atgagcacagcaTaaagcctggagg,intron,4.2e-06,.
+TRBV5-4,0116,142168714,acagcagaaagcCtggaggtcctcc,acagcagaaagcGtggaggtcctcc,intron,8.4e-06,.
+TRBV5-4,0117,142168715,cagcagaaagccTggaggtcctccc,cagcagaaagccCggaggtcctccc,intron,1.68e-05,rs746759521
+TRBV5-4,0118,142168721,aaagcctggaggTcctccccaaggt,aaagcctggaggAcctccccaaggt,intron,4.2e-06,rs373673952
+TRBV5-4,0119,142168722,aagcctggaggtCctccccaaggta,aagcctggaggtTctccccaaggta,intron,4.2e-06,.
+TRBV5-4,0120,142168747,aagtggaggacaTgggtgggaaagc,aagtggaggacaCgggtgggaaagc,intron,2.1e-05,.
+TRBV5-4,0121,142168747,aagtggaggacaTgggtgggaaagc,aagtggaggacaGgggtgggaaagc,intron,8.4e-06,rs561040560
+TRBV5-4,0122,142168752,gaggacatgggtGggaaagctgaga,gaggacatgggtAggaaagctgaga,intron,4.2e-06,.
+TRBV5-4,0123,142168757,catgggtgggaaAgctgagaatggg,catgggtgggaaGgctgagaatggg,intron,4.2e-06,.
+TRBV5-4,0124,142168773,gagaatggggctGctgtcctgtgcc,gagaatggggctActgtcctgtgcc,intron,4.2e-06,.
+TRBV5-4,0125,142168774,agaatggggctgCtgtcctgtgccc,agaatggggctgGtgtcctgtgccc,intron,4.2e-06,.
+TRBV5-4,0126,142168779,ggggctgctgtcCtgtgcccaggac,ggggctgctgtcTtgtgcccaggac,intron,7.55e-05,rs769473742
+TRBV5-4,0127,142168781,ggctgctgtcctGtgcccaggactc,ggctgctgtcctAtgcccaggactc,intron,4.2e-06,rs200076352
+TRBV5-4,0128,142168781,ggctgctgtcctGtgcccaggactc,ggctgctgtcctCtgcccaggactc,intron,0.0046,rs200076352
+TRBV5-4,0129,142168787,tgtcctgtgcccAggactcacctgc,tgtcctgtgcccGggactcacctgc,intron,4.2e-06,.
+TRBV5-4,0130,142168791,ctgtgcccaggaCtcacctgctccc,ctgtgcccaggaTtcacctgctccc,splice region,3.36e-05,.
+TRBV5-4,0131,142168801,gactcacctgctCccaggagacaaa,gactcacctgctTccaggagacaaa,missense,8.4e-06,.
+TRBV5-4,0132,142168806,acctgctcccagGagacaaagcagc,acctgctcccagAagacaaagcagc,synonymous,0.0129,rs111693797
+TRBV5-4,0133,142168806,acctgctcccagGagacaaagcagc,acctgctcccagCagacaaagcagc,synonymous,4.2e-06,rs111693797
+TRBV5-4,0134,142168810,gctcccaggagaCaaagcagcgccc,gctcccaggagaTaaagcagcgccc,missense,2.94e-05,rs758292349
+TRBV5-4,0135,142168817,ggagacaaagcaGcgcccagcagag,ggagacaaagcaAcgcccagcagag,synonymous,4.21e-06,rs375338481
+TRBV5-4,0136,142168819,agacaaagcagcGcccagcagagga,agacaaagcagcAcccagcagagga,missense,0.633,rs361350
+TRBV5-4,0137,142168820,gacaaagcagcgCccagcagaggag,gacaaagcagcgTccagcagaggag,missense,1.27e-05,.
+TRBV5-4,0138,142168822,caaagcagcgccCagcagaggagcc,caaagcagcgccAagcagaggagcc,missense,8.44e-06,rs368328327
+TRBV5-4,0139,142168824,aagcagcgcccaGcagaggagccca,aagcagcgcccaCcagaggagccca,missense,4.22e-06,.
+TRBV5-4,0140,142168832,cccagcagaggaGcccagggcccat,cccagcagaggaCcccagggcccat,missense,3.39e-05,rs755784752
+TRBV5-4,0141,142168836,gcagaggagcccAgggcccatggca,gcagaggagcccGgggcccatggca,synonymous,0.00505,rs374978025
+TRBV5-4,0142,142168842,gagcccagggccCatggcacagtgg,gagcccagggccTatggcacagtgg,start lost,1.27e-05,rs748594113
+TRBV5-4,0143,142168844,gcccagggcccaTggcacagtgggc,gcccagggcccaCggcacagtgggc,start lost,4.24e-05,rs537789143
+TRBV5-4,0144,142168844,gcccagggcccaTggcacagtgggc,gcccagggcccaGggcacagtgggc,start lost,4.24e-06,.
+TRBV5-4,0145,142168846,ccagggcccatgGcacagtgggcca,ccagggcccatgTcacagtgggcca,5' UTR,2.55e-05,.
+TRBV5-4,0146,142168851,gcccatggcacaGtgggccaggcag,gcccatggcacaCtgggccaggcag,5' UTR,4.24e-06,.
+TRBV5-4,0147,142168853,ccatggcacagtGggccaggcagca,ccatggcacagtTggccaggcagca,5' UTR,4.25e-06,.
+TRBV5-4,0148,142168855,atggcacagtggGccaggcagcact,atggcacagtggAccaggcagcact,5' UTR,1.28e-05,.
+TRBV5-4,0149,142168856,tggcacagtgggCcaggcagcactg,tggcacagtgggGcaggcagcactg,5' UTR,0.944,rs73742239
+TRBV5-4,0150,142168862,agtgggccaggcAgcactgcacctg,agtgggccaggcGgcactgcacctg,5' UTR,0.0342,rs759726448
+TRBV5-4,0151,142168890,cagggcttggtcCtcctggggaaga,cagggcttggtcTtcctggggaaga,5' UTR,0.0451,rs767448033
+TRBV5-4,0152,142168891,agggcttggtccTcctggggaagag,agggcttggtccCcctggggaagag,5' UTR,4.37e-06,.
 TRBV10-2,0001,142206471,tttttctaactgCcgtttccgtgca,tttttctaactgTcgtttccgtgca,downstream gene,3.25e-05,rs545586310
 TRBV10-2,0002,142206472,ttttctaactgcCgtttccgtgcag,ttttctaactgcGgtttccgtgcag,downstream gene,4.63e-06,.
 TRBV10-2,0003,142206472,ttttctaactgcCgtttccgtgcag,ttttctaactgcTgtttccgtgcag,downstream gene,4.63e-06,rs780912270
@@ -1072,10 +1184,6 @@ TRBV10-2,0164,142207000,tcccagccctgcTgtgggcaaattg,tcccagccctgcCgtgggcaaattg,5' U
 TRBV10-2,0165,142207006,ccctgctgtgggCaaattgaagttg,ccctgctgtgggAaaattgaagttg,5' UTR,4.22e-06,.
 TRBV10-2,0166,142207008,ctgctgtgggcaAattgaagttgag,ctgctgtgggcaGattgaagttgag,5' UTR,4.21e-06,.
 TRBV10-2,0167,142207010,gctgtgggcaaaTtgaagttgagct,gctgtgggcaaaCtgaagttgagct,5' UTR,4.22e-06,.
-TRBV10-3,*02-1,,tctgagatgtcaCcagactgagaac,tctgagatgtcaTcagactgagaac,,,
-TRBV10-3,*03-1,,gaaccaccgctaTatgtactggtat,gaaccaccgctaCatgtactggtat,,,
-TRBV10-3,*03-2,,tgggctgaggctGatccattactca,tgggctgaggctAatccattactca,,,
-TRBV10-3,*04-1,,gaaccaccgctaTatgtactggtat,gaaccaccgctaCatgtactggtat,,,
 TRBV10-1,*02-1,,atatggtgttcaAgacactaacaaa,atatggtgttcaCgacactaacaaa,,,
 TRBV10-1,0001,142231530,cagtcattctaaCtgccctttatgt,cagtcattctaaAtgccctttatgt,downstream gene,4.59e-06,rs373406934
 TRBV10-1,0002,142231530,cagtcattctaaCtgccctttatgt,cagtcattctaaTtgccctttatgt,downstream gene,0.00175,rs373406934
@@ -1326,306 +1434,6 @@ TRBV3-1,0098,142008897,agtcactgcatcCctgtgcacaaac,agtcactgcatcTctgtgcacaaac,downs
 TRBV3-1,0099,142008909,cctgtgcacaaaCctcccggctcag,cctgtgcacaaaActcccggctcag,downstream gene,1.54e-05,.
 TRBV3-1,0100,142008915,cacaaacctcccGgctcagccagga,cacaaacctcccAgctcagccagga,downstream gene,6.35e-05,rs370531572
 TRBV3-1,0101,142008919,aacctcccggctCagccaggaagct,aacctcccggctTagccaggaagct,downstream gene,5.31e-06,.
-TRBV2,*02-1,,aagtgatcttgcGctgtgtccccat,aagtgatcttgcActgtgtccccat,,,
-TRBV2,*03-1,,attctcagttgaAaggcctgatgga,attctcagttgaGaggcctgatgga,,,
-TRBV2,0001,142000729,cagaccttgcctGtggggccatggg,cagaccttgcctCtggggccatggg,upstream gene,6.61e-05,.
-TRBV2,0002,142000751,gggagctcaaaaTgcccctcctttc,gggagctcaaaaAgcccctcctttc,5' UTR,3.31e-05,.
-TRBV2,0003,142000769,tcctttcctccaCaggaccagatgc,tcctttcctccaTaggaccagatgc,5' UTR,6.61e-05,rs552295876
-TRBV2,0004,142000772,tttcctccacagGaccagatgcctg,tttcctccacagAaccagatgcctg,5' UTR,4.2e-06,.
-TRBV2,0005,142000774,tcctccacaggaCcagatgcctgag,tcctccacaggaAcagatgcctgag,5' UTR,4.2e-06,.
-TRBV2,0006,142000777,tccacaggaccaGatgcctgagcta,tccacaggaccaAatgcctgagcta,5' UTR,8.39e-06,.
-TRBV2,0007,142000780,acaggaccagatGcctgagctagga,acaggaccagatAcctgagctagga,5' UTR,4.2e-06,.
-TRBV2,0008,142000780,acaggaccagatGcctgagctagga,acaggaccagatCcctgagctagga,5' UTR,1.68e-05,.
-TRBV2,0009,142000781,caggaccagatgCctgagctaggaa,caggaccagatgActgagctaggaa,5' UTR,4.2e-06,.
-TRBV2,0010,142000781,caggaccagatgCctgagctaggaa,caggaccagatgTctgagctaggaa,5' UTR,4.2e-06,.
-TRBV2,0011,142000782,aggaccagatgcCtgagctaggaaa,aggaccagatgcGtgagctaggaaa,5' UTR,4.2e-06,.
-TRBV2,0012,142000788,agatgcctgagcTaggaaaggcctc,agatgcctgagcCaggaaaggcctc,5' UTR,8.39e-06,rs371339719
-TRBV2,0013,142000789,gatgcctgagctAggaaaggcctca,gatgcctgagctGggaaaggcctca,5' UTR,8.39e-06,.
-TRBV2,0014,142000791,tgcctgagctagGaaaggcctcatt,tgcctgagctagAaaaggcctcatt,5' UTR,4.19e-06,.
-TRBV2,0015,142000795,tgagctaggaaaGgcctcattcctg,tgagctaggaaaTgcctcattcctg,5' UTR,4.19e-06,.
-TRBV2,0016,142000796,gagctaggaaagGcctcattcctgc,gagctaggaaagAcctcattcctgc,5' UTR,4.19e-06,.
-TRBV2,0017,142000796,gagctaggaaagGcctcattcctgc,gagctaggaaagTcctcattcctgc,5' UTR,4.19e-06,.
-TRBV2,0018,142000798,gctaggaaaggcCtcattcctgctg,gctaggaaaggcTtcattcctgctg,5' UTR,8.39e-06,.
-TRBV2,0019,142000804,aaaggcctcattCctgctgtgatcc,aaaggcctcattGctgctgtgatcc,5' UTR,4.19e-06,rs369946946
-TRBV2,0020,142000815,tcctgctgtgatCctgccatggata,tcctgctgtgatTctgccatggata,5' UTR,4.19e-06,.
-TRBV2,0021,142000823,tgatcctgccatGgatacctggctc,tgatcctgccatAgatacctggctc,5' UTR,4.19e-06,.
-TRBV2,0022,142000826,tcctgccatggaTacctggctcgta,tcctgccatggaCacctggctcgta,5' UTR,1.49e-05,.
-TRBV2,0023,142000827,cctgccatggatAcctggctcgtat,cctgccatggatGcctggctcgtat,5' UTR,4.19e-06,.
-TRBV2,0024,142000828,ctgccatggataCctggctcgtatg,ctgccatggataTctggctcgtatg,5' UTR,4.19e-06,.
-TRBV2,0025,142000830,gccatggataccTggctcgtatgct,gccatggataccCggctcgtatgct,5' UTR,4.19e-06,.
-TRBV2,0026,142000835,ggatacctggctCgtatgctgggca,ggatacctggctTgtatgctgggca,5' UTR,8.39e-06,.
-TRBV2,0027,142000836,gatacctggctcGtatgctgggcaa,gatacctggctcAtatgctgggcaa,5' UTR,8.39e-06,.
-TRBV2,0028,142000839,acctggctcgtaTgctgggcaattt,acctggctcgtaCgctgggcaattt,5' UTR,4.46e-05,rs374663961
-TRBV2,0029,142000845,ctcgtatgctggGcaatttttagtc,ctcgtatgctggTcaatttttagtc,5' UTR,4.19e-06,.
-TRBV2,0030,142000855,gggcaatttttaGtctcttgaaagc,gggcaatttttaAtctcttgaaagc,5' UTR,3.3e-05,.
-TRBV2,0031,142000856,ggcaatttttagTctcttgaaagca,ggcaatttttagCctcttgaaagca,5' UTR,0.00411,rs116157073
-TRBV2,0032,142000856,ggcaatttttagTctcttgaaagca,ggcaatttttagGctcttgaaagca,5' UTR,2.93e-05,rs116157073
-TRBV2,0033,142000865,tagtctcttgaaAgcaggtcgatgc,tagtctcttgaaGgcaggtcgatgc,5' UTR,8.38e-06,.
-TRBV2,0034,142000869,ctcttgaaagcaGgtcgatgcttag,ctcttgaaagcaTgtcgatgcttag,splice region,2.1e-05,rs372294683
-TRBV2,0035,142000872,ttgaaagcaggtCgatgcttagact,ttgaaagcaggtTgatgcttagact,splice region,1.26e-05,.
-TRBV2,0036,142000873,tgaaagcaggtcGatgcttagactc,tgaaagcaggtcAatgcttagactc,splice region,1.49e-05,rs755496616
-TRBV2,0037,142000874,gaaagcaggtcgAtgcttagactct,gaaagcaggtcgGtgcttagactct,splice region,8.38e-05,.
-TRBV2,0038,142000875,aaagcaggtcgaTgcttagactcta,aaagcaggtcgaCgcttagactcta,splice region,1.68e-05,.
-TRBV2,0039,142000877,agcaggtcgatgCttagactctagg,agcaggtcgatgTttagactctagg,splice region,4.19e-06,.
-TRBV2,0040,142000886,atgcttagactcTaggaaattcttg,atgcttagactcCaggaaattcttg,intron,2.98e-05,rs376566795
-TRBV2,0041,142000888,gcttagactctaGgaaattcttgct,gcttagactctaCgaaattcttgct,intron,4.19e-06,.
-TRBV2,0042,142000895,ctctaggaaattCttgctttgaact,ctctaggaaattAttgctttgaact,intron,4.19e-06,.
-TRBV2,0043,142000898,taggaaattcttGctttgaacttac,taggaaattcttTctttgaacttac,intron,0.00254,rs55964233
-TRBV2,0044,142000899,aggaaattcttgCtttgaacttacc,aggaaattcttgTtttgaacttacc,intron,3.3e-05,.
-TRBV2,0045,142000903,aattcttgctttGaacttacctaag,aattcttgctttCaacttacctaag,intron,8.39e-06,.
-TRBV2,0046,142000906,tcttgctttgaaCttacctaagaca,tcttgctttgaaAttacctaagaca,intron,3.3e-05,rs757451690
-TRBV2,0047,142000906,tcttgctttgaaCttacctaagaca,tcttgctttgaaTttacctaagaca,intron,4.19e-06,.
-TRBV2,0048,142000906,tcttgctttgaaCTtacctaagacaa,tcttgctttgaaCtacctaagacaa,intron,4.19e-06,.
-TRBV2,0049,142000908,ttgctttgaactTacctaagacaat,ttgctttgaactAacctaagacaat,intron,3.35e-05,.
-TRBV2,0050,142000908,ttgctttgaactTacctaagacaat,ttgctttgaactCacctaagacaat,intron,4.19e-06,.
-TRBV2,0051,142000910,gctttgaacttaCctaagacaattc,gctttgaacttaTctaagacaattc,intron,2.52e-05,.
-TRBV2,0052,142000917,acttacctaagaCaattctaaacca,acttacctaagaAaattctaaacca,intron,4.19e-06,.
-TRBV2,0053,142000932,ttctaaaccattCtcttaatcttct,ttctaaaccattTtcttaatcttct,intron,0.00335,rs145793748
-TRBV2,0054,142000938,accattctcttaATCTtcttcttttctc,accattctcttaATcttcttttctc,intron,3.31e-05,rs747882327
-TRBV2,0055,142000940,cattctcttaatCttcttcttttct,cattctcttaatTttcttcttttct,intron,4.2e-06,.
-TRBV2,0056,142000943,tctcttaatcttCttcttttctcac,tctcttaatcttAttcttttctcac,intron,4.2e-06,.
-TRBV2,0057,142000949,aatcttcttcttTtctcacaggact,aatcttcttcttGtctcacaggact,intron,8.4e-06,.
-TRBV2,0058,142000951,tcttcttcttttCtcacaggactca,tcttcttcttttTtcacaggactca,splice region,4.2e-06,.
-TRBV2,0059,142000958,cttttctcacagGactcacagaacc,cttttctcacagAactcacagaacc,splice region,8.4e-06,.
-TRBV2,0060,142000961,ttctcacaggacTcacagaacctga,ttctcacaggacCcacagaacctga,5' UTR,4.2e-06,.
-TRBV2,0061,142000961,ttctcacaggacTcacagaacctga,ttctcacaggacTCAcacagaacctga,5' UTR,4.2e-06,.
-TRBV2,0062,142000961,ttctcacaggacTCAcagaacctgaag,ttctcacaggacTcagaacctgaag,5' UTR,4.2e-06,.
-TRBV2,0063,142000964,tcacaggactcaCagaacctgaagt,tcacaggactcaTagaacctgaagt,5' UTR,2.61e-05,rs765972960
-TRBV2,0064,142000966,acaggactcacaGaacctgaagtca,acaggactcacaCaacctgaagtca,5' UTR,8.4e-06,rs377561456
-TRBV2,0065,142000966,acaggactcacaGaacctgaagtca,acaggactcacaTaacctgaagtca,5' UTR,4.2e-06,rs377561456
-TRBV2,0066,142000969,ggactcacagaaCctgaagtcaccc,ggactcacagaaActgaagtcaccc,5' UTR,8.4e-06,.
-TRBV2,0067,142000974,cacagaacctgaAgtcacccagact,cacagaacctgaGgtcacccagact,5' UTR,4.2e-06,.
-TRBV2,0068,142000977,agaacctgaagtCacccagactccc,agaacctgaagtTacccagactccc,5' UTR,4.2e-06,.
-TRBV2,0069,142000983,tgaagtcacccaGactcccagccat,tgaagtcacccaAactcccagccat,5' UTR,4.2e-06,.
-TRBV2,0070,142000985,aagtcacccagaCtcccagccatca,aagtcacccagaAtcccagccatca,5' UTR,4.2e-06,.
-TRBV2,0071,142000985,aagtcacccagaCtcccagccatca,aagtcacccagaTtcccagccatca,5' UTR,4.2e-06,.
-TRBV2,0072,142000988,tcacccagactcCcagccatcaggt,tcacccagactcTcagccatcaggt,5' UTR,8.4e-06,.
-TRBV2,0073,142000992,ccagactcccagCcatcaggtcaca,ccagactcccagAcatcaggtcaca,5' UTR,7.45e-06,rs775052218
-TRBV2,0074,142001001,cagccatcaggtCacacagatggga,cagccatcaggtTacacagatggga,5' UTR,4.2e-06,.
-TRBV2,0075,142001005,catcaggtcacaCagatgggacagg,catcaggtcacaTagatgggacagg,5' UTR,8.4e-06,.
-TRBV2,0076,142001008,caggtcacacagAtgggacaggaag,caggtcacacagGtgggacaggaag,start lost,1.26e-05,.
-TRBV2,0077,142001012,tcacacagatggGacaggaagtgat,tcacacagatggAacaggaagtgat,missense,4.2e-06,.
-TRBV2,0078,142001012,tcacacagatggGacaggaagtgat,tcacacagatggTacaggaagtgat,missense,4.2e-06,.
-TRBV2,0079,142001013,cacacagatgggAcaggaagtgatc,cacacagatgggCcaggaagtgatc,synonymous,4.2e-06,.
-TRBV2,0080,142001017,cagatgggacagGaagtgatcttgc,cagatgggacagAaagtgatcttgc,missense,2.52e-05,.
-TRBV2,0081,142001029,gaagtgatcttgCactgtgtcccca,gaagtgatcttgTactgtgtcccca,missense,8.21e-05,rs746832366
-TRBV2,0082,142001030,aagtgatcttgcActgtgtccccat,aagtgatcttgcGctgtgtccccat,missense,0.989,rs56095598
-TRBV2,0083,142001030,aagtgatcttgcActgtgtccccat,aagtgatcttgcTctgtgtccccat,missense,2.98e-05,rs56095598
-TRBV2,0084,142001032,gtgatcttgcacTgtgtccccatct,gtgatcttgcacCgtgtccccatct,missense,7.46e-06,rs759270653
-TRBV2,0085,142001033,tgatcttgcactGtgtccccatctc,tgatcttgcactAtgtccccatctc,missense,4.21e-06,.
-TRBV2,0086,142001037,cttgcactgtgtCcccatctctaat,cttgcactgtgtTcccatctctaat,synonymous,4.21e-06,.
-TRBV2,0087,142001038,ttgcactgtgtcCccatctctaatc,ttgcactgtgtcTccatctctaatc,missense,8.41e-06,.
-TRBV2,0088,142001041,cactgtgtccccAtctctaatcact,cactgtgtccccGtctctaatcact,missense,4.21e-06,.
-TRBV2,0089,142001043,ctgtgtccccatCtctaatcactta,ctgtgtccccatTtctaatcactta,synonymous,4.21e-06,.
-TRBV2,0090,142001050,cccatctctaatCACTTATacttctattggt,cccatctctaatCACTTctattggt,inframe deletion,3.3e-05,.
-TRBV2,0091,142001052,catctctaatcaCttatacttctat,catctctaatcaTttatacttctat,synonymous,8.41e-06,.
-TRBV2,0092,142001057,ctaatcacttatActtctattggta,ctaatcacttatGcttctattggta,missense,4.21e-06,.
-TRBV2,0093,142001059,aatcacttatacTtctattggtaca,aatcacttatacCtctattggtaca,missense,1.87e-05,rs540277135
-TRBV2,0094,142001063,acttatacttctAttggtacagaca,acttatacttctGttggtacagaca,missense,4.21e-06,.
-TRBV2,0095,142001065,ttatacttctatTggtacagacaaa,ttatacttctatCggtacagacaaa,missense,8.41e-06,rs145690079
-TRBV2,0096,142001070,cttctattggtaCagacaaatcttg,cttctattggtaTagacaaatcttg,synonymous,4.21e-06,.
-TRBV2,0097,142001072,tctattggtacaGacaaatcttggg,tctattggtacaAacaaatcttggg,missense,4.21e-06,.
-TRBV2,0098,142001079,gtacagacaaatCttggggcagaaa,gtacagacaaatTttggggcagaaa,synonymous,4.21e-06,.
-TRBV2,0099,142001083,agacaaatcttgGggcagaaagtcg,agacaaatcttgCggcagaaagtcg,missense,4.21e-06,.
-TRBV2,0100,142001084,gacaaatcttggGgcagaaagtcga,gacaaatcttggAgcagaaagtcga,missense,4.21e-06,.
-TRBV2,0101,142001084,gacaaatcttggGgcagaaagtcga,gacaaatcttggTgcagaaagtcga,missense,4.21e-06,.
-TRBV2,0102,142001086,caaatcttggggCagaaagtcgagt,caaatcttggggAagaaagtcgagt,missense,4.21e-06,.
-TRBV2,0103,142001089,atcttggggcagAaagtcgagtttc,atcttggggcagGaagtcgagtttc,missense,4.21e-06,.
-TRBV2,0104,142001094,ggggcagaaagtCgagtttctggtt,ggggcagaaagtTgagtttctggtt,synonymous,3.31e-05,.
-TRBV2,0105,142001095,gggcagaaagtcGagtttctggttt,gggcagaaagtcAagtttctggttt,missense,4.22e-06,.
-TRBV2,0106,142001107,gagtttctggttTccttttataata,gagtttctggttCccttttataata,missense,1.27e-05,rs373425033
-TRBV2,0107,142001113,ctggtttcctttTataataatgaaa,ctggtttcctttAataataatgaaa,missense,8.48e-06,.
-TRBV2,0108,142001119,tccttttataatAatgaaatctcag,tccttttataatGatgaaatctcag,missense,2.55e-05,rs376155878
-TRBV2,0109,142001121,cttttataataaTgaaatctcagag,cttttataataaCgaaatctcagag,synonymous,4.26e-06,.
-TRBV2,0110,142001134,gaaatctcagagAagtctgaaatat,gaaatctcagagGagtctgaaatat,missense,4.27e-06,.
-TRBV2,0111,142001136,aatctcagagaaGtctgaaatattc,aatctcagagaaAtctgaaatattc,synonymous,4.28e-06,.
-TRBV2,0112,142001140,tcagagaagtctGAaatattcgatga,tcagagaagtctGaatattcgatga,frameshift,1.29e-05,.
-TRBV2,0113,142001148,gtctgaaatattCgatgatcaattc,gtctgaaatattTgatgatcaattc,synonymous,2.28e-05,rs748788343
-TRBV2,0114,142001149,tctgaaatattcGatgatcaattct,tctgaaatattcAatgatcaattct,missense,2.15e-05,.
-TRBV2,0115,142001149,tctgaaatattcGatgatcaattct,tctgaaatattcTatgatcaattct,missense,4.29e-06,.
-TRBV2,0116,142001150,ctgaaatattcgAtgatcaattctc,ctgaaatattcgGtgatcaattctc,missense,8.57e-06,.
-TRBV2,0117,142001156,tattcgatgatcAattctcagttga,tattcgatgatcGattctcagttga,missense,0.000102,rs543789760
-TRBV2,0118,142001160,cgatgatcaattCtcagttgaaagg,cgatgatcaattAtcagttgaaagg,missense,4.28e-06,.
-TRBV2,0119,142001167,caattctcagttGaaaggcctgatg,caattctcagttAaaaggcctgatg,missense,8.56e-06,.
-TRBV2,0120,142001172,ctcagttgaaagGcctgatggatca,ctcagttgaaagAcctgatggatca,synonymous,1.28e-05,.
-TRBV2,0121,142001172,ctcagttgaaagGcctgatggatca,ctcagttgaaagTcctgatggatca,missense,4.27e-06,.
-TRBV2,0122,142001175,agttgaaaggccTgatggatcaaat,agttgaaaggccCgatggatcaaat,synonymous,3.78e-05,rs765369484
-TRBV2,0123,142001176,gttgaaaggcctGatggatcaaatt,gttgaaaggcctAatggatcaaatt,missense,4.27e-06,.
-TRBV2,0124,142001177,ttgaaaggcctgAtggatcaaattt,ttgaaaggcctgGtggatcaaattt,missense,4.27e-06,.
-TRBV2,0125,142001178,tgaaaggcctgaTggatcaaatttc,tgaaaggcctgaCggatcaaatttc,synonymous,4.27e-06,.
-TRBV2,0126,142001180,aaaggcctgatgGatcaaatttcac,aaaggcctgatgAatcaaatttcac,missense,4.27e-06,.
-TRBV2,0127,142001182,aggcctgatggaTcaaatttcactc,aggcctgatggaAcaaatttcactc,missense,4.27e-06,.
-TRBV2,0128,142001187,tgatggatcaaaTttcactctgaag,tgatggatcaaaCttcactctgaag,synonymous,4.26e-06,.
-TRBV2,0129,142001188,gatggatcaaatTtcactctgaaga,gatggatcaaatCtcactctgaaga,missense,7.17e-05,rs781082418
-TRBV2,0130,142001195,caaatttcactcTgaagatccggtc,caaatttcactcCgaagatccggtc,missense,3.3e-05,.
-TRBV2,0131,142001199,tttcactctgaaGatccggtccaca,tttcactctgaaTatccggtccaca,missense,4.26e-05,.
-TRBV2,0132,142001201,tcactctgaagaTccggtccacaaa,tcactctgaagaGccggtccacaaa,missense,8.51e-06,.
-TRBV2,0133,142001204,ctctgaagatccGgtccacaaagct,ctctgaagatccAgtccacaaagct,missense,4.53e-05,rs542097644
-TRBV2,0134,142001205,tctgaagatccgGtccacaaagctg,tctgaagatccgCtccacaaagctg,synonymous,1.13e-05,rs767993226
-TRBV2,0135,142001214,ccggtccacaaaGctggaggactca,ccggtccacaaaActggaggactca,synonymous,4.26e-06,.
-TRBV2,0136,142001220,cacaaagctggaGgactcagccatg,cacaaagctggaAgactcagccatg,synonymous,3.84e-05,.
-TRBV2,0137,142001224,aagctggaggacTcagccatgtact,aagctggaggacGcagccatgtact,missense,4.28e-06,.
-TRBV2,0138,142001227,ctggaggactcaGccatgtacttct,ctggaggactcaAccatgtacttct,missense,4.29e-06,.
-TRBV2,0139,142001230,gaggactcagccAtgtacttctgtg,gaggactcagccCtgtacttctgtg,missense,8.59e-06,rs373031358
-TRBV2,0140,142001230,gaggactcagccAtgtacttctgtg,gaggactcagccTtgtacttctgtg,missense,4.29e-06,rs373031358
-TRBV2,0141,142001231,aggactcagccaTgtacttctgtgc,aggactcagccaCgtacttctgtgc,missense,4.31e-06,.
-TRBV2,0142,142001242,atgtacttctgtGccagcagtgaag,atgtacttctgtTccagcagtgaag,missense,4.37e-06,.
-TRBV2,0143,142001246,acttctgtgccaGcagtgaagccac,acttctgtgccaTcagtgaagccac,missense,4.41e-06,.
-TRBV2,0144,142001247,cttctgtgccagCagtgaagccaca,cttctgtgccagAagtgaagccaca,missense,4.44e-06,.
-TRBV2,0145,142001250,ctgtgccagcagTgaagccacagcc,ctgtgccagcagGgaagccacagcc,missense,8.97e-06,.
-TRBV2,0146,142001253,tgccagcagtgaAgccacagccttg,tgccagcagtgaCgccacagccttg,missense,4.49e-06,.
-TRBV2,0147,142001254,gccagcagtgaaGccacagccttgc,gccagcagtgaaTccacagccttgc,incomplete terminal codon,1.98e-05,.
-TRBV2,0148,142001258,gcagtgaagccaCagccttgcaaag,gcagtgaagccaAagccttgcaaag,downstream gene,9.17e-06,rs373375169
-TRBV2,0149,142001259,cagtgaagccacAgccttgcaaaga,cagtgaagccacGgccttgcaaaga,downstream gene,4.67e-06,.
-TRBV2,0150,142001261,gtgaagccacagCcttgcaaagaca,gtgaagccacagTcttgcaaagaca,downstream gene,9.33e-06,.
-TRBV2,0151,142001264,aagccacagcctTgcaaagacaact,aagccacagcctCgcaaagacaact,downstream gene,8.31e-06,.
-TRBV2,0152,142001270,cagccttgcaaaGacaactccagcc,cagccttgcaaaAacaactccagcc,downstream gene,4.98e-06,.
-TRBV2,0153,142001270,cagccttgcaaaGacaactccagcc,cagccttgcaaaCacaactccagcc,downstream gene,4.98e-06,.
-TRBV2,0154,142001271,agccttgcaaagAcaactccagcct,agccttgcaaagGcaactccagcct,downstream gene,8.65e-06,.
-TRBV2,0155,142001271,agccttgcaaagAcaactccagcct,agccttgcaaagTcaactccagcct,downstream gene,4.97e-06,.
-TRBV2,0156,142001272,gccttgcaaagaCaactccagcctg,gccttgcaaagaAaactccagcctg,downstream gene,4.07e-05,rs776655307
-TRBV5-6,0001,142131364,caaggcaaagctAaggcaggaagtt,caaggcaaagctGaggcaggaagtt,downstream gene,5.66e-06,.
-TRBV5-6,0002,142131371,aagctaaggcagGaagtttatatac,aagctaaggcagAaagtttatatac,downstream gene,1.1e-05,.
-TRBV5-6,0003,142131388,ttatatacagaaCgtcagtgactct,ttatatacagaaTgtcagtgactct,downstream gene,0.000456,rs200456675
-TRBV5-6,0004,142131389,tatatacagaacGtcagtgactctg,tatatacagaacAtcagtgactctg,downstream gene,3.38e-05,rs369605010
-TRBV5-6,0005,142131389,tatatacagaacGtcagtgactctg,tatatacagaacCtcagtgactctg,downstream gene,4.83e-06,rs369605010
-TRBV5-6,0006,142131390,atatacagaacgTcagtgactctga,atatacagaacgCcagtgactctga,downstream gene,4.82e-06,.
-TRBV5-6,0007,142131401,gtcagtgactctGatgggctgtgcc,gtcagtgactctAatgggctgtgcc,downstream gene,8.98e-06,.
-TRBV5-6,0008,142131402,tcagtgactctgAtgggctgtgcca,tcagtgactctgCtgggctgtgcca,downstream gene,0.000193,rs781309363
-TRBV5-6,0009,142131402,tcagtgactctgAtgggctgtgcca,tcagtgactctgGtgggctgtgcca,downstream gene,4.5e-06,rs781309363
-TRBV5-6,0010,142131403,cagtgactctgaTgggctgtgccaa,cagtgactctgaCgggctgtgccaa,downstream gene,4.48e-06,.
-TRBV5-6,0011,142131405,gtgactctgatgGgctgtgccaagc,gtgactctgatgTgctgtgccaagc,downstream gene,4.43e-06,.
-TRBV5-6,0012,142131407,gactctgatgggCtgtgccaagctg,gactctgatgggGtgtgccaagctg,downstream gene,4.42e-06,.
-TRBV5-6,0013,142131408,actctgatgggcTgtgccaagctgc,actctgatgggcAgtgccaagctgc,downstream gene,4.41e-06,.
-TRBV5-6,0015,142131412,tgatgggctgtgCcaagctgctggc,tgatgggctgtgAcaagctgctggc,incomplete terminal codon,4.35e-06,rs373004633
-TRBV5-6,0016,142131412,tgatgggctgtgCcaagctgctggc,tgatgggctgtgTcaagctgctggc,incomplete terminal codon,0.000109,rs373004633
-TRBV5-6,0017,142131414,atgggctgtgccAagctgctggcac,atgggctgtgccCagctgctggcac,missense,8.66e-06,.
-TRBV5-6,0018,142131417,ggctgtgccaagCtgctggcacaga,ggctgtgccaagTtgctggcacaga,missense,4.31e-06,.
-TRBV5-6,0019,142131423,gccaagctgctgGcacagagataga,gccaagctgctgAcacagagataga,missense,4.27e-06,.
-TRBV5-6,0020,142131431,gctggcacagagAtagagggccgag,gctggcacagagTtagagggccgag,stop gained,4.23e-06,.
-TRBV5-6,0021,142131434,ggcacagagataGagggccgagtcc,ggcacagagataCagggccgagtcc,synonymous,0.00022,rs56063968
-TRBV5-6,0022,142131435,gcacagagatagAgggccgagtccc,gcacagagatagTgggccgagtccc,missense,8.88e-05,rs750974195
-TRBV5-6,0023,142131439,agagatagagggCcgagtcccccag,agagatagagggTcgagtcccccag,missense,4.22e-06,.
-TRBV5-6,0024,142131440,gagatagagggcCgagtcccccagc,gagatagagggcTgagtcccccagc,synonymous,4.22e-05,rs376080913
-TRBV5-6,0025,142131441,agatagagggccGagtcccccagca,agatagagggccAagtcccccagca,missense,8.43e-06,rs754204312
-TRBV5-6,0026,142131445,agagggccgagtCccccagcaacaa,agagggccgagtTccccagcaacaa,missense,1.26e-05,rs370489868
-TRBV5-6,0027,142131449,ggccgagtccccCagcaacaaggcg,ggccgagtccccTagcaacaaggcg,synonymous,4.63e-05,rs752782110
-TRBV5-6,0028,142131453,gagtcccccagcAacaaggcgttca,gagtcccccagcCacaaggcgttca,missense,0.0273,rs361336
-TRBV5-6,0029,142131453,gagtcccccagcAacaaggcgttca,gagtcccccagcTacaaggcgttca,stop gained,2.1e-05,rs361336
-TRBV5-6,0030,142131460,ccagcaacaaggCgttcacattcag,ccagcaacaaggAgttcacattcag,missense,4.2e-06,.
-TRBV5-6,0031,142131460,ccagcaacaaggCgttcacattcag,ccagcaacaaggTgttcacattcag,missense,1.26e-05,.
-TRBV5-6,0032,142131461,cagcaacaaggcGttcacattcagc,cagcaacaaggcAttcacattcagc,synonymous,0.00987,rs361335
-TRBV5-6,0033,142131464,caacaaggcgttCacattcagctca,caacaaggcgttTacattcagctca,synonymous,5.46e-05,rs773840103
-TRBV5-6,0034,142131479,attcagctcagaGctatagttaggg,attcagctcagaActatagttaggg,synonymous,4.19e-06,.
-TRBV5-6,0035,142131480,ttcagctcagagCtatagttaggga,ttcagctcagagTtatagttaggga,missense,1.26e-05,.
-TRBV5-6,0036,142131484,gctcagagctatAgttagggaactg,gctcagagctatGgttagggaactg,missense,8.39e-05,rs368407856
-TRBV5-6,0037,142131487,cagagctatagtTagggaactggtg,cagagctatagtCagggaactggtg,missense,1.26e-05,rs759789987
-TRBV5-6,0038,142131489,gagctatagttaGggaactggtgac,gagctatagttaCggaactggtgac,missense,4.61e-05,rs372426965
-TRBV5-6,0039,142131492,ctatagttagggAactggtgacctg,ctatagttagggTactggtgacctg,missense,0.0198,rs361334
-TRBV5-6,0040,142131495,tagttagggaacTggtgacctgaga,tagttagggaacAggtgacctgaga,missense,4.19e-06,.
-TRBV5-6,0041,142131502,ggaactggtgacCtgagaatcgatc,ggaactggtgacTtgagaatcgatc,missense,1.26e-05,.
-TRBV5-6,0042,142131510,tgacctgagaatCgatcagggaagt,tgacctgagaatTgatcagggaagt,missense,1.68e-05,.
-TRBV5-6,0043,142131511,gacctgagaatcGatcagggaagtt,gacctgagaatcAatcagggaagtt,stop gained,5.45e-05,rs55963817
-TRBV5-6,0044,142131511,gacctgagaatcGatcagggaagtt,gacctgagaatcCatcagggaagtt,missense,0.00735,rs55963817
-TRBV5-6,0045,142131511,gacctgagaatcGatcagggaagtt,gacctgagaatcTatcagggaagtt,synonymous,8.39e-05,rs55963817
-TRBV5-6,0046,142131518,gaatcgatcaggGAagttgcctctct,gaatcgatcaggGAagtgcctctct,frameshift,4.19e-06,.
-TRBV5-6,0047,142131520,atcgatcagggaAgttgcctctctg,atcgatcagggaCgttgcctctctg,missense,4.19e-06,.
-TRBV5-6,0048,142131520,atcgatcagggaAgttgcctctctg,atcgatcagggaGgttgcctctctg,missense,8.39e-06,.
-TRBV5-6,0049,142131536,gcctctctgtctCtcttcctcctca,gcctctctgtctAtcttcctcctca,missense,8.39e-06,.
-TRBV5-6,0050,142131536,gcctctctgtctCtcttcctcctca,gcctctctgtctGtcttcctcctca,missense,4.19e-06,.
-TRBV5-6,0051,142131544,gtctctcttcctCctcataatactg,gtctctcttcctTctcataatactg,missense,2.94e-05,rs757377667
-TRBV5-6,0052,142131545,tctctcttcctcCtcataatactga,tctctcttcctcTtcataatactga,synonymous,4.19e-06,.
-TRBV5-6,0053,142131549,tcttcctcctcaTaatactgaaaga,tcttcctcctcaCaatactgaaaga,missense,4.19e-06,.
-TRBV5-6,0054,142131554,ctcctcataataCtgaaagataaac,ctcctcataataAtgaaagataaac,missense,4.19e-06,rs375947690
-TRBV5-6,0055,142131558,tcataatactgaAagataaactggg,tcataatactgaGagataaactggg,missense,8.39e-06,rs369049240
-TRBV5-6,0056,142131564,tactgaaagataAactggggcccct,tactgaaagataCactggggcccct,missense,4.19e-06,.
-TRBV5-6,0057,142131566,ctgaaagataaaCtggggcccctga,ctgaaagataaaGtggggcccctga,missense,4.19e-06,.
-TRBV5-6,0058,142131571,agataaactgggGcccctgacccag,agataaactgggTcccctgacccag,missense,4.19e-06,.
-TRBV5-6,0059,142131573,ataaactggggcCcctgacccaggg,ataaactggggcTcctgacccaggg,missense,0.000273,rs371240407
-TRBV5-6,0060,142131574,taaactggggccCctgacccagggc,taaactggggccActgacccagggc,missense,8.39e-06,rs375436892
-TRBV5-6,0061,142131574,taaactggggccCctgacccagggc,taaactggggccTctgacccagggc,missense,0.000147,rs375436892
-TRBV5-6,0062,142131582,ggcccctgacccAgggcctgttggt,ggcccctgacccGgggcctgttggt,missense,1.68e-05,rs762002362
-TRBV5-6,0063,142131585,ccctgacccaggGcctgttggtacc,ccctgacccaggAcctgttggtacc,missense,4.19e-06,.
-TRBV5-6,0064,142131586,cctgacccagggCctgttggtacca,cctgacccagggTctgttggtacca,missense,8.39e-06,.
-TRBV5-6,0065,142131588,tgacccagggccTgttggtaccagg,tgacccagggccCgttggtaccagg,missense,1.26e-05,rs369808312
-TRBV5-6,0066,142131590,acccagggcctgTtggtaccaggac,acccagggcctgGtggtaccaggac,missense,4.19e-06,.
-TRBV5-6,0067,142131592,ccagggcctgttGgtaccaggacac,ccagggcctgttCgtaccaggacac,missense,4.19e-06,.
-TRBV5-6,0068,142131594,agggcctgttggTaccaggacacag,agggcctgttggCaccaggacacag,missense,1.68e-05,rs752477141
-TRBV5-6,0069,142131596,ggcctgttggtaCcaggacacagtg,ggcctgttggtaTcaggacacagtg,stop gained,4.19e-06,rs373263986
-TRBV5-6,0070,142131615,acagtgtcatgcCcagacttaggag,acagtgtcatgcAcagacttaggag,missense,1.26e-05,.
-TRBV5-6,0071,142131625,gcccagacttagGagagcatctcag,gcccagacttagAagagcatctcag,missense,1.68e-05,.
-TRBV5-6,0072,142131629,agacttaggagaGcatctcagagtc,agacttaggagaAcatctcagagtc,synonymous,4.19e-06,.
-TRBV5-6,0073,142131631,acttaggagagcAtctcagagtcac,acttaggagagcGtctcagagtcac,missense,4.19e-06,.
-TRBV5-6,0074,142131634,taggagagcatcTcagagtcacttg,taggagagcatcCcagagtcacttg,missense,4.19e-06,.
-TRBV5-6,0075,142131637,gagagcatctcaGagtcacttgctg,gagagcatctcaAagtcacttgctg,synonymous,4.19e-06,.
-TRBV5-6,0076,142131644,tctcagagtcacTtgctgtcctctc,tctcagagtcacGtgctgtcctctc,missense,2.52e-05,.
-TRBV5-6,0077,142131646,tcagagtcacttGctgtcctctcgt,tcagagtcacttActgtcctctcgt,stop gained,4.19e-06,.
-TRBV5-6,0078,142131649,gagtcacttgctGtcctctcgtttt,gagtcacttgctAtcctctcgtttt,stop gained,4.19e-06,.
-TRBV5-6,0079,142131656,ttgctgtcctctCgttttgatcagg,ttgctgtcctctTgttttgatcagg,synonymous,0.00329,rs141086683
-TRBV5-6,0080,142131657,tgctgtcctctcGttttgatcaggt,tgctgtcctctcAttttgatcaggt,missense,1.68e-05,rs765119804
-TRBV5-6,0081,142131657,tgctgtcctctcGttttgatcaggt,tgctgtcctctcTttttgatcaggt,missense,4.19e-06,.
-TRBV5-6,0082,142131659,ctgtcctctcgtTttgatcaggtgt,ctgtcctctcgtGttgatcaggtgt,missense,8.39e-06,.
-TRBV5-6,0083,142131663,cctctcgttttgAtcaggtgtgtgg,cctctcgttttgTtcaggtgtgtgg,missense,8.39e-06,.
-TRBV5-6,0084,142131664,ctctcgttttgaTcaggtgtgtggg,ctctcgttttgaGcaggtgtgtggg,missense,8.39e-06,.
-TRBV5-6,0085,142131665,tctcgttttgatCaggtgtgtggga,tctcgttttgatCAGGTaggtgtgtggga,frameshift,4.2e-06,.
-TRBV5-6,0086,142131670,ttttgatcaggtGtgtgggactttg,ttttgatcaggtAtgtgggactttg,missense,2.94e-05,.
-TRBV5-6,0087,142131672,ttgatcaggtgtGtgggactttggg,ttgatcaggtgtTtgggactttggg,missense,1.68e-05,.
-TRBV5-6,0089,142131685,tgggactttgggTgactccagcgtc,tgggactttgggGgactccagcgtc,missense,4.2e-06,.
-TRBV5-6,0090,142131687,ggactttgggtgActccagcgtcca,ggactttgggtgCctccagcgtcca,missense,8.4e-06,.
-TRBV5-6,0091,142131694,gggtgactccagCgtccactaagcc,gggtgactccagTgtccactaagcc,missense,1.68e-05,.
-TRBV5-6,0092,142131704,agcgtccactaaGcctgtgggaaaa,agcgtccactaaAcctgtgggaaaa,splice region,4.2e-06,.
-TRBV5-6,0093,142131705,gcgtccactaagCctgtgggaaaag,gcgtccactaagTctgtgggaaaag,missense,4.2e-06,.
-TRBV5-6,0094,142131707,gtccactaagccTgtgggaaaagca,gtccactaagccGgtgggaaaagca,splice acceptor,0.000988,rs189046786
-TRBV5-6,0095,142131712,ctaagcctgtggGAaaagcagatgga,ctaagcctgtggGAaaagcagagga,splice region,4.2e-06,.
-TRBV5-6,0096,142131721,tgggaaaagcagAtggaggatgagc,tgggaaaagcagGtggaggatgagc,intron,4.62e-05,.
-TRBV5-6,0097,142131722,gggaaaagcagaTggaggatgagca,gggaaaagcagaGggaggatgagca,intron,3.78e-05,rs370212550
-TRBV5-6,0098,142131730,cagatggaggatGagcacagggaca,cagatggaggatAagcacagggaca,intron,8.4e-06,.
-TRBV5-6,0099,142131732,gatggaggatgaGcacagggacagc,gatggaggatgaAcacagggacagc,intron,8.4e-06,.
-TRBV5-6,0100,142131739,gatgagcacaggGacagcctggagg,gatgagcacaggAacagcctggagg,intron,5.52e-06,.
-TRBV5-6,0101,142131741,tgagcacagggaCagcctggaggtc,tgagcacagggaTagcctggaggtc,intron,4.2e-06,.
-TRBV5-6,0102,142131749,gggacagcctggAggtcctccccaa,gggacagcctggGggtcctccccaa,intron,4.2e-06,.
-TRBV5-6,0103,142131751,gacagcctggagGtcctccccaagg,gacagcctggagAtcctccccaagg,intron,4.2e-06,.
-TRBV5-6,0104,142131780,gtggaggacacaGgggtgggaaagc,gtggaggacacaAgggtgggaaagc,intron,1.26e-05,.
-TRBV5-6,0105,142131782,ggaggacacaggGgtgggaaagctg,ggaggacacaggAgtgggaaagctg,intron,4.19e-06,.
-TRBV5-6,0106,142131783,gaggacacagggGtgggaaagctga,gaggacacagggTtgggaaagctga,intron,4.19e-06,rs745924492
-TRBV5-6,0107,142131785,ggacacaggggtGggaaagctgaga,ggacacaggggtAggaaagctgaga,intron,1.68e-05,.
-TRBV5-6,0108,142131791,aggggtgggaaaGctgagaatgggg,aggggtgggaaaActgagaatgggg,intron,4.19e-06,.
-TRBV5-6,0109,142131792,ggggtgggaaagCtgagaatggggc,ggggtgggaaagGtgagaatggggc,intron,8.39e-06,.
-TRBV5-6,0110,142131800,aaagctgagaatGgggctgctgtcc,aaagctgagaatAgggctgctgtcc,intron,4.19e-06,.
-TRBV5-6,0111,142131801,aagctgagaatgGggctgctgtcct,aagctgagaatgCggctgctgtcct,intron,0.000654,rs200291291
-TRBV5-6,0112,142131807,agaatggggctgCtgtcctgtgccc,agaatggggctgAtgtcctgtgccc,intron,8.39e-06,.
-TRBV5-6,0113,142131807,agaatggggctgCtgtcctgtgccc,agaatggggctgTtgtcctgtgccc,intron,4.19e-06,.
-TRBV5-6,0114,142131808,gaatggggctgcTgtcctgtgccca,gaatggggctgcCgtcctgtgccca,intron,5.45e-05,rs371249859
-TRBV5-6,0115,142131809,aatggggctgctGtcctgtgcccag,aatggggctgctCtcctgtgcccag,intron,4.19e-06,.
-TRBV5-6,0116,142131810,atggggctgctgTcctgtgcccagg,atggggctgctgCcctgtgcccagg,intron,4.19e-06,.
-TRBV5-6,0117,142131814,ggctgctgtcctGtgcccaggactc,ggctgctgtcctAtgcccaggactc,intron,4.19e-06,.
-TRBV5-6,0118,142131818,gctgtcctgtgcCcaggactcacct,gctgtcctgtgcTcaggactcacct,intron,4.19e-06,.
-TRBV5-6,0119,142131820,tgtcctgtgcccAggactcacctgc,tgtcctgtgcccGggactcacctgc,intron,0.000268,rs545099787
-TRBV5-6,0120,142131825,tgtgcccaggacTcacctgctccca,tgtgcccaggacAcacctgctccca,splice region,4.2e-06,.
-TRBV5-6,0121,142131827,tgcccaggactcAcctgctcccagg,tgcccaggactcGcctgctcccagg,splice donor,4.19e-06,.
-TRBV5-6,0122,142131829,cccaggactcacCtgctcccaggag,cccaggactcacGtgctcccaggag,missense,4.19e-06,.
-TRBV5-6,0123,142131830,ccaggactcaccTgctcccaggaga,ccaggactcaccGgctcccaggaga,splice region,4.2e-06,.
-TRBV5-6,0124,142131831,caggactcacctGctcccaggagac,caggactcacctActcccaggagac,missense,0.0016,rs758694947
-TRBV5-6,0125,142131837,tcacctgctcccAggagacaaagca,tcacctgctcccGggagacaaagca,missense,4.2e-06,.
-TRBV5-6,0126,142131839,acctgctcccagGagacaaagcagt,acctgctcccagAagacaaagcagt,synonymous,0.000155,.
-TRBV5-6,0127,142131843,gctcccaggagaCaaagcagtgccc,gctcccaggagaAaaagcagtgccc,missense,4.2e-06,.
-TRBV5-6,0128,142131843,gctcccaggagaCaaagcagtgccc,gctcccaggagaTaaagcagtgccc,missense,1.68e-05,.
-TRBV5-6,0129,142131844,ctcccaggagacAaagcagtgccca,ctcccaggagacCaagcagtgccca,missense,4.2e-06,.
-TRBV5-6,0130,142131844,ctcccaggagacAaagcagtgccca,ctcccaggagacGaagcagtgccca,missense,4.2e-06,.
-TRBV5-6,0131,142131847,ccaggagacaaaGcagtgcccagca,ccaggagacaaaAcagtgcccagca,missense,8.4e-05,rs368322921
-TRBV5-6,0132,142131848,caggagacaaagCagtgcccagcag,caggagacaaagGagtgcccagcag,synonymous,8.4e-05,rs760358877
-TRBV5-6,0133,142131851,gagacaaagcagTgcccagcagagg,gagacaaagcagCgcccagcagagg,synonymous,1.68e-05,.
-TRBV5-6,0134,142131852,agacaaagcagtGcccagcagagga,agacaaagcagtAcccagcagagga,missense,8.4e-06,.
-TRBV5-6,0135,142131860,cagtgcccagcaGaggagcccgggg,cagtgcccagcaTaggagcccgggg,synonymous,4.2e-06,.
-TRBV5-6,0136,142131863,tgcccagcagagGagcccggggccc,tgcccagcagagAagcccggggccc,synonymous,4.2e-06,.
-TRBV5-6,0137,142131866,ccagcagaggagCccggggcccatg,ccagcagaggagGccggggcccatg,synonymous,1.26e-05,rs371031893
-TRBV5-6,0138,142131866,ccagcagaggagCccggggcccatg,ccagcagaggagTccggggcccatg,synonymous,1.68e-05,rs371031893
-TRBV5-6,0139,142131869,gcagaggagcccGgggcccatggca,gcagaggagcccAgggcccatggca,synonymous,3.37e-05,rs374052253
-TRBV5-6,0140,142131869,gcagaggagcccGgggcccatggca,gcagaggagcccCgggcccatggca,synonymous,0.000152,rs374052253
-TRBV5-6,0141,142131874,ggagcccggggcCcatggcacagag,ggagcccggggcGcatggcacagag,missense,1.69e-05,.
-TRBV5-6,0142,142131882,gggcccatggcaCagagggacagga,gggcccatggcaTagagggacagga,5' UTR,3.8e-05,rs367865237
-TRBV5-6,0143,142131887,catggcacagagGgacaggaagcac,catggcacagagAgacaggaagcac,5' UTR,4.25e-06,.
-TRBV5-6,0144,142131925,gggcttggttctCctggggaagagc,gggcttggttctGctggggaagagc,upstream gene,4.58e-06,.
 TRBV5-5,*02-1,,gagaggacagcaAgtgactctgaga,gagaggacagcaCgtgactctgaga,,,
 TRBV5-5,*03-1,,ctcctatctctgGgcacaagagtgt,ctcctatctctgAgcacaagagtgt,,,
 TRBV5-5,0001,142148878,ctcaagtcaaagTtacggcaggaag,ctcaagtcaaagCtacggcaggaag,downstream gene,0.266,rs370978147
@@ -1777,164 +1585,11 @@ TRBV5-5,0147,142149420,gcagcactgcacCtgattcagggct,gcagcactgcacTtgattcagggct,upstr
 TRBV5-5,0148,142149429,cacctgattcagGgcttggtcctcc,cacctgattcagTgcttggtcctcc,upstream gene,4.23e-06,.
 TRBV5-5,0149,142149430,acctgattcaggGcttggtcctcct,acctgattcaggActtggtcctcct,upstream gene,8.03e-05,rs191942628
 TRBV5-5,0150,142149430,acctgattcaggGcttggtcctcct,acctgattcaggTcttggtcctcct,upstream gene,4.23e-06,rs191942628
-TRBV5-4,*02-1,,tccctaattataGctctgagctgaa,tccctaattataActctgagctgaa,,,
-TRBV5-4,0001,142168333,aagtcaaagctaAggcaggaagttt,aagtcaaagctaGggcaggaagttt,downstream gene,1e-05,.
-TRBV5-4,0002,142168334,agtcaaagctaaGgcaggaagttta,agtcaaagctaaCgcaggaagttta,downstream gene,4.95e-06,.
-TRBV5-4,0003,142168335,gtcaaagctaagGcaggaagtttat,gtcaaagctaagAcaggaagtttat,downstream gene,4.93e-06,.
-TRBV5-4,0004,142168336,tcaaagctaaggCaggaagtttatg,tcaaagctaaggAaggaagtttatg,downstream gene,4.93e-06,.
-TRBV5-4,0005,142168347,gcaggaagtttaTgtatagaatgtc,gcaggaagtttaGgtatagaatgtc,downstream gene,4.67e-06,.
-TRBV5-4,0006,142168350,ggaagtttatgtAtagaatgtcaga,ggaagtttatgtGtagaatgtcaga,downstream gene,0.00016,rs747646758
-TRBV5-4,0007,142168353,agtttatgtataGaatgtcagagac,agtttatgtataTaatgtcagagac,downstream gene,4.5e-06,rs773701767
-TRBV5-4,0008,142168356,ttatgtatagaaTgtcagagactct,ttatgtatagaaCgtcagagactct,downstream gene,4.46e-06,.
-TRBV5-4,0009,142168359,tgtatagaatgtCagagactctgcc,tgtatagaatgtTagagactctgcc,downstream gene,4.38e-06,.
-TRBV5-4,0010,142168375,gactctgccgggCtgtgccaagctg,gactctgccgggAtgtgccaagctg,downstream gene,4.26e-06,.
-TRBV5-4,0011,142168375,gactctgccgggCtgtgccaagctg,gactctgccgggTtgtgccaagctg,downstream gene,4.26e-06,.
-TRBV5-4,0012,142168379,ctgccgggctgtGccaagctgctgg,ctgccgggctgtCccaagctgctgg,downstream gene,4.24e-06,.
-TRBV5-4,0013,142168383,cgggctgtgccaAgctgctggcaca,cgggctgtgccaGgctgctggcaca,synonymous,4.23e-06,.
-TRBV5-4,0014,142168391,gccaagctgctgGcacagagataca,gccaagctgctgAcacagagataca,missense,8.42e-06,rs374249368
-TRBV5-4,0015,142168392,ccaagctgctggCacagagatacag,ccaagctgctggTacagagatacag,missense,4.21e-06,rs368162693
-TRBV5-4,0016,142168393,caagctgctggcAcagagatacagg,caagctgctggcCcagagatacagg,missense,4.21e-06,rs370309453
-TRBV5-4,0017,142168393,caagctgctggcAcagagatacagg,caagctgctggcGcagagatacagg,synonymous,0.000135,rs370309453
-TRBV5-4,0018,142168393,caagctgctggcAcagagatacagg,caagctgctggcTcagagatacagg,stop gained,4.21e-06,rs370309453
-TRBV5-4,0019,142168395,agctgctggcacAgagatacagggc,agctgctggcacGgagatacagggc,missense,7.16e-05,rs370382184
-TRBV5-4,0020,142168399,gctggcacagagAtacagggccgag,gctggcacagagGtacagggccgag,synonymous,8.4e-06,rs373833727
-TRBV5-4,0021,142168399,gctggcacagagAtacagggccgag,gctggcacagagTtacagggccgag,stop gained,4.2e-06,rs373833727
-TRBV5-4,0022,142168400,ctggcacagagaTacagggccgagt,ctggcacagagaCacagggccgagt,missense,4.2e-06,.
-TRBV5-4,0023,142168402,ggcacagagataCagggccgagtcg,ggcacagagataGagggccgagtcg,synonymous,3.36e-05,.
-TRBV5-4,0024,142168404,cacagagatacaGggccgagtcgtc,cacagagatacaAggccgagtcgtc,synonymous,8.39e-06,.
-TRBV5-4,0025,142168406,cagagatacaggGccgagtcgtcca,cagagatacaggAccgagtcgtcca,missense,4.2e-06,.
-TRBV5-4,0026,142168408,gagatacagggcCgagtcgtccagc,gagatacagggcTgagtcgtccagc,synonymous,9.23e-05,.
-TRBV5-4,0027,142168409,agatacagggccGagtcgtccagct,agatacagggccAagtcgtccagct,missense,0.000193,rs367757087
-TRBV5-4,0028,142168411,atacagggccgaGtcgtccagctcc,atacagggccgaCtcgtccagctcc,missense,4.2e-06,rs371234774
-TRBV5-4,0029,142168413,acagggccgagtCgtccagctccaa,acagggccgagtTgtccagctccaa,missense,8.39e-06,.
-TRBV5-4,0030,142168416,gggccgagtcgtCcagctccaaggc,gggccgagtcgtTcagctccaaggc,missense,8.39e-06,rs375537633
-TRBV5-4,0031,142168418,gccgagtcgtccAgctccaaggcat,gccgagtcgtccGgctccaaggcat,missense,4.2e-06,.
-TRBV5-4,0032,142168418,gccgagtcgtccAgctccaaggcat,gccgagtcgtccTgctccaaggcat,missense,2.94e-05,.
-TRBV5-4,0033,142168419,ccgagtcgtccaGctccaaggcatt,ccgagtcgtccaCctccaaggcatt,missense,4.2e-06,.
-TRBV5-4,0034,142168421,gagtcgtccagcTccaaggcattca,gagtcgtccagcAccaaggcattca,missense,4.2e-06,.
-TRBV5-4,0035,142168424,tcgtccagctccAaggcattcacat,tcgtccagctccGaggcattcacat,missense,1.26e-05,.
-TRBV5-4,0036,142168427,tccagctccaagGcattcacattca,tccagctccaagAcattcacattca,missense,0.000206,rs770998855
-TRBV5-4,0037,142168428,ccagctccaaggCattcacattcag,ccagctccaaggTattcacattcag,missense,8.39e-06,rs776776371
-TRBV5-4,0038,142168432,ctccaaggcattCacattcagctca,ctccaaggcattAacattcagctca,synonymous,6.29e-05,rs368544870
-TRBV5-4,0039,142168438,ggcattcacattCagctcagagcta,ggcattcacattTagctcagagcta,synonymous,4.19e-06,.
-TRBV5-4,0040,142168439,gcattcacattcAgctcagagctat,gcattcacattcTgctcagagctat,missense,8.39e-06,.
-TRBV5-4,0041,142168445,acattcagctcaGagctatcattag,acattcagctcaCagctatcattag,missense,4.19e-06,.
-TRBV5-4,0042,142168448,ttcagctcagagCtatcattaggga,ttcagctcagagTtatcattaggga,missense,3.77e-05,rs751070848
-TRBV5-4,0043,142168450,cagctcagagctAtcattagggaac,cagctcagagctGtcattagggaac,synonymous,8.39e-06,.
-TRBV5-4,0044,142168452,gctcagagctatCattagggaactg,gctcagagctatAattagggaactg,missense,0.991,rs361355
-TRBV5-4,0045,142168452,gctcagagctatCattagggaactg,gctcagagctatGattagggaactg,missense,4.19e-06,rs361355
-TRBV5-4,0046,142168461,tatcattagggaActggagacctga,tatcattagggaGctggagacctga,missense,1.26e-05,.
-TRBV5-4,0047,142168462,atcattagggaaCtggagacctgag,atcattagggaaAtggagacctgag,missense,8.39e-06,.
-TRBV5-4,0048,142168478,agacctgagaatCtaggagggaagt,agacctgagaatTtaggagggaagt,missense,4.19e-06,rs779210354
-TRBV5-4,0049,142168484,gagaatctaggaGggaagtttcctc,gagaatctaggaAggaagtttcctc,missense,4.19e-06,.
-TRBV5-4,0050,142168488,atctaggagggaAgtttcctctgcc,atctaggagggaGgtttcctctgcc,missense,4.19e-06,.
-TRBV5-4,0051,142168491,taggagggaagtTtcctctgccatt,taggagggaagtGtcctctgccatt,missense,4.19e-06,.
-TRBV5-4,0052,142168494,gagggaagtttcCtctgccattctc,gagggaagtttcTtctgccattctc,missense,0.000235,rs375542057
-TRBV5-4,0053,142168497,ggaagtttcctcTgccattctcttc,ggaagtttcctcCgccattctcttc,missense,4.19e-06,.
-TRBV5-4,0054,142168504,tcctctgccattCtcttcctcccta,tcctctgccattAtcttcctcccta,missense,4.19e-06,.
-TRBV5-4,0055,142168506,ctctgccattctCttcctccctata,ctctgccattctTttcctccctata,missense,0.000193,rs369547603
-TRBV5-4,0056,142168512,cattctcttcctCcctataatactg,cattctcttcctTcctataatactg,missense,0.00173,rs361354
-TRBV5-4,0057,142168513,attctcttcctcCctataatactga,attctcttcctcTctataatactga,synonymous,4.19e-06,.
-TRBV5-4,0058,142168517,tcttcctccctaTaatactgaaaga,tcttcctccctaGaatactgaaaga,missense,4.19e-06,.
-TRBV5-4,0059,142168528,ataatactgaaaGataaactggggc,ataatactgaaaAataaactggggc,synonymous,0.00373,rs11977127
-TRBV5-4,0060,142168539,agataaactgggGcccctgacccag,agataaactgggAcccctgacccag,missense,4.61e-05,rs368800410
-TRBV5-4,0061,142168547,tggggcccctgaCccagggcctgtt,tggggcccctgaGccagggcctgtt,missense,4.19e-06,.
-TRBV5-4,0062,142168549,gggcccctgaccCagggcctgttgg,gggcccctgaccGagggcctgttgg,synonymous,4.19e-06,.
-TRBV5-4,0063,142168550,ggcccctgacccAgggcctgttggt,ggcccctgacccTgggcctgttggt,missense,1.68e-05,.
-TRBV5-4,0064,142168551,gcccctgacccaGggcctgttggta,gcccctgacccaAggcctgttggta,synonymous,4.19e-06,.
-TRBV5-4,0065,142168552,cccctgacccagGgcctgttggtac,cccctgacccagTgcctgttggtac,synonymous,4.19e-06,.
-TRBV5-4,0066,142168553,ccctgacccaggGcctgttggtacc,ccctgacccaggAcctgttggtacc,missense,3.77e-05,rs761487633
-TRBV5-4,0067,142168558,acccagggcctgTtggtaccaggac,acccagggcctgCtggtaccaggac,synonymous,4.19e-06,rs199635193
-TRBV5-4,0069,142168561,cagggcctgttgGtaccaggacaca,cagggcctgttgTtaccaggacaca,stop gained,4.19e-06,.
-TRBV5-4,0070,142168570,ttggtaccaggaCacagtgttgtgc,ttggtaccaggaAacagtgttgtgc,synonymous,4.19e-06,.
-TRBV5-4,0071,142168571,tggtaccaggacAcagtgttgtgcc,tggtaccaggacCcagtgttgtgcc,missense,4.19e-06,rs200880146
-TRBV5-4,0072,142168572,ggtaccaggacaCagtgttgtgccc,ggtaccaggacaTagtgttgtgccc,missense,7.55e-05,rs369889647
-TRBV5-4,0073,142168581,acacagtgttgtGCccagactgagaa,acacagtgttgtCccagactgagaa,frameshift,4.19e-06,.
-TRBV5-4,0074,142168596,cagactgagaagAgcatctcagagt,cagactgagaagGgcatctcagagt,missense,2.1e-05,rs747250434
-TRBV5-4,0075,142168610,catctcagagtcActtgctgtcctc,catctcagagtcGcttgctgtcctc,missense,8.39e-06,rs768544039
-TRBV5-4,0076,142168612,tctcagagtcacTtgctgtcctctc,tctcagagtcacGtgctgtcctctc,missense,4.19e-06,rs774157174
-TRBV5-4,0077,142168615,cagagtcacttgCtgtcctctcgtt,cagagtcacttgTtgtcctctcgtt,synonymous,8.39e-06,.
-TRBV5-4,0078,142168624,ttgctgtcctctCgttttgatcagg,ttgctgtcctctAgttttgatcagg,synonymous,4.19e-05,rs772807796
-TRBV5-4,0079,142168625,tgctgtcctctcGttttgatcaggt,tgctgtcctctcAttttgatcaggt,missense,2.52e-05,.
-TRBV5-4,0080,142168629,gtcctctcgtttTgatcaggtgtgt,gtcctctcgtttCgatcaggtgtgt,missense,2.94e-05,rs373707148
-TRBV5-4,0081,142168630,tcctctcgttttGAtcaggtgtgtgg,tcctctcgttttGAcaggtgtgtgg,frameshift,2.52e-05,.
-TRBV5-4,0082,142168636,cgttttgatcagGtgtgtgggactt,cgttttgatcagAtgtgtgggactt,synonymous,0.000365,rs187985527
-TRBV5-4,0083,142168636,cgttttgatcagGtgtgtgggactt,cgttttgatcagTtgtgtgggactt,missense,1.68e-05,rs187985527
-TRBV5-4,0084,142168638,ttttgatcaggtGtgtgggactttg,ttttgatcaggtAtgtgggactttg,missense,4.19e-06,.
-TRBV5-4,0085,142168640,ttgatcaggtgtGtgggactttggg,ttgatcaggtgtAtgggactttggg,missense,1.26e-05,.
-TRBV5-4,0086,142168641,tgatcaggtgtgTgggactttgggt,tgatcaggtgtgCgggactttgggt,missense,5.45e-05,rs753116262
-TRBV5-4,0087,142168649,tgtgtgggacttTgggtgactccag,tgtgtgggacttCgggtgactccag,missense,4.2e-06,.
-TRBV5-4,0088,142168650,gtgtgggactttGggtgactccagc,gtgtgggactttTggtgactccagc,missense,2.1e-05,.
-TRBV5-4,0089,142168651,tgtgggactttgGgtgactccagcg,tgtgggactttgAgtgactccagcg,synonymous,1.68e-05,.
-TRBV5-4,0090,142168652,gtgggactttggGtgactccagcgt,gtgggactttggAtgactccagcgt,missense,1.26e-05,.
-TRBV5-4,0091,142168653,tgggactttgggTgactccagcgtc,tgggactttgggGgactccagcgtc,missense,8.4e-06,.
-TRBV5-4,0092,142168662,gggtgactccagCgtccactgagcc,gggtgactccagGgtccactgagcc,missense,4.2e-06,rs73742240
-TRBV5-4,0093,142168662,gggtgactccagCgtccactgagcc,gggtgactccagTgtccactgagcc,missense,0.991,rs73742240
-TRBV5-4,0094,142168663,ggtgactccagcGtccactgagcct,ggtgactccagcCtccactgagcct,missense,0.991,rs361352
-TRBV5-4,0095,142168667,actccagcgtccActgagcctgtgg,actccagcgtccGctgagcctgtgg,missense,2.1e-05,.
-TRBV5-4,0096,142168668,ctccagcgtccaCtgagcctgtggg,ctccagcgtccaAtgagcctgtggg,missense,4.2e-06,.
-TRBV5-4,0097,142168668,ctccagcgtccaCtgagcctgtggg,ctccagcgtccaTtgagcctgtggg,missense,4.2e-06,.
-TRBV5-4,0098,142168669,tccagcgtccacTgagcctgtggga,tccagcgtccacAgagcctgtggga,synonymous,2.1e-05,.
-TRBV5-4,0099,142168670,ccagcgtccactGagcctgtgggaa,ccagcgtccactAagcctgtgggaa,missense,4.2e-06,.
-TRBV5-4,0100,142168673,gcgtccactgagCctgtgggaaaag,gcgtccactgagTctgtgggaaaag,missense,4.2e-06,.
-TRBV5-4,0101,142168674,cgtccactgagcCtgtgggaaaagc,cgtccactgagcTtgtgggaaaagc,splice acceptor,4.2e-06,.
-TRBV5-4,0102,142168675,gtccactgagccTgtgggaaaagca,gtccactgagccCgtgggaaaagca,splice acceptor,2.52e-05,.
-TRBV5-4,0103,142168676,tccactgagcctGtgggaaaagcag,tccactgagcctAtgggaaaagcag,splice region,4.2e-06,.
-TRBV5-4,0104,142168683,agcctgtgggaaAagcagatggagg,agcctgtgggaaTagcagatggagg,intron,1.26e-05,rs776197102
-TRBV5-4,0105,142168685,cctgtgggaaaaGcagatggaggat,cctgtgggaaaaAcagatggaggat,intron,4.2e-06,.
-TRBV5-4,0106,142168689,tgggaaaagcagAtggaggatgagc,tgggaaaagcagTtggaggatgagc,intron,1.26e-05,.
-TRBV5-4,0107,142168690,gggaaaagcagaTggaggatgagca,gggaaaagcagaAggaggatgagca,intron,4.2e-06,.
-TRBV5-4,0108,142168695,aagcagatggagGatgagcacagca,aagcagatggagAatgagcacagca,intron,1.26e-05,rs375833786
-TRBV5-4,0109,142168697,gcagatggaggaTgagcacagcaga,gcagatggaggaCgagcacagcaga,intron,4.2e-06,.
-TRBV5-4,0110,142168698,cagatggaggatGagcacagcagaa,cagatggaggatAagcacagcagaa,intron,5.46e-05,rs764402400
-TRBV5-4,0111,142168700,gatggaggatgaGcacagcagaaag,gatggaggatgaAcacagcagaaag,intron,8.4e-06,.
-TRBV5-4,0112,142168703,ggaggatgagcaCagcagaaagcct,ggaggatgagcaTagcagaaagcct,intron,2.52e-05,.
-TRBV5-4,0113,142168706,ggatgagcacagCagaaagcctgga,ggatgagcacagAagaaagcctgga,intron,4.21e-06,.
-TRBV5-4,0114,142168706,ggatgagcacagCagaaagcctgga,ggatgagcacagTagaaagcctgga,intron,4.21e-06,.
-TRBV5-4,0115,142168708,atgagcacagcaGaaagcctggagg,atgagcacagcaTaaagcctggagg,intron,4.2e-06,.
-TRBV5-4,0116,142168714,acagcagaaagcCtggaggtcctcc,acagcagaaagcGtggaggtcctcc,intron,8.4e-06,.
-TRBV5-4,0117,142168715,cagcagaaagccTggaggtcctccc,cagcagaaagccCggaggtcctccc,intron,1.68e-05,rs746759521
-TRBV5-4,0118,142168721,aaagcctggaggTcctccccaaggt,aaagcctggaggAcctccccaaggt,intron,4.2e-06,rs373673952
-TRBV5-4,0119,142168722,aagcctggaggtCctccccaaggta,aagcctggaggtTctccccaaggta,intron,4.2e-06,.
-TRBV5-4,0120,142168747,aagtggaggacaTgggtgggaaagc,aagtggaggacaCgggtgggaaagc,intron,2.1e-05,.
-TRBV5-4,0121,142168747,aagtggaggacaTgggtgggaaagc,aagtggaggacaGgggtgggaaagc,intron,8.4e-06,rs561040560
-TRBV5-4,0122,142168752,gaggacatgggtGggaaagctgaga,gaggacatgggtAggaaagctgaga,intron,4.2e-06,.
-TRBV5-4,0123,142168757,catgggtgggaaAgctgagaatggg,catgggtgggaaGgctgagaatggg,intron,4.2e-06,.
-TRBV5-4,0124,142168773,gagaatggggctGctgtcctgtgcc,gagaatggggctActgtcctgtgcc,intron,4.2e-06,.
-TRBV5-4,0125,142168774,agaatggggctgCtgtcctgtgccc,agaatggggctgGtgtcctgtgccc,intron,4.2e-06,.
-TRBV5-4,0126,142168779,ggggctgctgtcCtgtgcccaggac,ggggctgctgtcTtgtgcccaggac,intron,7.55e-05,rs769473742
-TRBV5-4,0127,142168781,ggctgctgtcctGtgcccaggactc,ggctgctgtcctAtgcccaggactc,intron,4.2e-06,rs200076352
-TRBV5-4,0128,142168781,ggctgctgtcctGtgcccaggactc,ggctgctgtcctCtgcccaggactc,intron,0.0046,rs200076352
-TRBV5-4,0129,142168787,tgtcctgtgcccAggactcacctgc,tgtcctgtgcccGggactcacctgc,intron,4.2e-06,.
-TRBV5-4,0130,142168791,ctgtgcccaggaCtcacctgctccc,ctgtgcccaggaTtcacctgctccc,splice region,3.36e-05,.
-TRBV5-4,0131,142168801,gactcacctgctCccaggagacaaa,gactcacctgctTccaggagacaaa,missense,8.4e-06,.
-TRBV5-4,0132,142168806,acctgctcccagGagacaaagcagc,acctgctcccagAagacaaagcagc,synonymous,0.0129,rs111693797
-TRBV5-4,0133,142168806,acctgctcccagGagacaaagcagc,acctgctcccagCagacaaagcagc,synonymous,4.2e-06,rs111693797
-TRBV5-4,0134,142168810,gctcccaggagaCaaagcagcgccc,gctcccaggagaTaaagcagcgccc,missense,2.94e-05,rs758292349
-TRBV5-4,0135,142168817,ggagacaaagcaGcgcccagcagag,ggagacaaagcaAcgcccagcagag,synonymous,4.21e-06,rs375338481
-TRBV5-4,0136,142168819,agacaaagcagcGcccagcagagga,agacaaagcagcAcccagcagagga,missense,0.633,rs361350
-TRBV5-4,0137,142168820,gacaaagcagcgCccagcagaggag,gacaaagcagcgTccagcagaggag,missense,1.27e-05,.
-TRBV5-4,0138,142168822,caaagcagcgccCagcagaggagcc,caaagcagcgccAagcagaggagcc,missense,8.44e-06,rs368328327
-TRBV5-4,0139,142168824,aagcagcgcccaGcagaggagccca,aagcagcgcccaCcagaggagccca,missense,4.22e-06,.
-TRBV5-4,0140,142168832,cccagcagaggaGcccagggcccat,cccagcagaggaCcccagggcccat,missense,3.39e-05,rs755784752
-TRBV5-4,0141,142168836,gcagaggagcccAgggcccatggca,gcagaggagcccGgggcccatggca,synonymous,0.00505,rs374978025
-TRBV5-4,0142,142168842,gagcccagggccCatggcacagtgg,gagcccagggccTatggcacagtgg,start lost,1.27e-05,rs748594113
-TRBV5-4,0143,142168844,gcccagggcccaTggcacagtgggc,gcccagggcccaCggcacagtgggc,start lost,4.24e-05,rs537789143
-TRBV5-4,0144,142168844,gcccagggcccaTggcacagtgggc,gcccagggcccaGggcacagtgggc,start lost,4.24e-06,.
-TRBV5-4,0145,142168846,ccagggcccatgGcacagtgggcca,ccagggcccatgTcacagtgggcca,5' UTR,2.55e-05,.
-TRBV5-4,0146,142168851,gcccatggcacaGtgggccaggcag,gcccatggcacaCtgggccaggcag,5' UTR,4.24e-06,.
-TRBV5-4,0147,142168853,ccatggcacagtGggccaggcagca,ccatggcacagtTggccaggcagca,5' UTR,4.25e-06,.
-TRBV5-4,0148,142168855,atggcacagtggGccaggcagcact,atggcacagtggAccaggcagcact,5' UTR,1.28e-05,.
-TRBV5-4,0149,142168856,tggcacagtgggCcaggcagcactg,tggcacagtgggGcaggcagcactg,5' UTR,0.944,rs73742239
-TRBV5-4,0150,142168862,agtgggccaggcAgcactgcacctg,agtgggccaggcGgcactgcacctg,5' UTR,0.0342,rs759726448
-TRBV5-4,0151,142168890,cagggcttggtcCtcctggggaaga,cagggcttggtcTtcctggggaaga,5' UTR,0.0451,rs767448033
-TRBV5-4,0152,142168891,agggcttggtccTcctggggaagag,agggcttggtccCcctggggaagag,5' UTR,4.37e-06,.
-TRBV5-3,*02-1,,agttccatgactGttgctctgagat,agttccatgactAttgctctgagat,,,
 TRBV5-1,*02-2,,aAggctggAgtcactcaaact,aGggctggGgtcactcaaact,,,
-TRBV5-1,*02-3,,caaactccaagaTatctgatcaaaa,caaactccaagaCatctgatcaaaa,,,
+TRBV5-1,*02-3,142021105,caaactccaagaTatctgatcaaaa,caaactccaagaCatctgatcaaaa,missense,2.62e-05,rs761231585
 TRBV5-1,*02-4,,caagtgacactgAgctgctccccta,caagtgacactgGgctgctccccta,,,
 TRBV5-1,*02-5,,accaacagacccCaggacagggcct,accaacagacccTaggacagggcct,,,
-TRBV5-1,*02-6,,aaggaaacttccCtggtcgattctc,aaggaaacttccTtggtcgattctc,,,
+TRBV5-1,*02-6,142021259,aaggaaacttccCtggtcgattctc,aaggaaacttccTtggtcgattctc,missense,7.45e-06,rs370038879
 TRBV5-1,0001,142020479,tcagagatgcaaTgcccaaaacccc,tcagagatgcaaCgcccaaaacccc,upstream gene,0.000232,.
 TRBV5-1,0002,142020481,agagatgcaatgCccaaaaccccag,agagatgcaatgAccaaaaccccag,upstream gene,3.31e-05,.
 TRBV5-1,0003,142020495,caaaaccccagcTctcagaggacca,caaaaccccagcGctcagaggacca,upstream gene,0.0167,rs78648202
@@ -2013,7 +1668,6 @@ TRBV5-1,0075,142021084,ccagtaaaggctGgagtcactcaaa,ccagtaaaggctAgagtcactcaaa,misse
 TRBV5-1,0076,142021088,taaaggctggagTcactcaaactcc,taaaggctggagCcactcaaactcc,missense,3.31e-05,.
 TRBV5-1,0077,142021089,aaaggctggagtCactcaaactcca,aaaggctggagtTactcaaactcca,synonymous,4.23e-06,.
 TRBV5-1,0078,142021101,cactcaaactccAagatatctgatc,cactcaaactccGagatatctgatc,synonymous,6.61e-05,.
-TRBV5-1,0079,142021105,caaactccaagaTatctgatcaaaa,caaactccaagaCatctgatcaaaa,missense,2.62e-05,rs761231585
 TRBV5-1,0080,142021108,actccaagatatCtgatcaaaacga,actccaagatatAtgatcaaaacga,missense,8.43e-06,.
 TRBV5-1,0081,142021109,ctccaagatatcTgatcaaaacgag,ctccaagatatcCgatcaaaacgag,missense,3.3e-05,.
 TRBV5-1,0082,142021113,aagatatctgatCaaaacgagagga,aagatatctgatAaaaacgagagga,synonymous,3.37e-05,.
@@ -2056,7 +1710,6 @@ TRBV5-1,0118,142021248,acagagaaacaaAggaaacttccct,acagagaaacaaGggaaacttccct,synon
 TRBV5-1,0119,142021255,aacaaaggaaacTtccctggtcgat,aacaaaggaaacAtccctggtcgat,missense,3.31e-05,.
 TRBV5-1,0120,142021258,aaaggaaacttcCctggtcgattct,aaaggaaacttcTctggtcgattct,missense,1.68e-05,.
 TRBV5-1,0121,142021259,aaggaaacttccCtggtcgattctc,aaggaaacttccGtggtcgattctc,missense,1.12e-05,rs370038879
-TRBV5-1,0122,142021259,aaggaaacttccCtggtcgattctc,aaggaaacttccTtggtcgattctc,missense,7.45e-06,rs370038879
 TRBV5-1,0123,142021260,aggaaacttcccTggtcgattctca,aggaaacttcccCggtcgattctca,synonymous,1.26e-05,.
 TRBV5-1,0124,142021264,aacttccctggtCgattctcagggc,aacttccctggtAgattctcagggc,synonymous,4.1e-05,rs775968652
 TRBV5-1,0125,142021264,aacttccctggtCgattctcagggc,aacttccctggtGgattctcagggc,missense,4.2e-06,.
@@ -2450,166 +2103,6 @@ TRBV27,0173,142423753,agaacaaggagaCtcctccttcagg,agaacaaggagaTtcctccttcagg,downst
 TRBV27,0174,142423756,acaaggagactcCtccttcaggaga,acaaggagactcTtccttcaggaga,downstream gene,5.91e-06,.
 TRBV27,0175,142423757,caaggagactccTccttcaggagac,caaggagactccCccttcaggagac,downstream gene,0.00138,rs555772225
 TRBV27,0176,142423759,aggagactcctcCttcaggagaccc,aggagactcctcTttcaggagaccc,downstream gene,4.94e-05,.
-TRBV23/OR9-2,*02-1,,tgccccaagaacCcaccctgcagcc,tgccccaagaacGcaccctgcagcc,,,
-TRBV3-2,*02-1,,ctccagacaaagCtcatttaaatct,ctccagacaaagTtcatttaaatct,,,
-TRBV3-2,*03-1,,tggtcacacagaTgggaaaaaagga,tggtcacacagaCgggaaaaaagga,,,
-TRBV3-2,*03-2,,ctccagacaaagCtcatttaaatct,ctccagacaaagTtcatttaaatct,,,
-TRBV29-1,*02-1,,taacattctcaaCtctgactgtgag,taacattctcaaGtctgactgtgag,,,
-TRBV29-1,0001,142448036,aaacagagtgggAaggaactacgct,aaacagagtgggGaggaactacgct,upstream gene,3.31e-05,.
-TRBV29-1,0002,142448045,gggaaggaactaCgctgtaggaagg,gggaaggaactaTgctgtaggaagg,upstream gene,0.000331,rs368122405
-TRBV29-1,0003,142448063,aggaaggaaagaTgaacttgagttt,aggaaggaaagaCgaacttgagttt,5' UTR,3.31e-05,.
-TRBV29-1,0004,142448080,ttgagtttcactTcttagtgccttt,ttgagtttcactCcttagtgccttt,5' UTR,6.6e-06,.
-TRBV29-1,0005,142448081,tgagtttcacttCttagtgcctttt,tgagtttcacttTttagtgcctttt,5' UTR,2.63e-05,rs372083527
-TRBV29-1,0006,142448086,ttcacttcttagTgccttttctcag,ttcacttcttagGgccttttctcag,5' UTR,1.29e-05,.
-TRBV29-1,0007,142448088,cacttcttagtgCcttttctcaggg,cacttcttagtgTcttttctcaggg,5' UTR,0.000156,rs535389084
-TRBV29-1,0008,142448107,tcaggggagaggCcatcacttgaag,tcaggggagaggTcatcacttgaag,5' UTR,6.63e-05,.
-TRBV29-1,0009,142448111,gggagaggccatCacttgaagatgc,gggagaggccatGacttgaagatgc,5' UTR,3.95e-05,rs376710711
-TRBV29-1,0010,142448114,agaggccatcacTtgaagatgctga,agaggccatcacGtgaagatgctga,5' UTR,1.15e-05,rs367783161
-TRBV29-1,0011,142448115,gaggccatcactTgaagatgctgag,gaggccatcactGgaagatgctgag,5' UTR,3.31e-05,.
-TRBV29-1,0012,142448121,atcacttgaagaTgctgagtcttct,atcacttgaagaCgctgagtcttct,start lost,5.6e-06,.
-TRBV29-1,0013,142448126,ttgaagatgctgAgtcttctgctcc,ttgaagatgctgTgtcttctgctcc,missense,5.53e-06,.
-TRBV29-1,0014,142448134,gctgagtcttctGctccttctcctg,gctgagtcttctActccttctcctg,synonymous,2.19e-05,.
-TRBV29-1,0015,142448135,ctgagtcttctgCtccttctcctgg,ctgagtcttctgAtccttctcctgg,missense,1.64e-05,.
-TRBV29-1,0016,142448145,tgctccttctccTgggactaggtat,tgctccttctccAgggactaggtat,missense,1.41e-05,rs361328
-TRBV29-1,0017,142448146,gctccttctcctGggactaggtatg,gctccttctcctCggactaggtatg,synonymous,4.94e-05,.
-TRBV29-1,0018,142448147,ctccttctcctgGgactaggtatga,ctccttctcctgAgactaggtatga,missense,5.49e-06,.
-TRBV29-1,0019,142448148,tccttctcctggGactaggtatgag,tccttctcctggAactaggtatgag,missense,3.32e-05,rs370553205
-TRBV29-1,0020,142448149,ccttctcctgggActaggtatgagc,ccttctcctgggGctaggtatgagc,synonymous,5.54e-06,.
-TRBV29-1,0021,142448154,tcctgggactagGtatgagccttgt,tcctgggactagAtatgagccttgt,splice donor,3.34e-05,.
-TRBV29-1,0022,142448157,tgggactaggtaTgagccttgtctt,tgggactaggtaAgagccttgtctt,splice region,5.64e-06,.
-TRBV29-1,0023,142448161,actaggtatgagCcttgtcttttga,actaggtatgagActtgtcttttga,splice region,1.72e-05,.
-TRBV29-1,0024,142448161,actaggtatgagCcttgtcttttga,actaggtatgagTcttgtcttttga,splice region,8.03e-05,.
-TRBV29-1,0025,142448166,gtatgagccttgTcttttgaggagt,gtatgagccttgCcttttgaggagt,intron,2.93e-05,.
-TRBV29-1,0026,142448167,tatgagccttgtCttttgaggagtc,tatgagccttgtTttttgaggagtc,intron,5.89e-06,.
-TRBV29-1,0027,142448172,gccttgtcttttGaggagtctgggg,gccttgtcttttTaggagtctgggg,intron,1.83e-05,.
-TRBV29-1,0028,142448178,tcttttgaggagTctggggttaatg,tcttttgaggagGctggggttaatg,intron,5.48e-05,.
-TRBV29-1,0029,142448180,ttttgaggagtcTGgggttaatgtta,ttttgaggagtcTgggttaatgtta,intron,6.52e-05,rs751357713
-TRBV29-1,0030,142448181,tttgaggagtctGgggttaatgtta,tttgaggagtctTgggttaatgtta,intron,1.28e-05,.
-TRBV29-1,0031,142448183,tgaggagtctggGgttaatgttaac,tgaggagtctggAgttaatgttaac,intron,1.88e-05,.
-TRBV29-1,0032,142448184,gaggagtctgggGttaatgttaaca,gaggagtctgggAttaatgttaaca,intron,6.61e-06,.
-TRBV29-1,0033,142448199,aatgttaacactGGGTGGAAAggtggaaagact,aatgttaacactGGgtggaaagact,intron,0.51,rs201198343
-TRBV29-1,0034,142448203,ttaacactgggtGgaaaggtggaaa,ttaacactgggtAgaaaggtggaaa,intron,6.79e-06,.
-TRBV29-1,0035,142448373,gataaagcagagACcttcctgcctgg,gataaagcagagActtcctgcctgg,intron,9.14e-06,.
-TRBV29-1,0036,142448375,taaagcagagacCttcctgcctggg,taaagcagagacAttcctgcctggg,intron,1.36e-05,.
-TRBV29-1,0037,142448382,gagaccttcctgCctggggagatgt,gagaccttcctgTctggggagatgt,intron,3.31e-05,.
-TRBV29-1,0038,142448388,ttcctgcctgggGagatgtctgacc,ttcctgcctgggAagatgtctgacc,intron,4.38e-06,.
-TRBV29-1,0039,142448392,tgcctggggagaTgtctgaccccaa,tgcctggggagaGgtctgaccccaa,intron,3.32e-05,rs751067230
-TRBV29-1,0040,142448393,gcctggggagatGtctgaccccaag,gcctggggagatAtctgaccccaag,intron,4.34e-06,.
-TRBV29-1,0041,142448397,ggggagatgtctGaccccaagcttg,ggggagatgtctCaccccaagcttg,intron,1.53e-05,rs371758793
-TRBV29-1,0042,142448399,ggagatgtctgaCcccaagcttgtc,ggagatgtctgaAcccaagcttgtc,intron,8.62e-06,.
-TRBV29-1,0043,142448399,ggagatgtctgaCcccaagcttgtc,ggagatgtctgaTcccaagcttgtc,intron,7.63e-06,rs767999064
-TRBV29-1,0044,142448403,atgtctgaccccAagcttgtcggtc,atgtctgaccccCagcttgtcggtc,intron,1.52e-05,rs780538981
-TRBV29-1,0045,142448404,tgtctgaccccaAgcttgtcggtcc,tgtctgaccccaGgcttgtcggtcc,intron,0.00162,rs139379949
-TRBV29-1,0046,142448411,ccccaagcttgtCggtcctcatgaa,ccccaagcttgtAggtcctcatgaa,intron,4.25e-06,rs370088642
-TRBV29-1,0047,142448411,ccccaagcttgtCggtcctcatgaa,ccccaagcttgtTggtcctcatgaa,intron,4.25e-06,rs370088642
-TRBV29-1,0048,142448412,cccaagcttgtcGgtcctcatgaat,cccaagcttgtcAgtcctcatgaat,intron,8.48e-06,.
-TRBV29-1,0049,142448416,agcttgtcggtcCtcatgaatatct,agcttgtcggtcTtcatgaatatct,intron,0.00027,rs184589109
-TRBV29-1,0050,142448418,cttgtcggtcctCatgaatatctct,cttgtcggtcctTatgaatatctct,intron,4.22e-06,.
-TRBV29-1,0051,142448426,tcctcatgaataTctctctggaact,tcctcatgaataActctctggaact,intron,4.21e-06,.
-TRBV29-1,0052,142448427,cctcatgaatatCtctctggaacta,cctcatgaatatAtctctggaacta,intron,4.21e-06,.
-TRBV29-1,0053,142448430,catgaatatctcTctggaactaggc,catgaatatctcCctggaactaggc,intron,3.32e-05,.
-TRBV29-1,0054,142448438,tctctctggaacTaggctctgtgtt,tctctctggaacCaggctctgtgtt,splice region,0.000231,rs375187325
-TRBV29-1,0055,142448438,tctctctggaacTaggctctgtgtt,tctctctggaacGaggctctgtgtt,splice region,8.4e-06,rs375187325
-TRBV29-1,0056,142448442,tctggaactaggCtctgtgttcagt,tctggaactaggTtctgtgttcagt,splice region,4.2e-06,rs369390159
-TRBV29-1,0057,142448444,tggaactaggctCtgtgttcagtgc,tggaactaggctTtgtgttcagtgc,missense,7.46e-06,rs761345164
-TRBV29-1,0058,142448445,ggaactaggctcTgtgttcagtgct,ggaactaggctcCgtgttcagtgct,synonymous,4.62e-05,.
-TRBV29-1,0059,142448454,ctctgtgttcagTgctgtcatctct,ctctgtgttcagCgctgtcatctct,synonymous,4.2e-06,.
-TRBV29-1,0060,142448459,tgttcagtgctgTcatctctcaaaa,tgttcagtgctgCcatctctcaaaa,missense,6.65e-05,.
-TRBV29-1,0061,142448460,gttcagtgctgtCatctctcaaaag,gttcagtgctgtTatctctcaaaag,synonymous,4.2e-06,.
-TRBV29-1,0062,142448461,ttcagtgctgtcAtctctcaaaagc,ttcagtgctgtcGtctctcaaaagc,missense,1.12e-05,.
-TRBV29-1,0063,142448472,catctctcaaaaGccaagcagggat,catctctcaaaaCccaagcagggat,missense,1.12e-05,rs372904157
-TRBV29-1,0064,142448473,atctctcaaaagCcaagcagggata,atctctcaaaagTcaagcagggata,missense,4.2e-06,.
-TRBV29-1,0065,142448478,tcaaaagccaagCagggatatctgt,tcaaaagccaagAagggatatctgt,missense,4.19e-06,rs375871498
-TRBV29-1,0066,142448478,tcaaaagccaagCagggatatctgt,tcaaaagccaagTagggatatctgt,synonymous,2.1e-05,rs375871498
-TRBV29-1,0067,142448483,agccaagcagggAtatctgtcaacg,agccaagcagggGtatctgtcaacg,missense,0.000113,.
-TRBV29-1,0068,142448484,gccaagcagggaTatctgtcaacgt,gccaagcagggaCatctgtcaacgt,synonymous,6.29e-05,.
-TRBV29-1,0069,142448486,caagcagggataTctgtcaacgtgg,caagcagggataCctgtcaacgtgg,missense,8.39e-06,.
-TRBV29-1,0070,142448494,gatatctgtcaaCgtggaacctccc,gatatctgtcaaAgtggaacctccc,missense,4.19e-06,rs369087862
-TRBV29-1,0071,142448494,gatatctgtcaaCgtggaacctccc,gatatctgtcaaTgtggaacctccc,missense,4.1e-05,rs369087862
-TRBV29-1,0072,142448497,atctgtcaacgtGgaacctccctga,atctgtcaacgtAgaacctccctga,missense,5.21e-05,rs373010776
-TRBV29-1,0073,142448510,gaacctccctgaCgatccagtgtca,gaacctccctgaAgatccagtgtca,missense,4.19e-06,.
-TRBV29-1,0074,142448510,gaacctccctgaCgatccagtgtca,gaacctccctgaTgatccagtgtca,missense,8.39e-06,.
-TRBV29-1,0075,142448511,aacctccctgacGatccagtgtcaa,aacctccctgacAatccagtgtcaa,synonymous,0.000108,rs570979355
-TRBV29-1,0076,142448511,aacctccctgacGatccagtgtcaa,aacctccctgacCatccagtgtcaa,synonymous,4.19e-06,.
-TRBV29-1,0077,142448513,cctccctgacgaTccagtgtcaagt,cctccctgacgaAccagtgtcaagt,missense,4.19e-06,.
-TRBV29-1,0078,142448526,ccagtgtcaagtCgatagccaagtc,ccagtgtcaagtTgatagccaagtc,synonymous,4.61e-05,.
-TRBV29-1,0079,142448527,cagtgtcaagtcGatagccaagtca,cagtgtcaagtcAatagccaagtca,missense,0.00019,rs550118360
-TRBV29-1,0080,142448536,gtcgatagccaaGtcaccatgatgt,gtcgatagccaaAtcaccatgatgt,missense,0.000115,rs377067576
-TRBV29-1,0081,142448543,gccaagtcaccaTgatgttctggta,gccaagtcaccaCgatgttctggta,missense,8.39e-06,.
-TRBV29-1,0082,142448550,caccatgatgttCtggtaccgtcag,caccatgatgttTtggtaccgtcag,synonymous,4.19e-06,.
-TRBV29-1,0083,142448551,accatgatgttcTggtaccgtcagc,accatgatgttcCggtaccgtcagc,missense,6.62e-05,rs371471590
-TRBV29-1,0084,142448551,accatgatgttcTGGTACCgtcagcaacctg,accatgatgttcTGtcagcaacctg,inframe deletion,1.26e-05,.
-TRBV29-1,0085,142448553,catgatgttctgGtaccgtcagcaa,catgatgttctgAtaccgtcagcaa,stop gained,3.78e-05,.
-TRBV29-1,0086,142448556,gatgttctggtaCcgtcagcaacct,gatgttctggtaTcgtcagcaacct,synonymous,4.2e-06,.
-TRBV29-1,0087,142448557,atgttctggtacCgtcagcaacctg,atgttctggtacTgtcagcaacctg,missense,1.26e-05,.
-TRBV29-1,0088,142448558,tgttctggtaccGtcagcaacctgg,tgttctggtaccAtcagcaacctgg,missense,5.96e-05,rs375926475
-TRBV29-1,0089,142448566,taccgtcagcaaCctggacagagcc,taccgtcagcaaGctggacagagcc,missense,4.2e-06,.
-TRBV29-1,0090,142448566,taccgtcagcaaCctggacagagcc,taccgtcagcaaTctggacagagcc,missense,4.2e-06,.
-TRBV29-1,0091,142448569,cgtcagcaacctGgacagagcctga,cgtcagcaacctAgacagagcctga,missense,0.000155,rs144203472
-TRBV29-1,0092,142448571,tcagcaacctggAcagagcctgaca,tcagcaacctggGcagagcctgaca,synonymous,8.39e-06,.
-TRBV29-1,0093,142448573,agcaacctggacAgagcctgacact,agcaacctggacGgagcctgacact,missense,1.68e-05,.
-TRBV29-1,0094,142448577,acctggacagagCctgacactgatc,acctggacagagGctgacactgatc,missense,4.2e-06,.
-TRBV29-1,0095,142448586,gagcctgacactGatcgcaactgca,gagcctgacactTatcgcaactgca,synonymous,4.2e-06,.
-TRBV29-1,0096,142448590,ctgacactgatcGcaactgcaaatc,ctgacactgatcAcaactgcaaatc,missense,1.86e-05,rs377648489
-TRBV29-1,0097,142448593,acactgatcgcaActgcaaatcagg,acactgatcgcaGctgcaaatcagg,missense,4.2e-06,.
-TRBV29-1,0098,142448607,tgcaaatcagggCtctgaggccaca,tgcaaatcagggTtctgaggccaca,synonymous,2.1e-05,.
-TRBV29-1,0099,142448609,caaatcagggctCtgaggccacata,caaatcagggctGtgaggccacata,missense,4.2e-06,.
-TRBV29-1,0100,142448614,cagggctctgagGccacatatgaga,cagggctctgagAccacatatgaga,missense,4.2e-06,.
-TRBV29-1,0101,142448615,agggctctgaggCcacatatgagag,agggctctgaggAcacatatgagag,missense,4.2e-06,.
-TRBV29-1,0102,142448616,gggctctgaggcCacatatgagagt,gggctctgaggcTacatatgagagt,synonymous,1.12e-05,rs754848052
-TRBV29-1,0103,142448620,tctgaggccacaTatgagagtggat,tctgaggccacaCatgagagtggat,missense,4.2e-06,.
-TRBV29-1,0104,142448623,gaggccacatatGagagtggatttg,gaggccacatatAagagtggatttg,missense,3.31e-05,.
-TRBV29-1,0105,142448625,ggccacatatgaGagtggatttgtc,ggccacatatgaCagtggatttgtc,missense,4.2e-06,.
-TRBV29-1,0106,142448628,cacatatgagagTggatttgtcatt,cacatatgagagAggatttgtcatt,missense,3.32e-05,.
-TRBV29-1,0107,142448630,catatgagagtgGatttgtcattga,catatgagagtgTatttgtcattga,missense,8.4e-06,.
-TRBV29-1,0108,142448638,agtggatttgtcAttgacaagtttc,agtggatttgtcCttgacaagtttc,missense,2.24e-05,rs771834679
-TRBV29-1,0109,142448638,agtggatttgtcAttgacaagtttc,agtggatttgtcGttgacaagtttc,missense,1.49e-05,rs771834679
-TRBV29-1,0110,142448639,gtggatttgtcaTtgacaagtttcc,gtggatttgtcaCtgacaagtttcc,missense,0.00038,rs146048073
-TRBV29-1,0111,142448641,ggatttgtcattGacaagtttccca,ggatttgtcattAacaagtttccca,missense,8.4e-06,rs113722411
-TRBV29-1,0112,142448641,ggatttgtcattGacaagtttccca,ggatttgtcattCacaagtttccca,missense,0.000358,rs113722411
-TRBV29-1,0113,142448650,attgacaagtttCccatcagccgcc,attgacaagtttTccatcagccgcc,missense,2.1e-05,.
-TRBV29-1,0114,142448653,gacaagtttcccAtcagccgcccaa,gacaagtttcccCtcagccgcccaa,missense,4.2e-06,.
-TRBV29-1,0115,142448655,caagtttcccatCagccgcccaaac,caagtttcccatAagccgcccaaac,synonymous,8.4e-06,.
-TRBV29-1,0116,142448659,tttcccatcagcCgcccaaacctaa,tttcccatcagcTgcccaaacctaa,missense,1.86e-05,rs367943558
-TRBV29-1,0117,142448660,ttcccatcagccGcccaaacctaac,ttcccatcagccAcccaaacctaac,missense,1.26e-05,.
-TRBV29-1,0118,142448663,ccatcagccgccCaaacctaacatt,ccatcagccgccAaaacctaacatt,missense,4.2e-06,.
-TRBV29-1,0119,142448663,ccatcagccgccCaaacctaacatt,ccatcagccgccTaaacctaacatt,missense,4.2e-06,.
-TRBV29-1,0120,142448683,acattctcaactCtgactgtgagca,acattctcaactTtgactgtgagca,synonymous,4.2e-06,rs371557034
-TRBV29-1,0121,142448698,actgtgagcaacAtgagccctgaag,actgtgagcaacCtgagccctgaag,missense,0.0276,rs17214
-TRBV29-1,0122,142448699,ctgtgagcaacaTgagccctgaaga,ctgtgagcaacaCgagccctgaaga,missense,4.2e-06,.
-TRBV29-1,0123,142448700,tgtgagcaacatGagccctgaagac,tgtgagcaacatAagccctgaagac,missense,8.41e-06,.
-TRBV29-1,0124,142448702,tgagcaacatgaGccctgaagacag,tgagcaacatgaAccctgaagacag,missense,2.52e-05,.
-TRBV29-1,0125,142448703,gagcaacatgagCcctgaagacagc,gagcaacatgagAcctgaagacagc,missense,1.26e-05,.
-TRBV29-1,0126,142448712,gagccctgaagaCagcagcatatat,gagccctgaagaGagcagcatatat,missense,8.42e-06,.
-TRBV29-1,0127,142448715,ccctgaagacagCagcatatatctc,ccctgaagacagAagcatatatctc,missense,6.32e-05,.
-TRBV29-1,0128,142448715,ccctgaagacagCagcatatatctc,ccctgaagacagTagcatatatctc,synonymous,1.26e-05,.
-TRBV29-1,0129,142448719,gaagacagcagcAtatatctctgca,gaagacagcagcGtatatctctgca,missense,3.31e-05,.
-TRBV29-1,0130,142448722,gacagcagcataTatctctgcagcg,gacagcagcataAatctctgcagcg,missense,1.27e-05,.
-TRBV29-1,0131,142448723,acagcagcatatATCtctgcagcgttg,acagcagcatatATctgcagcgttg,frameshift,7.49e-06,.
-TRBV29-1,0132,142448724,cagcagcatataTctctgcagcgtt,cagcagcatataActctgcagcgtt,stop gained,4.23e-06,.
-TRBV29-1,0133,142448727,cagcatatatctCtgcagcgttgaa,cagcatatatctGtgcagcgttgaa,synonymous,3.76e-05,rs367582255
-TRBV29-1,0134,142448728,agcatatatctcTgcagcgttgaag,agcatatatctcCgcagcgttgaag,missense,4.24e-06,.
-TRBV29-1,0135,142448730,catatatctctgCagcgttgaagac,catatatctctgTagcgttgaagac,synonymous,3.31e-05,.
-TRBV29-1,0136,142448733,atatctctgcagCgttgaagacaca,atatctctgcagTgttgaagacaca,synonymous,5.3e-05,rs770606486
-TRBV29-1,0137,142448734,tatctctgcagcGttgaagacacag,tatctctgcagcAttgaagacacag,missense,5.99e-05,rs372238829
-TRBV29-1,0138,142448736,tctctgcagcgtTgaagacacagtg,tctctgcagcgtCgaagacacagtg,synonymous,4.29e-06,.
-TRBV29-1,0139,142448742,cagcgttgaagaCacagtgcggggc,cagcgttgaagaTacagtgcggggc,downstream gene,8.71e-06,.
-TRBV29-1,0140,142448744,gcgttgaagacaCagtgcggggcac,gcgttgaagacaTagtgcggggcac,downstream gene,4.42e-06,.
-TRBV29-1,0141,142448746,gttgaagacacaGtgcggggcacag,gttgaagacacaAtgcggggcacag,downstream gene,4.4e-06,.
-TRBV29-1,0142,142448749,gaagacacagtgCggggcacagatc,gaagacacagtgAggggcacagatc,downstream gene,1.35e-05,rs375342247
-TRBV29-1,0143,142448749,gaagacacagtgCggggcacagatc,gaagacacagtgTggggcacagatc,downstream gene,0.000218,rs375342247
-TRBV29-1,0144,142448750,aagacacagtgcGgggcacagatca,aagacacagtgcAgggcacagatca,downstream gene,8.74e-05,rs369582960
-TRBV29-1,0145,142448750,aagacacagtgcGgggcacagatca,aagacacagtgcTgggcacagatca,downstream gene,3.32e-05,rs369582960
-TRBV29-1,0146,142448753,acacagtgcgggGcacagatcaaag,acacagtgcgggAcacagatcaaag,downstream gene,4.6e-06,.
-TRBV29-1,0147,142448753,acacagtgcgggGcacagatcaaag,acacagtgcgggTcacagatcaaag,downstream gene,1.38e-05,.
-TRBV29-1,0148,142448763,gggcacagatcaAagatctgagcaa,gggcacagatcaCagatctgagcaa,downstream gene,5.01e-06,.
-TRBV29-1,0149,142448773,caaagatctgagCaagaacctcagc,caaagatctgagAaagaacctcagc,downstream gene,4e-05,rs541317945
-TRBV29-1,0150,142448774,aaagatctgagcAagaacctcagct,aaagatctgagcGagaacctcagct,downstream gene,5.85e-06,.
-TRBV29-1,0151,142448778,atctgagcaagaAcctcagctctct,atctgagcaagaGcctcagctctct,downstream gene,6.37e-05,.
-TRBV29-1,0152,142448783,agcaagaacctcAgctctctcctac,agcaagaacctcGgctctctcctac,downstream gene,6.9e-06,.
-TRBV29-1,0153,142448785,caagaacctcagCtctctcctaccc,caagaacctcagAtctctcctaccc,downstream gene,3.32e-05,.
-TRBV29-1,0154,142448787,agaacctcagctCtctcctacccag,agaacctcagctGtctcctacccag,downstream gene,3.82e-05,.
-TRBV29-1,0155,142448791,cctcagctctctCctacccagctcc,cctcagctctctTctacccagctcc,downstream gene,7.86e-06,.
 TRBV4-2,*02-1,,gctctcacttatTccttcacctaca,gctctcacttatGccttcacctaca,,,
 TRBV4-2,*02-2,,tctgtgccagcaGc,tctgtgccagcaCc,,,
 TRBV4-2,0001,142045316,gcccagcacctcAcccagaggaccc,gcccagcacctcGcccagaggaccc,5' UTR,3.78e-05,rs774953670
@@ -2787,8 +2280,6 @@ TRBV4-2,0173,142045858,tgtagaaaccttAggggccctccag,tgtagaaaccttGggggccctccag,downs
 TRBV4-2,0175,142045859,gtagaaaccttaGgggccctccagg,gtagaaaccttaAgggccctccagg,downstream gene,1.57e-05,rs761938538
 TRBV4-2,0176,142045861,agaaaccttaggGgccctccaggaa,agaaaccttaggAgccctccaggaa,downstream gene,0.000293,rs372399915
 TRBV4-2,0177,142045863,aaaccttaggggCcctccaggaagc,aaaccttaggggTcctccaggaagc,downstream gene,5.36e-06,.
-TRBV4-3,*02-1,,gctctcacttatTccttcacctaca,gctctcacttatCccttcacctaca,,,
-TRBV4-3,*03-1,,tcttgaagaacgGgttgaaaacaac,tcttgaagaacgTgttgaaaacaac,,,
 TRBV4-1,0001,142012989,gcccagcacctcGcccaaaggaccc,gcccagcacctcAcccaaaggaccc,upstream gene,5.05e-05,rs554161709
 TRBV4-1,0002,142012989,gcccagcacctcGcccaaaggaccc,gcccagcacctcCcccaaaggaccc,upstream gene,8.42e-06,.
 TRBV4-1,0003,142012994,gcacctcgcccaAaggaccccagtc,gcacctcgcccaGaggaccccagtc,upstream gene,8.41e-06,.
@@ -3092,13 +2583,6 @@ TRBV7-3,0147,142247602,ctttaccagatcAgggtcactgtga,ctttaccagatcGgggtcactgtga,5' UT
 TRBV7-3,0148,142247603,tttaccagatcaGggtcactgtgag,tttaccagatcaCggtcactgtgag,5' UTR,4.26e-06,.
 TRBV7-3,0149,142247604,ttaccagatcagGgtcactgtgagc,ttaccagatcagAgtcactgtgagc,5' UTR,4.26e-06,.
 TRBV7-3,0150,142247610,gatcagggtcacTgtgagcaggagc,gatcagggtcacCgtgagcaggagc,5' UTR,4.3e-06,.
-TRBV7-2,*02-1,,gtaccgacagagCctggggcagggc,gtaccgacagagGctggggcagggc,,,
-TRBV7-2,*02-2,,agaggactggggGatccgtctccac,agaggactggggAatccgtctccac,,,
-TRBV7-2,*03-1,,gtaccgacagagCctggggcagggc,gtaccgacagagGctggggcagggc,,,
-TRBV7-2,*03-2,,agaggactggggGatccgtctccac,agaggactggggAatccgtctccac,,,
-TRBV7-2,*03-3,,gtgtatctctgtGccagcagcttag,gtgtatctctgtAccagcagcttag,,,
-TRBV7-2,*04-1,,ggagctggagtCtcccagtccccc,ggagctggagtTtcccagtccccc,,,
-TRBV7-5,*02-1,,tgtatctctgtgCcagaagcttag,tgtatctctgtgTcagaagcttag,,,
 TRBV7-4,0001,142176284,aaggagagagaaGgatgaggtttgt,aaggagagagaaAgatgaggtttgt,downstream gene,9.28e-06,.
 TRBV7-4,0002,142176288,agagagaaggatGaggtttgtgagc,agagagaaggatAaggtttgtgagc,downstream gene,9.16e-06,.
 TRBV7-4,0003,142176298,atgaggtttgtgAgcagaaaggagg,atgaggtttgtgGgcagaaaggagg,downstream gene,8.85e-06,.
@@ -3907,112 +3391,164 @@ TRBV9,0147,142240050,tgtctctgtagtAagcattctgaag,tgtctctgtagtCagcattctgaag,5' UTR,
 TRBV9,0148,142240058,tagtaagcattcTgaagttcctaag,tagtaagcattcGgaagttcctaag,5' UTR,5.3e-06,.
 TRBV9,0149,142240059,agtaagcattctGaagttcctaagc,agtaagcattctAaagttcctaagc,upstream gene,1.06e-05,.
 TRBV9,0150,142240059,agtaagcattctGaagttcctaagc,agtaagcattctCaagttcctaagc,upstream gene,5.31e-06,.
-TRBV11-3,*02-1,,tatagagaaaaaAcagcctgtggct,tatagagaaaaaGcagcctgtggct,,,
-TRBV11-3,*02-2,,tttactggtaccTgcagaacttggg,tttactggtaccGgcagaacttggg,,,
-TRBV11-2,*02-1,,gcaaagcttgagGactcggccgtgt,gcaaagcttgagAactcggccgtgt,,,
-TRBV11-2,*02-2,,ctgtgccagcagC,ctgtgccagcagT,,,
-TRBV11-2,*03-1,,tctcaagatccaGcctgcaaagctt,tctcaagatccaAcctgcaaagctt,,,
-TRBV11-2,0001,142197522,agagagtcctgcGgttttctggttt,agagagtcctgcAgttttctggttt,downstream gene,1.42e-05,rs542634995
-TRBV11-2,0002,142197530,ctgcggttttctGgttttctgcaca,ctgcggttttctAgttttctgcaca,downstream gene,2.19e-05,.
-TRBV11-2,0003,142197532,gcggttttctggTtttctgcacagg,gcggttttctggCtttctgcacagg,downstream gene,0.000241,.
-TRBV11-2,0005,142197539,tctggttttctgCacaggagggaag,tctggttttctgAacaggagggaag,downstream gene,1.31e-05,.
-TRBV11-2,0006,142197541,tggttttctgcaCaggagggaagtg,tggttttctgcaGaggagggaagtg,downstream gene,4.32e-06,.
-TRBV11-2,0007,142197541,tggttttctgcaCaggagggaagtg,tggttttctgcaTaggagggaagtg,downstream gene,4.32e-06,.
-TRBV11-2,0008,142197544,ttttctgcacagGagggaagtgtct,ttttctgcacagAagggaagtgtct,downstream gene,4.25e-06,.
-TRBV11-2,0010,142197560,gaagtgtctctgCtacactgtgtct,gaagtgtctctgGtacactgtgtct,downstream gene,4.2e-06,.
-TRBV11-2,0011,142197570,tgctacactgtgTctaagctgctgg,tgctacactgtgActaagctgctgg,non coding transcript exon,4.2e-06,.
-TRBV11-2,0012,142197576,actgtgtctaagCtgctggcacaga,actgtgtctaagGtgctggcacaga,non coding transcript exon,8.81e-05,rs370167735
-TRBV11-2,0013,142197578,tgtgtctaagctGctggcacagaga,tgtgtctaagctTctggcacagaga,non coding transcript exon,8.39e-06,.
-TRBV11-2,0014,142197584,taagctgctggcAcagagatacacg,taagctgctggcGcagagatacacg,non coding transcript exon,0.000109,rs770223542
-TRBV11-2,0015,142197594,gcacagagatacAcggccgagtcct,gcacagagatacGcggccgagtcct,non coding transcript exon,4.19e-06,.
-TRBV11-2,0016,142197595,cacagagatacaCggccgagtcctc,cacagagatacaTggccgagtcctc,non coding transcript exon,7.97e-05,rs528771627
-TRBV11-2,0017,142197596,acagagatacacGgccgagtcctca,acagagatacacAgccgagtcctca,non coding transcript exon,5.45e-05,rs374547139
-TRBV11-2,0018,142197596,acagagatacacGgccgagtcctca,acagagatacacCgccgagtcctca,non coding transcript exon,1.68e-05,rs374547139
-TRBV11-2,0019,142197599,gagatacacggcCgagtcctcaagc,gagatacacggcGgagtcctcaagc,non coding transcript exon,8.39e-06,.
-TRBV11-2,0020,142197599,gagatacacggcCgagtcctcaagc,gagatacacggcTgagtcctcaagc,non coding transcript exon,2.52e-05,.
-TRBV11-2,0021,142197600,agatacacggccGagtcctcaagct,agatacacggccAagtcctcaagct,non coding transcript exon,8.39e-06,.
-TRBV11-2,0022,142197607,cggccgagtcctCaagctttgcagg,cggccgagtcctTaagctttgcagg,non coding transcript exon,1.26e-05,.
-TRBV11-2,0023,142197609,gccgagtcctcaAgctttgcaggct,gccgagtcctcaGgctttgcaggct,non coding transcript exon,4.19e-06,.
-TRBV11-2,0024,142197614,gtcctcaagcttTgcaggctggatc,gtcctcaagcttCgcaggctggatc,non coding transcript exon,4.19e-06,.
-TRBV11-2,0025,142197620,aagctttgcaggCtggatcttgaga,aagctttgcaggTtggatcttgaga,non coding transcript exon,0.243,rs17281
-TRBV11-2,0026,142197624,tttgcaggctggAtcttgagagtgg,tttgcaggctggCtcttgagagtgg,non coding transcript exon,8.39e-06,rs756863775
-TRBV11-2,0027,142197627,gcaggctggatcTtgagagtggagt,gcaggctggatcCtgagagtggagt,non coding transcript exon,4.19e-06,.
-TRBV11-2,0028,142197631,gctggatcttgaGagtggagtctac,gctggatcttgaAagtggagtctac,non coding transcript exon,4.19e-06,.
-TRBV11-2,0029,142197639,ttgagagtggagTCTACTCCTTTGAGCctctctgcagaa,ttgagagtggagTctctctgcagaa,non coding transcript exon,4.19e-06,.
-TRBV11-2,0030,142197640,tgagagtggagtCTactcctttgagc,tgagagtggagtCTctcctttgagc,non coding transcript exon,5.03e-05,rs771356569
-TRBV11-2,0032,142197669,tctgcagaaaatCgatccttaggca,tctgcagaaaatTgatccttaggca,non coding transcript exon,1.68e-05,rs267601336
-TRBV11-2,0033,142197670,ctgcagaaaatcGatccttaggcaa,ctgcagaaaatcAatccttaggcaa,non coding transcript exon,8.39e-06,.
-TRBV11-2,0034,142197672,gcagaaaatcgaTccttaggcaact,gcagaaaatcgaAccttaggcaact,non coding transcript exon,1.26e-05,.
-TRBV11-2,0035,142197678,aatcgatccttaGgcaactgtgaat,aatcgatccttaAgcaactgtgaat,non coding transcript exon,4.19e-06,.
-TRBV11-2,0036,142197686,cttaggcaactgTgaatcatccact,cttaggcaactgCgaatcatccact,non coding transcript exon,4.19e-06,.
-TRBV11-2,0037,142197689,aggcaactgtgaAtcatccactaca,aggcaactgtgaTtcatccactaca,non coding transcript exon,2.1e-05,.
-TRBV11-2,0038,142197723,tgaaactgaatcAgaagctttgggc,tgaaactgaatcGgaagctttgggc,non coding transcript exon,4.19e-06,.
-TRBV11-2,0039,142197734,cagaagctttggGccctgtcccagg,cagaagctttggAccctgtcccagg,non coding transcript exon,0.000214,rs376628705
-TRBV11-2,0040,142197735,agaagctttgggCcctgtcccagga,agaagctttgggTcctgtcccagga,non coding transcript exon,4.19e-06,.
-TRBV11-2,0041,142197741,tttgggccctgtCccaggatctgct,tttgggccctgtGccaggatctgct,non coding transcript exon,8.39e-06,.
-TRBV11-2,0043,142197756,aggatctgctggTaccagtaaaggg,aggatctgctggGaccagtaaaggg,non coding transcript exon,8.39e-06,.
-TRBV11-2,0045,142197762,tgctggtaccagTaaagggtagcat,tgctggtaccagCaaagggtagcat,non coding transcript exon,4.2e-06,.
-TRBV11-2,0046,142197768,taccagtaaaggGtagcatggccag,taccagtaaaggCtagcatggccag,non coding transcript exon,4.2e-06,rs370676421
-TRBV11-2,0047,142197774,taaagggtagcaTggccagatatag,taaagggtagcaCggccagatatag,non coding transcript exon,2.52e-05,rs17163285
-TRBV11-2,0048,142197776,aagggtagcatgGccagatatagga,aagggtagcatgGCCAccagatatagga,non coding transcript exon,3.3e-05,.
-TRBV11-2,0049,142197786,tggccagatataGgattgcaccaaa,tggccagatataAgattgcaccaaa,non coding transcript exon,4.2e-06,.
-TRBV11-2,0050,142197789,ccagatataggaTtgcaccaaaaag,ccagatataggaCtgcaccaaaaag,non coding transcript exon,8.39e-06,.
-TRBV11-2,0051,142197790,cagatataggatTgcaccaaaaagc,cagatataggatAgcaccaaaaagc,non coding transcript exon,4.2e-06,.
-TRBV11-2,0052,142197790,cagatataggatTgcaccaaaaagc,cagatataggatCgcaccaaaaagc,non coding transcript exon,4.2e-06,.
-TRBV11-2,0053,142197801,ttgcaccaaaaaGccacactctgcc,ttgcaccaaaaaTccacactctgcc,non coding transcript exon,1.68e-05,rs373834195
-TRBV11-2,0054,142197802,tgcaccaaaaagCcacactctgcct,tgcaccaaaaagAcacactctgcct,non coding transcript exon,8.4e-06,.
-TRBV11-2,0055,142197804,caccaaaaagccAcactctgccttt,caccaaaaagccGcactctgccttt,non coding transcript exon,4.2e-06,.
-TRBV11-2,0056,142197805,accaaaaagccaCactctgcctttt,accaaaaagccaTactctgcctttt,non coding transcript exon,1.68e-05,.
-TRBV11-2,0057,142197818,actctgccttttCtctataatctta,actctgccttttTtctataatctta,non coding transcript exon,4.2e-06,.
-TRBV11-2,0058,142197822,tgccttttctctATaatcttatatcc,tgccttttctctTaatcttatatcc,non coding transcript exon,4.2e-06,.
-TRBV11-2,0059,142197826,ttttctctataaTcttatatccggg,ttttctctataaCcttatatccggg,non coding transcript exon,4.21e-06,.
-TRBV11-2,0060,142197830,ctctataatcttAtatccgggagac,ctctataatcttCtatccgggagac,non coding transcript exon,5.05e-05,rs139187012
-TRBV11-2,0061,142197830,ctctataatcttAtatccgggagac,ctctataatcttGtatccgggagac,non coding transcript exon,1.68e-05,rs139187012
-TRBV11-2,0062,142197832,ctataatcttatAtccgggagactg,ctataatcttatTtccgggagactg,non coding transcript exon,1.26e-05,.
-TRBV11-2,0063,142197835,taatcttatatcCgggagactgggc,taatcttatatcTgggagactgggc,non coding transcript exon,0.995,rs17280
-TRBV11-2,0064,142197838,tcttatatccggGagactgggcaac,tcttatatccggAagactgggcaac,non coding transcript exon,1.69e-05,.
-TRBV11-2,0065,142197841,tatatccgggagActgggcaactcc,tatatccgggagGctgggcaactcc,non coding transcript exon,4.22e-06,.
-TRBV11-2,0066,142197843,tatccgggagacTgggcaactccag,tatccgggagacCgggcaactccag,non coding transcript exon,8.46e-06,.
-TRBV11-2,0067,142197849,ggagactgggcaActccagcttctg,ggagactgggcaGctccagcttctg,non coding transcript exon,4.24e-06,.
-TRBV11-2,0068,142197853,actgggcaactcCagcttctgtgag,actgggcaactcTagcttctgtgag,non coding transcript exon,4.25e-06,.
-TRBV11-2,0069,142197864,ccagcttctgtgAgttctgagaagg,ccagcttctgtgGgttctgagaagg,non coding transcript exon,4.31e-06,.
-TRBV11-2,0070,142197865,cagcttctgtgaGttctgagaagga,cagcttctgtgaAttctgagaagga,splice region,4.31e-06,.
-TRBV11-2,0071,142197867,gcttctgtgagtTctgagaaggaaa,gcttctgtgagtCctgagaaggaaa,splice region,4.31e-06,.
-TRBV11-2,0072,142197876,agttctgagaagGAaaaagacagaat,agttctgagaagGAaaaagacagaa,intron,3.3e-05,.
-TRBV11-2,0073,142197890,aaaagacagaatTtgaaaacagaag,aaaagacagaatCtgaaaacagaag,intron,1.31e-05,.
-TRBV11-2,0074,142197897,agaatttgaaaaCagaaggaaatga,agaatttgaaaaTagaaggaaatga,intron,0.341,rs17279
-TRBV11-2,0075,142197925,aaataatcagagAgatccaatgtga,aaataatcagagCgatccaatgtga,intron,9.04e-06,rs760260507
-TRBV11-2,0076,142197928,taatcagagagaTccaatgtgatca,taatcagagagaGccaatgtgatca,intron,0.000127,rs183490568
-TRBV11-2,0077,142197930,atcagagagatcCaatgtgatcatg,atcagagagatcAaatgtgatcatg,intron,9.07e-06,.
-TRBV11-2,0078,142197936,gagatccaatgtGatcatggtgttc,gagatccaatgtTatcatggtgttc,intron,4.54e-05,rs759108181
-TRBV11-2,0079,142197949,atcatggtgttcCtaggactcacct,atcatggtgttcTtaggactcacct,intron,1.34e-05,.
-TRBV11-2,0080,142197955,gtgttcctaggaCtcacctgctccc,gtgttcctaggaTtcacctgctccc,splice region,4.5e-06,.
-TRBV11-2,0081,142197958,ttcctaggactcAcctgctcccagg,ttcctaggactcGcctgctcccagg,splice donor,1.34e-05,rs763463801
-TRBV11-2,0082,142197963,aggactcacctgCtcccaggagaca,aggactcacctgTtcccaggagaca,non coding transcript exon,3.57e-05,.
-TRBV11-2,0083,142197973,tgctcccaggagACagagggccgcct,tgctcccaggagACaagggccgcct,non coding transcript exon,0.000232,.
-TRBV11-2,0084,142197979,caggagacagagGgccgcctagcag,caggagacagagAgccgcctagcag,non coding transcript exon,1.77e-05,.
-TRBV11-2,0085,142197980,aggagacagaggGCcgcctagcagag,aggagacagaggCcgcctagcagag,non coding transcript exon,0.000346,.
-TRBV11-2,0086,142197982,gagacagagggcCgcctagcagagg,gagacagagggcGgcctagcagagg,non coding transcript exon,0.000155,rs149749379
-TRBV11-2,0087,142197982,gagacagagggcCgcctagcagagg,gagacagagggcTgcctagcagagg,non coding transcript exon,0.00175,rs149749379
-TRBV11-2,0088,142197983,agacagagggccGcctagcagagga,agacagagggccAcctagcagagga,non coding transcript exon,0.000227,rs369385273
-TRBV11-2,0089,142197986,cagagggccgccTagcagaggagcc,cagagggccgccCagcagaggagcc,non coding transcript exon,0.995,rs148941368
-TRBV11-2,0090,142197988,gagggccgcctaGcagaggagcctg,gagggccgcctaAcagaggagcctg,non coding transcript exon,4.45e-06,rs748058555
-TRBV11-2,0091,142197989,agggccgcctagCAgaggagcctggt,agggccgcctagCAgaggagccggt,non coding transcript exon,7.84e-06,rs746263698
-TRBV11-2,0092,142197991,ggccgcctagcaGaggagcctggtg,ggccgcctagcaAaggagcctggtg,non coding transcript exon,4.47e-06,.
-TRBV11-2,0093,142197996,cctagcagaggaGcctggtgcccat,cctagcagaggaAcctggtgcccat,non coding transcript exon,8.98e-06,.
-TRBV11-2,0094,142197996,cctagcagaggaGcctggtgcccat,cctagcagaggaTcctggtgcccat,non coding transcript exon,4.49e-06,.
-TRBV11-2,0095,142197997,ctagcagaggagCctggtgcccatg,ctagcagaggagGctggtgcccatg,non coding transcript exon,4.5e-06,rs746890441
-TRBV11-2,0096,142198000,gcagaggagcctGgtgcccatggca,gcagaggagcctCgtgcccatggca,non coding transcript exon,9.02e-06,rs771513111
-TRBV11-2,0097,142198001,cagaggagcctgGtgcccatggcag,cagaggagcctgCtgcccatggcag,non coding transcript exon,4.96e-05,.
-TRBV11-2,0098,142198004,aggagcctggtgCccatggcagggt,aggagcctggtgAccatggcagggt,non coding transcript exon,4.53e-06,.
-TRBV11-2,0099,142198011,tggtgcccatggCagggtcagggaa,tggtgcccatggTagggtcagggaa,non coding transcript exon,4.55e-06,.
-TRBV11-2,0100,142198013,gtgcccatggcaGggtcagggaagg,gtgcccatggcaAggtcagggaagg,non coding transcript exon,9.28e-06,rs769329079
-TRBV11-2,0101,142198015,gcccatggcaggGtcagggaaggat,gcccatggcaggCtcagggaaggat,non coding transcript exon,9.29e-06,.
-TRBV11-2,0102,142198019,atggcagggtcaGggaaggatggga,atggcagggtcaAggaaggatggga,non coding transcript exon,4.77e-06,.
-TRBV11-2,0103,142198032,ggaaggatgggaGctttgcccaatc,ggaaggatgggaActttgcccaatc,non coding transcript exon,0.00138,rs138426048
-TRBV11-2,0104,142198033,gaaggatgggagCtttgcccaatca,gaaggatgggagAtttgcccaatca,non coding transcript exon,5.17e-06,.
-TRBV11-2,0105,142198042,gagctttgcccaAtcagggtcactg,gagctttgcccaGtcagggtcactg,non coding transcript exon,1.61e-05,rs368808182
-TRBV11-2,0106,142198044,gctttgcccaatCagggtcactgtg,gctttgcccaatGagggtcactgtg,non coding transcript exon,5.39e-06,.
+TRBV2,*02-1,,aagtgatcttgcGctgtgtccccat,aagtgatcttgcActgtgtccccat,,,
+TRBV2,*03-1,,attctcagttgaAaggcctgatgga,attctcagttgaGaggcctgatgga,,,
+TRBV2,0001,142000729,cagaccttgcctGtggggccatggg,cagaccttgcctCtggggccatggg,upstream gene,6.61e-05,.
+TRBV2,0002,142000751,gggagctcaaaaTgcccctcctttc,gggagctcaaaaAgcccctcctttc,5' UTR,3.31e-05,.
+TRBV2,0003,142000769,tcctttcctccaCaggaccagatgc,tcctttcctccaTaggaccagatgc,5' UTR,6.61e-05,rs552295876
+TRBV2,0004,142000772,tttcctccacagGaccagatgcctg,tttcctccacagAaccagatgcctg,5' UTR,4.2e-06,.
+TRBV2,0005,142000774,tcctccacaggaCcagatgcctgag,tcctccacaggaAcagatgcctgag,5' UTR,4.2e-06,.
+TRBV2,0006,142000777,tccacaggaccaGatgcctgagcta,tccacaggaccaAatgcctgagcta,5' UTR,8.39e-06,.
+TRBV2,0007,142000780,acaggaccagatGcctgagctagga,acaggaccagatAcctgagctagga,5' UTR,4.2e-06,.
+TRBV2,0008,142000780,acaggaccagatGcctgagctagga,acaggaccagatCcctgagctagga,5' UTR,1.68e-05,.
+TRBV2,0009,142000781,caggaccagatgCctgagctaggaa,caggaccagatgActgagctaggaa,5' UTR,4.2e-06,.
+TRBV2,0010,142000781,caggaccagatgCctgagctaggaa,caggaccagatgTctgagctaggaa,5' UTR,4.2e-06,.
+TRBV2,0011,142000782,aggaccagatgcCtgagctaggaaa,aggaccagatgcGtgagctaggaaa,5' UTR,4.2e-06,.
+TRBV2,0012,142000788,agatgcctgagcTaggaaaggcctc,agatgcctgagcCaggaaaggcctc,5' UTR,8.39e-06,rs371339719
+TRBV2,0013,142000789,gatgcctgagctAggaaaggcctca,gatgcctgagctGggaaaggcctca,5' UTR,8.39e-06,.
+TRBV2,0014,142000791,tgcctgagctagGaaaggcctcatt,tgcctgagctagAaaaggcctcatt,5' UTR,4.19e-06,.
+TRBV2,0015,142000795,tgagctaggaaaGgcctcattcctg,tgagctaggaaaTgcctcattcctg,5' UTR,4.19e-06,.
+TRBV2,0016,142000796,gagctaggaaagGcctcattcctgc,gagctaggaaagAcctcattcctgc,5' UTR,4.19e-06,.
+TRBV2,0017,142000796,gagctaggaaagGcctcattcctgc,gagctaggaaagTcctcattcctgc,5' UTR,4.19e-06,.
+TRBV2,0018,142000798,gctaggaaaggcCtcattcctgctg,gctaggaaaggcTtcattcctgctg,5' UTR,8.39e-06,.
+TRBV2,0019,142000804,aaaggcctcattCctgctgtgatcc,aaaggcctcattGctgctgtgatcc,5' UTR,4.19e-06,rs369946946
+TRBV2,0020,142000815,tcctgctgtgatCctgccatggata,tcctgctgtgatTctgccatggata,5' UTR,4.19e-06,.
+TRBV2,0021,142000823,tgatcctgccatGgatacctggctc,tgatcctgccatAgatacctggctc,5' UTR,4.19e-06,.
+TRBV2,0022,142000826,tcctgccatggaTacctggctcgta,tcctgccatggaCacctggctcgta,5' UTR,1.49e-05,.
+TRBV2,0023,142000827,cctgccatggatAcctggctcgtat,cctgccatggatGcctggctcgtat,5' UTR,4.19e-06,.
+TRBV2,0024,142000828,ctgccatggataCctggctcgtatg,ctgccatggataTctggctcgtatg,5' UTR,4.19e-06,.
+TRBV2,0025,142000830,gccatggataccTggctcgtatgct,gccatggataccCggctcgtatgct,5' UTR,4.19e-06,.
+TRBV2,0026,142000835,ggatacctggctCgtatgctgggca,ggatacctggctTgtatgctgggca,5' UTR,8.39e-06,.
+TRBV2,0027,142000836,gatacctggctcGtatgctgggcaa,gatacctggctcAtatgctgggcaa,5' UTR,8.39e-06,.
+TRBV2,0028,142000839,acctggctcgtaTgctgggcaattt,acctggctcgtaCgctgggcaattt,5' UTR,4.46e-05,rs374663961
+TRBV2,0029,142000845,ctcgtatgctggGcaatttttagtc,ctcgtatgctggTcaatttttagtc,5' UTR,4.19e-06,.
+TRBV2,0030,142000855,gggcaatttttaGtctcttgaaagc,gggcaatttttaAtctcttgaaagc,5' UTR,3.3e-05,.
+TRBV2,0031,142000856,ggcaatttttagTctcttgaaagca,ggcaatttttagCctcttgaaagca,5' UTR,0.00411,rs116157073
+TRBV2,0032,142000856,ggcaatttttagTctcttgaaagca,ggcaatttttagGctcttgaaagca,5' UTR,2.93e-05,rs116157073
+TRBV2,0033,142000865,tagtctcttgaaAgcaggtcgatgc,tagtctcttgaaGgcaggtcgatgc,5' UTR,8.38e-06,.
+TRBV2,0034,142000869,ctcttgaaagcaGgtcgatgcttag,ctcttgaaagcaTgtcgatgcttag,splice region,2.1e-05,rs372294683
+TRBV2,0035,142000872,ttgaaagcaggtCgatgcttagact,ttgaaagcaggtTgatgcttagact,splice region,1.26e-05,.
+TRBV2,0036,142000873,tgaaagcaggtcGatgcttagactc,tgaaagcaggtcAatgcttagactc,splice region,1.49e-05,rs755496616
+TRBV2,0037,142000874,gaaagcaggtcgAtgcttagactct,gaaagcaggtcgGtgcttagactct,splice region,8.38e-05,.
+TRBV2,0038,142000875,aaagcaggtcgaTgcttagactcta,aaagcaggtcgaCgcttagactcta,splice region,1.68e-05,.
+TRBV2,0039,142000877,agcaggtcgatgCttagactctagg,agcaggtcgatgTttagactctagg,splice region,4.19e-06,.
+TRBV2,0040,142000886,atgcttagactcTaggaaattcttg,atgcttagactcCaggaaattcttg,intron,2.98e-05,rs376566795
+TRBV2,0041,142000888,gcttagactctaGgaaattcttgct,gcttagactctaCgaaattcttgct,intron,4.19e-06,.
+TRBV2,0042,142000895,ctctaggaaattCttgctttgaact,ctctaggaaattAttgctttgaact,intron,4.19e-06,.
+TRBV2,0043,142000898,taggaaattcttGctttgaacttac,taggaaattcttTctttgaacttac,intron,0.00254,rs55964233
+TRBV2,0044,142000899,aggaaattcttgCtttgaacttacc,aggaaattcttgTtttgaacttacc,intron,3.3e-05,.
+TRBV2,0045,142000903,aattcttgctttGaacttacctaag,aattcttgctttCaacttacctaag,intron,8.39e-06,.
+TRBV2,0046,142000906,tcttgctttgaaCttacctaagaca,tcttgctttgaaAttacctaagaca,intron,3.3e-05,rs757451690
+TRBV2,0047,142000906,tcttgctttgaaCttacctaagaca,tcttgctttgaaTttacctaagaca,intron,4.19e-06,.
+TRBV2,0048,142000906,tcttgctttgaaCTtacctaagacaa,tcttgctttgaaCtacctaagacaa,intron,4.19e-06,.
+TRBV2,0049,142000908,ttgctttgaactTacctaagacaat,ttgctttgaactAacctaagacaat,intron,3.35e-05,.
+TRBV2,0050,142000908,ttgctttgaactTacctaagacaat,ttgctttgaactCacctaagacaat,intron,4.19e-06,.
+TRBV2,0051,142000910,gctttgaacttaCctaagacaattc,gctttgaacttaTctaagacaattc,intron,2.52e-05,.
+TRBV2,0052,142000917,acttacctaagaCaattctaaacca,acttacctaagaAaattctaaacca,intron,4.19e-06,.
+TRBV2,0053,142000932,ttctaaaccattCtcttaatcttct,ttctaaaccattTtcttaatcttct,intron,0.00335,rs145793748
+TRBV2,0054,142000938,accattctcttaATCTtcttcttttctc,accattctcttaATcttcttttctc,intron,3.31e-05,rs747882327
+TRBV2,0055,142000940,cattctcttaatCttcttcttttct,cattctcttaatTttcttcttttct,intron,4.2e-06,.
+TRBV2,0056,142000943,tctcttaatcttCttcttttctcac,tctcttaatcttAttcttttctcac,intron,4.2e-06,.
+TRBV2,0057,142000949,aatcttcttcttTtctcacaggact,aatcttcttcttGtctcacaggact,intron,8.4e-06,.
+TRBV2,0058,142000951,tcttcttcttttCtcacaggactca,tcttcttcttttTtcacaggactca,splice region,4.2e-06,.
+TRBV2,0059,142000958,cttttctcacagGactcacagaacc,cttttctcacagAactcacagaacc,splice region,8.4e-06,.
+TRBV2,0060,142000961,ttctcacaggacTcacagaacctga,ttctcacaggacCcacagaacctga,5' UTR,4.2e-06,.
+TRBV2,0061,142000961,ttctcacaggacTcacagaacctga,ttctcacaggacTCAcacagaacctga,5' UTR,4.2e-06,.
+TRBV2,0062,142000961,ttctcacaggacTCAcagaacctgaag,ttctcacaggacTcagaacctgaag,5' UTR,4.2e-06,.
+TRBV2,0063,142000964,tcacaggactcaCagaacctgaagt,tcacaggactcaTagaacctgaagt,5' UTR,2.61e-05,rs765972960
+TRBV2,0064,142000966,acaggactcacaGaacctgaagtca,acaggactcacaCaacctgaagtca,5' UTR,8.4e-06,rs377561456
+TRBV2,0065,142000966,acaggactcacaGaacctgaagtca,acaggactcacaTaacctgaagtca,5' UTR,4.2e-06,rs377561456
+TRBV2,0066,142000969,ggactcacagaaCctgaagtcaccc,ggactcacagaaActgaagtcaccc,5' UTR,8.4e-06,.
+TRBV2,0067,142000974,cacagaacctgaAgtcacccagact,cacagaacctgaGgtcacccagact,5' UTR,4.2e-06,.
+TRBV2,0068,142000977,agaacctgaagtCacccagactccc,agaacctgaagtTacccagactccc,5' UTR,4.2e-06,.
+TRBV2,0069,142000983,tgaagtcacccaGactcccagccat,tgaagtcacccaAactcccagccat,5' UTR,4.2e-06,.
+TRBV2,0070,142000985,aagtcacccagaCtcccagccatca,aagtcacccagaAtcccagccatca,5' UTR,4.2e-06,.
+TRBV2,0071,142000985,aagtcacccagaCtcccagccatca,aagtcacccagaTtcccagccatca,5' UTR,4.2e-06,.
+TRBV2,0072,142000988,tcacccagactcCcagccatcaggt,tcacccagactcTcagccatcaggt,5' UTR,8.4e-06,.
+TRBV2,0073,142000992,ccagactcccagCcatcaggtcaca,ccagactcccagAcatcaggtcaca,5' UTR,7.45e-06,rs775052218
+TRBV2,0074,142001001,cagccatcaggtCacacagatggga,cagccatcaggtTacacagatggga,5' UTR,4.2e-06,.
+TRBV2,0075,142001005,catcaggtcacaCagatgggacagg,catcaggtcacaTagatgggacagg,5' UTR,8.4e-06,.
+TRBV2,0076,142001008,caggtcacacagAtgggacaggaag,caggtcacacagGtgggacaggaag,start lost,1.26e-05,.
+TRBV2,0077,142001012,tcacacagatggGacaggaagtgat,tcacacagatggAacaggaagtgat,missense,4.2e-06,.
+TRBV2,0078,142001012,tcacacagatggGacaggaagtgat,tcacacagatggTacaggaagtgat,missense,4.2e-06,.
+TRBV2,0079,142001013,cacacagatgggAcaggaagtgatc,cacacagatgggCcaggaagtgatc,synonymous,4.2e-06,.
+TRBV2,0080,142001017,cagatgggacagGaagtgatcttgc,cagatgggacagAaagtgatcttgc,missense,2.52e-05,.
+TRBV2,0081,142001029,gaagtgatcttgCactgtgtcccca,gaagtgatcttgTactgtgtcccca,missense,8.21e-05,rs746832366
+TRBV2,0082,142001030,aagtgatcttgcActgtgtccccat,aagtgatcttgcGctgtgtccccat,missense,0.989,rs56095598
+TRBV2,0083,142001030,aagtgatcttgcActgtgtccccat,aagtgatcttgcTctgtgtccccat,missense,2.98e-05,rs56095598
+TRBV2,0084,142001032,gtgatcttgcacTgtgtccccatct,gtgatcttgcacCgtgtccccatct,missense,7.46e-06,rs759270653
+TRBV2,0085,142001033,tgatcttgcactGtgtccccatctc,tgatcttgcactAtgtccccatctc,missense,4.21e-06,.
+TRBV2,0086,142001037,cttgcactgtgtCcccatctctaat,cttgcactgtgtTcccatctctaat,synonymous,4.21e-06,.
+TRBV2,0087,142001038,ttgcactgtgtcCccatctctaatc,ttgcactgtgtcTccatctctaatc,missense,8.41e-06,.
+TRBV2,0088,142001041,cactgtgtccccAtctctaatcact,cactgtgtccccGtctctaatcact,missense,4.21e-06,.
+TRBV2,0089,142001043,ctgtgtccccatCtctaatcactta,ctgtgtccccatTtctaatcactta,synonymous,4.21e-06,.
+TRBV2,0090,142001050,cccatctctaatCACTTATacttctattggt,cccatctctaatCACTTctattggt,inframe deletion,3.3e-05,.
+TRBV2,0091,142001052,catctctaatcaCttatacttctat,catctctaatcaTttatacttctat,synonymous,8.41e-06,.
+TRBV2,0092,142001057,ctaatcacttatActtctattggta,ctaatcacttatGcttctattggta,missense,4.21e-06,.
+TRBV2,0093,142001059,aatcacttatacTtctattggtaca,aatcacttatacCtctattggtaca,missense,1.87e-05,rs540277135
+TRBV2,0094,142001063,acttatacttctAttggtacagaca,acttatacttctGttggtacagaca,missense,4.21e-06,.
+TRBV2,0095,142001065,ttatacttctatTggtacagacaaa,ttatacttctatCggtacagacaaa,missense,8.41e-06,rs145690079
+TRBV2,0096,142001070,cttctattggtaCagacaaatcttg,cttctattggtaTagacaaatcttg,synonymous,4.21e-06,.
+TRBV2,0097,142001072,tctattggtacaGacaaatcttggg,tctattggtacaAacaaatcttggg,missense,4.21e-06,.
+TRBV2,0098,142001079,gtacagacaaatCttggggcagaaa,gtacagacaaatTttggggcagaaa,synonymous,4.21e-06,.
+TRBV2,0099,142001083,agacaaatcttgGggcagaaagtcg,agacaaatcttgCggcagaaagtcg,missense,4.21e-06,.
+TRBV2,0100,142001084,gacaaatcttggGgcagaaagtcga,gacaaatcttggAgcagaaagtcga,missense,4.21e-06,.
+TRBV2,0101,142001084,gacaaatcttggGgcagaaagtcga,gacaaatcttggTgcagaaagtcga,missense,4.21e-06,.
+TRBV2,0102,142001086,caaatcttggggCagaaagtcgagt,caaatcttggggAagaaagtcgagt,missense,4.21e-06,.
+TRBV2,0103,142001089,atcttggggcagAaagtcgagtttc,atcttggggcagGaagtcgagtttc,missense,4.21e-06,.
+TRBV2,0104,142001094,ggggcagaaagtCgagtttctggtt,ggggcagaaagtTgagtttctggtt,synonymous,3.31e-05,.
+TRBV2,0105,142001095,gggcagaaagtcGagtttctggttt,gggcagaaagtcAagtttctggttt,missense,4.22e-06,.
+TRBV2,0106,142001107,gagtttctggttTccttttataata,gagtttctggttCccttttataata,missense,1.27e-05,rs373425033
+TRBV2,0107,142001113,ctggtttcctttTataataatgaaa,ctggtttcctttAataataatgaaa,missense,8.48e-06,.
+TRBV2,0108,142001119,tccttttataatAatgaaatctcag,tccttttataatGatgaaatctcag,missense,2.55e-05,rs376155878
+TRBV2,0109,142001121,cttttataataaTgaaatctcagag,cttttataataaCgaaatctcagag,synonymous,4.26e-06,.
+TRBV2,0110,142001134,gaaatctcagagAagtctgaaatat,gaaatctcagagGagtctgaaatat,missense,4.27e-06,.
+TRBV2,0111,142001136,aatctcagagaaGtctgaaatattc,aatctcagagaaAtctgaaatattc,synonymous,4.28e-06,.
+TRBV2,0112,142001140,tcagagaagtctGAaatattcgatga,tcagagaagtctGaatattcgatga,frameshift,1.29e-05,.
+TRBV2,0113,142001148,gtctgaaatattCgatgatcaattc,gtctgaaatattTgatgatcaattc,synonymous,2.28e-05,rs748788343
+TRBV2,0114,142001149,tctgaaatattcGatgatcaattct,tctgaaatattcAatgatcaattct,missense,2.15e-05,.
+TRBV2,0115,142001149,tctgaaatattcGatgatcaattct,tctgaaatattcTatgatcaattct,missense,4.29e-06,.
+TRBV2,0116,142001150,ctgaaatattcgAtgatcaattctc,ctgaaatattcgGtgatcaattctc,missense,8.57e-06,.
+TRBV2,0117,142001156,tattcgatgatcAattctcagttga,tattcgatgatcGattctcagttga,missense,0.000102,rs543789760
+TRBV2,0118,142001160,cgatgatcaattCtcagttgaaagg,cgatgatcaattAtcagttgaaagg,missense,4.28e-06,.
+TRBV2,0119,142001167,caattctcagttGaaaggcctgatg,caattctcagttAaaaggcctgatg,missense,8.56e-06,.
+TRBV2,0120,142001172,ctcagttgaaagGcctgatggatca,ctcagttgaaagAcctgatggatca,synonymous,1.28e-05,.
+TRBV2,0121,142001172,ctcagttgaaagGcctgatggatca,ctcagttgaaagTcctgatggatca,missense,4.27e-06,.
+TRBV2,0122,142001175,agttgaaaggccTgatggatcaaat,agttgaaaggccCgatggatcaaat,synonymous,3.78e-05,rs765369484
+TRBV2,0123,142001176,gttgaaaggcctGatggatcaaatt,gttgaaaggcctAatggatcaaatt,missense,4.27e-06,.
+TRBV2,0124,142001177,ttgaaaggcctgAtggatcaaattt,ttgaaaggcctgGtggatcaaattt,missense,4.27e-06,.
+TRBV2,0125,142001178,tgaaaggcctgaTggatcaaatttc,tgaaaggcctgaCggatcaaatttc,synonymous,4.27e-06,.
+TRBV2,0126,142001180,aaaggcctgatgGatcaaatttcac,aaaggcctgatgAatcaaatttcac,missense,4.27e-06,.
+TRBV2,0127,142001182,aggcctgatggaTcaaatttcactc,aggcctgatggaAcaaatttcactc,missense,4.27e-06,.
+TRBV2,0128,142001187,tgatggatcaaaTttcactctgaag,tgatggatcaaaCttcactctgaag,synonymous,4.26e-06,.
+TRBV2,0129,142001188,gatggatcaaatTtcactctgaaga,gatggatcaaatCtcactctgaaga,missense,7.17e-05,rs781082418
+TRBV2,0130,142001195,caaatttcactcTgaagatccggtc,caaatttcactcCgaagatccggtc,missense,3.3e-05,.
+TRBV2,0131,142001199,tttcactctgaaGatccggtccaca,tttcactctgaaTatccggtccaca,missense,4.26e-05,.
+TRBV2,0132,142001201,tcactctgaagaTccggtccacaaa,tcactctgaagaGccggtccacaaa,missense,8.51e-06,.
+TRBV2,0133,142001204,ctctgaagatccGgtccacaaagct,ctctgaagatccAgtccacaaagct,missense,4.53e-05,rs542097644
+TRBV2,0134,142001205,tctgaagatccgGtccacaaagctg,tctgaagatccgCtccacaaagctg,synonymous,1.13e-05,rs767993226
+TRBV2,0135,142001214,ccggtccacaaaGctggaggactca,ccggtccacaaaActggaggactca,synonymous,4.26e-06,.
+TRBV2,0136,142001220,cacaaagctggaGgactcagccatg,cacaaagctggaAgactcagccatg,synonymous,3.84e-05,.
+TRBV2,0137,142001224,aagctggaggacTcagccatgtact,aagctggaggacGcagccatgtact,missense,4.28e-06,.
+TRBV2,0138,142001227,ctggaggactcaGccatgtacttct,ctggaggactcaAccatgtacttct,missense,4.29e-06,.
+TRBV2,0139,142001230,gaggactcagccAtgtacttctgtg,gaggactcagccCtgtacttctgtg,missense,8.59e-06,rs373031358
+TRBV2,0140,142001230,gaggactcagccAtgtacttctgtg,gaggactcagccTtgtacttctgtg,missense,4.29e-06,rs373031358
+TRBV2,0141,142001231,aggactcagccaTgtacttctgtgc,aggactcagccaCgtacttctgtgc,missense,4.31e-06,.
+TRBV2,0142,142001242,atgtacttctgtGccagcagtgaag,atgtacttctgtTccagcagtgaag,missense,4.37e-06,.
+TRBV2,0143,142001246,acttctgtgccaGcagtgaagccac,acttctgtgccaTcagtgaagccac,missense,4.41e-06,.
+TRBV2,0144,142001247,cttctgtgccagCagtgaagccaca,cttctgtgccagAagtgaagccaca,missense,4.44e-06,.
+TRBV2,0145,142001250,ctgtgccagcagTgaagccacagcc,ctgtgccagcagGgaagccacagcc,missense,8.97e-06,.
+TRBV2,0146,142001253,tgccagcagtgaAgccacagccttg,tgccagcagtgaCgccacagccttg,missense,4.49e-06,.
+TRBV2,0147,142001254,gccagcagtgaaGccacagccttgc,gccagcagtgaaTccacagccttgc,incomplete terminal codon,1.98e-05,.
+TRBV2,0148,142001258,gcagtgaagccaCagccttgcaaag,gcagtgaagccaAagccttgcaaag,downstream gene,9.17e-06,rs373375169
+TRBV2,0149,142001259,cagtgaagccacAgccttgcaaaga,cagtgaagccacGgccttgcaaaga,downstream gene,4.67e-06,.
+TRBV2,0150,142001261,gtgaagccacagCcttgcaaagaca,gtgaagccacagTcttgcaaagaca,downstream gene,9.33e-06,.
+TRBV2,0151,142001264,aagccacagcctTgcaaagacaact,aagccacagcctCgcaaagacaact,downstream gene,8.31e-06,.
+TRBV2,0152,142001270,cagccttgcaaaGacaactccagcc,cagccttgcaaaAacaactccagcc,downstream gene,4.98e-06,.
+TRBV2,0153,142001270,cagccttgcaaaGacaactccagcc,cagccttgcaaaCacaactccagcc,downstream gene,4.98e-06,.
+TRBV2,0154,142001271,agccttgcaaagAcaactccagcct,agccttgcaaagGcaactccagcct,downstream gene,8.65e-06,.
+TRBV2,0155,142001271,agccttgcaaagAcaactccagcct,agccttgcaaagTcaactccagcct,downstream gene,4.97e-06,.
+TRBV2,0156,142001272,gccttgcaaagaCaactccagcctg,gccttgcaaagaAaactccagcctg,downstream gene,4.07e-05,rs776655307
 TRBV11-1,0001,142223774,agagcggagagaGccctggagtttt,agagcggagagaCccctggagtttt,downstream gene,1.75e-05,rs370835552
 TRBV11-1,0002,142223776,agcggagagagcCctggagttttgt,agcggagagagcTctggagttttgt,downstream gene,8.72e-06,.
 TRBV11-1,0003,142223791,ggagttttgtgcAcaggacagaaag,ggagttttgtgcGcaggacagaaag,downstream gene,4.26e-06,.
@@ -4127,14 +3663,287 @@ TRBV11-1,0111,142224299,gggagctttgccAgttcagggtcct,gggagctttgccCgttcagggtcct,upst
 TRBV11-1,0112,142224301,gagctttgccagTtcagggtccttg,gagctttgccagGtcagggtccttg,upstream gene,4.43e-06,.
 TRBV11-1,0113,142224304,ctttgccagttcAgggtccttgtga,ctttgccagttcGgggtccttgtga,upstream gene,4.45e-06,.
 TRBV11-1,0114,142224309,ccagttcagggtCcttgtgaacagg,ccagttcagggtGcttgtgaacagg,upstream gene,4.57e-06,.
+TRBV19,*02-1,,ggtaccgacaggAcccagggcaagg,ggtaccgacaggTcccagggcaagg,,,
+TRBV19,*02-2,,ctactactcacaGatagtaaatgac,ctactactcacaCatagtaaatgac,,,
+TRBV19,*03-1,,ctactactcacaGatagtaaatgac,ctactactcacaCatagtaaatgac,,,
+TRBV19,0001,142326349,cagcacagatgcAatgcagagttat,cagcacagatgcGatgcagagttat,upstream gene,3.36e-05,.
+TRBV19,0002,142326357,atgcaatgcagaGttatgggaggtg,atgcaatgcagaTttatgggaggtg,upstream gene,3.35e-05,.
+TRBV19,0003,142326370,ttatgggaggtgCgaatgactctgc,ttatgggaggtgTgaatgactctgc,5' UTR,3.36e-05,.
+TRBV19,0004,142326371,tatgggaggtgcGaatgactctgct,tatgggaggtgcAaatgactctgct,5' UTR,0.000101,rs561737918
+TRBV19,0005,142326410,ctcatctgcaaaAttaggaagcctg,ctcatctgcaaaCttaggaagcctg,5' UTR,3.33e-05,.
+TRBV19,0006,142326416,tgcaaaattaggAagcctgtcttga,tgcaaaattaggTagcctgtcttga,5' UTR,3.33e-05,.
+TRBV19,0007,142326420,aaattaggaagcCtgtcttgattat,aaattaggaagcGtgtcttgattat,5' UTR,0.0002,rs17258
+TRBV19,0008,142326424,taggaagcctgtCTtgattatctcca,taggaagcctgtCtgattatctcca,5' UTR,6.64e-05,.
+TRBV19,0009,142326425,aggaagcctgtcTtgattatctcca,aggaagcctgtcAtgattatctcca,5' UTR,3.32e-05,.
+TRBV19,0010,142326445,ctccaggaacctCccacctcttcat,ctccaggaacctTccacctcttcat,5' UTR,0.000133,.
+TRBV19,0011,142326478,ctgacaaactctGcacattaggcca,ctgacaaactctAcacattaggcca,5' UTR,6.67e-05,rs540786469
+TRBV19,0012,142326485,actctgcacattAggccaggagaag,actctgcacattCggccaggagaag,5' UTR,3.34e-05,.
+TRBV19,0013,142326502,aggagaagccccCgagccaagtctc,aggagaagccccTgagccaagtctc,5' UTR,9.96e-05,rs545508000
+TRBV19,0014,142326511,ccccgagccaagTctcttttctcat,ccccgagccaagCctcttttctcat,5' UTR,6.63e-05,rs559369773
+TRBV19,0015,142326521,agtctcttttctCattctcttccaa,agtctcttttctTattctcttccaa,5' UTR,4.33e-06,.
+TRBV19,0016,142326522,gtctcttttctcAttctcttccaac,gtctcttttctcGttctcttccaac,5' UTR,8.65e-06,.
+TRBV19,0017,142326523,tctcttttctcaTtctcttccaaca,tctcttttctcaCtctcttccaaca,5' UTR,4.31e-06,.
+TRBV19,0018,142326530,tctcattctcttCcaacaagtgctt,tctcattctcttTcaacaagtgctt,5' UTR,4.25e-06,.
+TRBV19,0019,142326536,tctcttccaacaAgtgcttggagct,tctcttccaacaGgtgcttggagct,5' UTR,4.24e-06,.
+TRBV19,0020,142326545,acaagtgcttggAgctccaagaagg,acaagtgcttggCgctccaagaagg,5' UTR,4.22e-06,.
+TRBV19,0021,142326552,cttggagctccaAgaaggccccctt,cttggagctccaGgaaggccccctt,5' UTR,4.21e-05,rs377078138
+TRBV19,0022,142326554,tggagctccaagAaggccccctttg,tggagctccaagGaggccccctttg,5' UTR,0.000101,rs192110604
+TRBV19,0023,142326556,gagctccaagaaGgccccctttgca,gagctccaagaaTgccccctttgca,5' UTR,8.42e-06,.
+TRBV19,0024,142326557,agctccaagaagGccccctttgcac,agctccaagaagAccccctttgcac,5' UTR,1.26e-05,.
+TRBV19,0025,142326558,gctccaagaaggCcccctttgcact,gctccaagaaggAcccctttgcact,5' UTR,8.21e-05,rs371203587
+TRBV19,0026,142326558,gctccaagaaggCcccctttgcact,gctccaagaaggTcccctttgcact,5' UTR,4.21e-06,rs371203587
+TRBV19,0027,142326560,tccaagaaggccCcctttgcactat,tccaagaaggccGcctttgcactat,5' UTR,8.41e-06,.
+TRBV19,0028,142326562,caagaaggccccCtttgcactatga,caagaaggccccAtttgcactatga,5' UTR,1.12e-05,rs17259
+TRBV19,0029,142326568,ggccccctttgcActatgagcaacc,ggccccctttgcTctatgagcaacc,5' UTR,4.2e-06,.
+TRBV19,0030,142326571,cccctttgcactAtgagcaaccagg,cccctttgcactGtgagcaaccagg,start lost,1.49e-05,rs375953149
+TRBV19,0031,142326572,ccctttgcactaTgagcaaccaggt,ccctttgcactaAgagcaaccaggt,start lost,3.31e-05,.
+TRBV19,0032,142326579,cactatgagcaaCcaggtgctctgc,cactatgagcaaTcaggtgctctgc,synonymous,4.2e-06,.
+TRBV19,0033,142326585,gagcaaccaggtGctctgctgtgtg,gagcaaccaggtActctgctgtgtg,synonymous,4.2e-06,.
+TRBV19,0034,142326587,gcaaccaggtgcTctgctgtgtggt,gcaaccaggtgcCctgctgtgtggt,missense,7.45e-06,rs774171066
+TRBV19,0035,142326592,caggtgctctgcTgtgtggtccttt,caggtgctctgcCgtgtggtccttt,missense,1.26e-05,.
+TRBV19,0036,142326598,ctctgctgtgtgGtcctttgtctcc,ctctgctgtgtgTtcctttgtctcc,missense,4.2e-06,.
+TRBV19,0037,142326599,tctgctgtgtggTcctttgtctcct,tctgctgtgtggCcctttgtctcct,missense,8.4e-06,.
+TRBV19,0038,142326600,ctgctgtgtggtCctttgtctcctg,ctgctgtgtggtActttgtctcctg,synonymous,7.45e-06,rs368328202
+TRBV19,0039,142326606,tgtggtcctttgTctcctgggagca,tgtggtcctttgGctcctgggagca,missense,8.39e-06,.
+TRBV19,0040,142326607,gtggtcctttgtCtcctgggagcaa,gtggtcctttgtTtcctgggagcaa,missense,0.485,rs17260
+TRBV19,0041,142326610,gtcctttgtctcCtgggagcaagtg,gtcctttgtctcTtgggagcaagtg,synonymous,4.2e-06,.
+TRBV19,0042,142326616,tgtctcctgggaGcaagtgagtcct,tgtctcctgggaAcaagtgagtcct,missense,4.2e-06,.
+TRBV19,0043,142326622,ctgggagcaagtGagtcctgggttc,ctgggagcaagtAagtcctgggttc,splice region,4.2e-06,.
+TRBV19,0044,142326622,ctgggagcaagtGagtcctgggttc,ctgggagcaagtCagtcctgggttc,splice region,1.26e-05,.
+TRBV19,0045,142326624,gggagcaagtgaGtcctgggttcag,gggagcaagtgaAtcctgggttcag,splice region,4.2e-06,.
+TRBV19,0046,142326626,gagcaagtgagtCctgggttcaggg,gagcaagtgagtTctgggttcaggg,splice region,4.2e-06,.
+TRBV19,0047,142326627,agcaagtgagtcCtgggttcaggga,agcaagtgagtcTtgggttcaggga,splice region,8.4e-06,.
+TRBV19,0048,142326640,tgggttcagggaGAaaattcctatct,tgggttcagggaGaaattcctatct,intron,4.22e-06,.
+TRBV19,0049,142326642,ggttcagggagaAaattcctatctg,ggttcagggagaCaattcctatctg,intron,3.31e-05,.
+TRBV19,0050,142326644,ttcagggagaaaAttcctatctgga,ttcagggagaaaATttcctatctgga,intron,8.42e-06,.
+TRBV19,0051,142326645,tcagggagaaaaTtcctatctggag,tcagggagaaaaAtcctatctggag,intron,4.21e-06,.
+TRBV19,0052,142326648,gggagaaaattcCtatctggagtgc,gggagaaaattcGtatctggagtgc,intron,1.5e-05,rs374009396
+TRBV19,0053,142326654,aaattcctatctGgagtgctgcaag,aaattcctatctCgagtgctgcaag,intron,4.22e-06,.
+TRBV19,0054,142326658,tcctatctggagTgctgcaagttcc,tcctatctggagCgctgcaagttcc,intron,0.0013,rs113039372
+TRBV19,0055,142326661,tatctggagtgcTgcaagttccaaa,tatctggagtgcCgcaagttccaaa,intron,4.23e-06,.
+TRBV19,0056,142326662,atctggagtgctGcaagttccaaat,atctggagtgctAcaagttccaaat,intron,2.12e-05,.
+TRBV19,0057,142326668,agtgctgcaagtTccaaatctaagg,agtgctgcaagtCccaaatctaagg,intron,4.24e-06,.
+TRBV19,0058,142326669,gtgctgcaagttCcaaatctaaggc,gtgctgcaagttAcaaatctaaggc,intron,4.24e-06,.
+TRBV19,0059,142326703,ggacagcagcatCaggcgcctccct,ggacagcagcatAaggcgcctccct,intron,8.63e-06,.
+TRBV19,0060,142326707,agcagcatcaggCgcctccctgggc,agcagcatcaggTgcctccctgggc,intron,1.53e-05,rs746045759
+TRBV19,0061,142326708,gcagcatcaggcGcctccctgggct,gcagcatcaggcAcctccctgggct,intron,3.91e-05,.
+TRBV19,0062,142326710,agcatcaggcgcCtccctgggctgt,agcatcaggcgcTtccctgggctgt,intron,1.3e-05,.
+TRBV19,0063,142326724,ccctgggctgtaCtcaggcatgcct,ccctgggctgtaGtcaggcatgcct,intron,8.56e-06,.
+TRBV19,0064,142326729,ggctgtactcagGcatgcctctctt,ggctgtactcagAcatgcctctctt,intron,1.71e-05,.
+TRBV19,0065,142326730,gctgtactcaggCatgcctctcttt,gctgtactcaggTatgcctctcttt,intron,3.84e-05,.
+TRBV19,0066,142326732,tgtactcaggcaTgcctctctttct,tgtactcaggcaCgcctctctttct,intron,8.52e-06,.
+TRBV19,0067,142326734,tactcaggcatgCCTctctttcttttc,tactcaggcatgCctctttcttttc,intron,6.62e-05,.
+TRBV19,0068,142326748,tctctttcttttCcagacaccgtgg,tctctttcttttGcagacaccgtgg,splice region,8.47e-06,.
+TRBV19,0069,142326752,tttcttttccagAcaccgtggatgg,tttcttttccagGcaccgtggatgg,missense,3.31e-05,.
+TRBV19,0070,142326755,cttttccagacaCcgtggatggtgg,cttttccagacaTcgtggatggtgg,missense,4.22e-06,.
+TRBV19,0071,142326756,ttttccagacacCgtggatggtgga,ttttccagacacTgtggatggtgga,synonymous,1.5e-05,rs535183506
+TRBV19,0072,142326757,tttccagacaccGtggatggtggaa,tttccagacaccAtggatggtggaa,missense,8.43e-06,rs766103666
+TRBV19,0073,142326766,accgtggatggtGgaatcactcagt,accgtggatggtAgaatcactcagt,missense,6.35e-05,rs200808082
+TRBV19,0074,142326774,tggtggaatcacTcagtccccaaag,tggtggaatcacCcagtccccaaag,synonymous,4.2e-06,.
+TRBV19,0075,142326775,ggtggaatcactCagtccccaaagt,ggtggaatcactTagtccccaaagt,stop gained,3.73e-05,rs372253307
+TRBV19,0076,142326776,gtggaatcactcAgtccccaaagta,gtggaatcactcGgtccccaaagta,missense,5.04e-05,.
+TRBV19,0077,142326783,cactcagtccccAaagtacctgttc,cactcagtccccGaagtacctgttc,synonymous,0.119,rs17262
+TRBV19,0078,142326788,agtccccaaagtAcctgttcagaaa,agtccccaaagtCcctgttcagaaa,missense,4.2e-06,.
+TRBV19,0079,142326789,gtccccaaagtaCctgttcagaaag,gtccccaaagtaTctgttcagaaag,synonymous,1.26e-05,.
+TRBV19,0080,142326791,ccccaaagtaccTgttcagaaagga,ccccaaagtaccCgttcagaaagga,missense,1.26e-05,.
+TRBV19,0081,142326792,cccaaagtacctGttcagaaaggaa,cccaaagtacctAttcagaaaggaa,synonymous,4.2e-06,.
+TRBV19,0082,142326799,tacctgttcagaAaggaaggacaga,tacctgttcagaGaggaaggacaga,missense,1.26e-05,.
+TRBV19,0083,142326806,tcagaaaggaagGacagaatgtgac,tcagaaaggaagCacagaatgtgac,missense,4.2e-06,rs369595214
+TRBV19,0084,142326812,aggaaggacagaAtgtgaccctgag,aggaaggacagaGtgtgaccctgag,missense,6.62e-05,.
+TRBV19,0085,142326814,gaaggacagaatGtgaccctgagtt,gaaggacagaatAtgaccctgagtt,missense,4.2e-06,.
+TRBV19,0086,142326818,gacagaatgtgaCcctgagttgtga,gacagaatgtgaAcctgagttgtga,missense,4.2e-06,.
+TRBV19,0087,142326821,agaatgtgacccTgagttgtgaaca,agaatgtgacccCgagttgtgaaca,missense,5.88e-05,.
+TRBV19,0088,142326821,agaatgtgacccTgagttgtgaaca,agaatgtgacccGgagttgtgaaca,missense,4.2e-06,.
+TRBV19,0089,142326823,aatgtgaccctgAgttgtgaacaga,aatgtgaccctgCgttgtgaacaga,missense,8.39e-06,rs372321937
+TRBV19,0090,142326824,atgtgaccctgaGttgtgaacagaa,atgtgaccctgaAttgtgaacagaa,missense,4.2e-06,.
+TRBV19,0091,142326825,tgtgaccctgagTtgtgaacagaat,tgtgaccctgagAtgtgaacagaat,missense,7.45e-06,rs780118965
+TRBV19,0092,142326825,tgtgaccctgagTtgtgaacagaat,tgtgaccctgagCtgtgaacagaat,synonymous,2.52e-05,.
+TRBV19,0093,142326832,ctgagttgtgaaCagaatttgaacc,ctgagttgtgaaGagaatttgaacc,missense,4.2e-06,.
+TRBV19,0094,142326841,gaacagaatttgAaccacgatgcca,gaacagaatttgTaccacgatgcca,missense,3.31e-05,.
+TRBV19,0095,142326843,acagaatttgaaCcacgatgccatg,acagaatttgaaAcacgatgccatg,missense,1.49e-05,rs375356152
+TRBV19,0096,142326846,gaatttgaaccaCgatgccatgtac,gaatttgaaccaTgatgccatgtac,synonymous,2.98e-05,rs17263
+TRBV19,0097,142326847,aatttgaaccacGatgccatgtact,aatttgaaccacAatgccatgtact,missense,2.94e-05,rs369379997
+TRBV19,0098,142326850,ttgaaccacgatGccatgtactggt,ttgaaccacgatAccatgtactggt,missense,4.2e-06,.
+TRBV19,0099,142326854,accacgatgccaTgtactggtaccg,accacgatgccaGgtactggtaccg,missense,4.2e-06,.
+TRBV19,0100,142326865,atgtactggtacCgacaggacccag,atgtactggtacTgacaggacccag,stop gained,1.68e-05,.
+TRBV19,0101,142326866,tgtactggtaccGacaggacccagg,tgtactggtaccAacaggacccagg,missense,0.00035,rs372708256
+TRBV19,0102,142326873,gtaccgacaggaCccagggcaaggg,gtaccgacaggaGccagggcaaggg,missense,3.31e-05,.
+TRBV19,0103,142326877,cgacaggacccaGggcaagggctga,cgacaggacccaAggcaagggctga,missense,4.19e-06,.
+TRBV19,0104,142326879,acaggacccaggGcaagggctgaga,acaggacccaggAcaagggctgaga,synonymous,4.19e-06,.
+TRBV19,0105,142326883,gacccagggcaaGggctgagattga,gacccagggcaaAggctgagattga,missense,4.19e-06,.
+TRBV19,0106,142326884,acccagggcaagGgctgagattgat,acccagggcaagAgctgagattgat,missense,4.19e-06,.
+TRBV19,0107,142326885,cccagggcaaggGctgagattgatc,cccagggcaaggActgagattgatc,synonymous,1.68e-05,.
+TRBV19,0108,142326886,ccagggcaagggCtgagattgatct,ccagggcaagggGtgagattgatct,missense,1.26e-05,.
+TRBV19,0109,142326888,agggcaagggctGagattgatctac,agggcaagggctAagattgatctac,synonymous,4.19e-06,.
+TRBV19,0110,142326890,ggcaagggctgaGattgatctacta,ggcaagggctgaAattgatctacta,missense,1.68e-05,rs377012137
+TRBV19,0111,142326890,ggcaagggctgaGattgatctacta,ggcaagggctgaTattgatctacta,missense,4.19e-06,rs377012137
+TRBV19,0112,142326897,gctgagattgatCtactactcacac,gctgagattgatTtactactcacac,synonymous,4.19e-06,rs368678205
+TRBV19,0113,142326903,attgatctactaCtcacacatagta,attgatctactaTtcacacatagta,synonymous,4.19e-06,rs374559992
+TRBV19,0114,142326907,atctactactcaCACATagtaaatgactt,atctactactcaCAgtaaatgactt,frameshift,4.19e-06,.
+TRBV19,0115,142326909,ctactactcacaCatagtaaatgac,ctactactcacaAatagtaaatgac,missense,4.19e-06,rs76454382
+TRBV19,0116,142326909,ctactactcacaCatagtaaatgac,ctactactcacaGatagtaaatgac,missense,0.994,rs76454382
+TRBV19,0117,142326911,actactcacacaTagtaaatgactt,actactcacacaCagtaaatgactt,missense,8.39e-06,.
+TRBV19,0118,142326912,ctactcacacatAgtaaatgacttt,ctactcacacatGgtaaatgacttt,missense,8.39e-06,.
+TRBV19,0119,142326917,cacacatagtaaAtgactttcagaa,cacacatagtaaGtgactttcagaa,missense,1.49e-05,rs780326957
+TRBV19,0120,142326919,cacatagtaaatGactttcagaaag,cacatagtaaatTactttcagaaag,missense,4.19e-06,.
+TRBV19,0121,142326926,taaatgactttcAgaaaggagatat,taaatgactttcTgaaaggagatat,missense,4.19e-06,.
+TRBV19,0122,142326931,gactttcagaaaGgagatatagctg,gactttcagaaaCgagatatagctg,missense,4.2e-06,.
+TRBV19,0123,142326932,actttcagaaagGagatatagctga,actttcagaaagCagatatagctga,missense,8.39e-06,.
+TRBV19,0124,142326934,tttcagaaaggaGatatagctgaag,tttcagaaaggaTatatagctgaag,missense,8.39e-06,.
+TRBV19,0125,142326938,agaaaggagataTagctgaagggta,agaaaggagataCagctgaagggta,missense,2.52e-05,rs755178943
+TRBV19,0126,142326946,gatatagctgaaGggtacagcgtct,gatatagctgaaAggtacagcgtct,missense,4.19e-06,.
+TRBV19,0127,142326951,agctgaagggtaCagcgtctctcgg,agctgaagggtaTagcgtctctcgg,synonymous,8.39e-06,.
+TRBV19,0128,142326952,gctgaagggtacAgcgtctctcggg,gctgaagggtacGgcgtctctcggg,missense,4.19e-06,.
+TRBV19,0129,142326955,gaagggtacagcGtctctcgggaga,gaagggtacagcAtctctcgggaga,missense,6.33e-05,rs371076167
+TRBV19,0130,142326958,gggtacagcgtcTctcgggagaaga,gggtacagcgtcGctcgggagaaga,missense,4.2e-06,.
+TRBV19,0131,142326960,gtacagcgtctcTcgggagaagaag,gtacagcgtctcCcgggagaagaag,synonymous,8.39e-06,.
+TRBV19,0132,142326961,tacagcgtctctCgggagaagaagg,tacagcgtctctTgggagaagaagg,missense,1.68e-05,rs78434792
+TRBV19,0133,142326962,acagcgtctctcGggagaagaagga,acagcgtctctcAggagaagaagga,missense,2.1e-05,.
+TRBV19,0134,142326964,agcgtctctcggGagaagaaggaat,agcgtctctcggAagaagaaggaat,missense,3.31e-05,.
+TRBV19,0135,142326965,gcgtctctcgggAgaagaaggaatc,gcgtctctcgggGgaagaaggaatc,missense,4.2e-06,.
+TRBV19,0136,142326980,agaaggaatcctTtcctctcactgt,agaaggaatcctCtcctctcactgt,missense,8.39e-06,.
+TRBV19,0137,142326982,aaggaatcctttCctctcactgtga,aaggaatcctttTctctcactgtga,missense,8.39e-06,.
+TRBV19,0138,142326985,gaatcctttcctCtcactgtgacat,gaatcctttcctTtcactgtgacat,missense,4.2e-06,.
+TRBV19,0139,142326989,cctttcctctcaCtgtgacatcggc,cctttcctctcaTtgtgacatcggc,missense,4.2e-06,.
+TRBV19,0140,142326990,ctttcctctcacTgtgacatcggcc,ctttcctctcacCgtgacatcggcc,synonymous,4.2e-06,.
+TRBV19,0141,142326990,ctttcctctcacTgtgacatcggcc,ctttcctctcacGgtgacatcggcc,synonymous,4.2e-06,.
+TRBV19,0142,142326992,ttcctctcactgTgacatcggccca,ttcctctcactgCgacatcggccca,missense,8.39e-06,.
+TRBV19,0143,142326998,tcactgtgacatCggcccaaaagaa,tcactgtgacatTggcccaaaagaa,missense,3.36e-05,.
+TRBV19,0144,142326999,cactgtgacatcGgcccaaaagaac,cactgtgacatcAgcccaaaagaac,synonymous,1.12e-05,rs774045320
+TRBV19,0145,142327001,ctgtgacatcggCccaaaagaaccc,ctgtgacatcggAccaaaagaaccc,missense,5.04e-05,.
+TRBV19,0146,142327002,tgtgacatcggcCcaaaagaacccg,tgtgacatcggcTcaaaagaacccg,synonymous,4.2e-06,.
+TRBV19,0147,142327011,ggcccaaaagaaCccgacagctttc,ggcccaaaagaaGccgacagctttc,missense,3.32e-05,.
+TRBV19,0148,142327011,ggcccaaaagaaCccgacagctttc,ggcccaaaagaaTccgacagctttc,synonymous,3.32e-05,.
+TRBV19,0149,142327013,cccaaaagaaccCgacagctttcta,cccaaaagaaccGgacagctttcta,missense,4.2e-06,.
+TRBV19,0150,142327013,cccaaaagaaccCgacagctttcta,cccaaaagaaccTgacagctttcta,missense,4.85e-05,rs750828059
+TRBV19,0151,142327014,ccaaaagaacccGacagctttctat,ccaaaagaacccAacagctttctat,synonymous,2.94e-05,.
+TRBV19,0152,142327018,aagaacccgacaGctttctatctct,aagaacccgacaActttctatctct,missense,1.49e-05,rs375094911
+TRBV19,0153,142327020,gaacccgacagcTttctatctctgt,gaacccgacagcCttctatctctgt,synonymous,4.2e-06,.
+TRBV19,0154,142327038,tctctgtgccagTagtatagacaca,tctctgtgccagCagtatagacaca,synonymous,2.96e-05,.
+TRBV19,0155,142327040,tctgtgccagtaGtatagacacagt,tctgtgccagtaCtatagacacagt,missense,4.23e-06,.
+TRBV19,0156,142327044,tgccagtagtatAgacacagtgaag,tgccagtagtatCgacacagtgaag,synonymous,4.26e-05,.
+TRBV19,0157,142327059,cacagtgaagcaCggatgtcgcctc,cacagtgaagcaTggatgtcgcctc,downstream gene,1.33e-05,.
+TRBV19,0158,142327060,acagtgaagcacGgatgtcgcctct,acagtgaagcacAgatgtcgcctct,downstream gene,2.21e-05,rs745739118
+TRBV19,0159,142327066,aagcacggatgtCgcctctctgtgc,aagcacggatgtTgcctctctgtgc,downstream gene,4.37e-05,rs370712398
+TRBV19,0160,142327067,agcacggatgtcGcctctctgtgca,agcacggatgtcAcctctctgtgca,downstream gene,6.84e-05,rs367710642
+TRBV19,0161,142327067,agcacggatgtcGcctctctgtgca,agcacggatgtcCcctctctgtgca,downstream gene,4.57e-06,rs367710642
+TRBV19,0162,142327067,agcacggatgtcGcctctctgtgca,agcacggatgtcTcctctctgtgca,downstream gene,9.14e-06,rs367710642
+TRBV19,0163,142327071,cggatgtcgcctCtctgtgcataaa,cggatgtcgcctTtctgtgcataaa,downstream gene,4.58e-06,.
+TRBV19,0164,142327076,gtcgcctctctgTgcataaatgtgc,gtcgcctctctgCgcataaatgtgc,downstream gene,1.88e-05,.
+TRBV19,0165,142327077,tcgcctctctgtGcataaatgtgcc,tcgcctctctgtTcataaatgtgcc,downstream gene,4.71e-06,.
+TRBV19,0166,142327085,ctgtgcataaatGtgcccagtcctg,ctgtgcataaatAtgcccagtcctg,downstream gene,4.78e-06,.
+TRBV11-2,*02-1,,gcaaagcttgagGactcggccgtgt,gcaaagcttgagAactcggccgtgt,,,
+TRBV11-2,*02-2,,ctgtgccagcagC,ctgtgccagcagT,,,
+TRBV11-2,*03-1,,tctcaagatccaGcctgcaaagctt,tctcaagatccaAcctgcaaagctt,,,
+TRBV11-2,0001,142197522,agagagtcctgcGgttttctggttt,agagagtcctgcAgttttctggttt,downstream gene,1.42e-05,rs542634995
+TRBV11-2,0002,142197530,ctgcggttttctGgttttctgcaca,ctgcggttttctAgttttctgcaca,downstream gene,2.19e-05,.
+TRBV11-2,0003,142197532,gcggttttctggTtttctgcacagg,gcggttttctggCtttctgcacagg,downstream gene,0.000241,.
+TRBV11-2,0005,142197539,tctggttttctgCacaggagggaag,tctggttttctgAacaggagggaag,downstream gene,1.31e-05,.
+TRBV11-2,0006,142197541,tggttttctgcaCaggagggaagtg,tggttttctgcaGaggagggaagtg,downstream gene,4.32e-06,.
+TRBV11-2,0007,142197541,tggttttctgcaCaggagggaagtg,tggttttctgcaTaggagggaagtg,downstream gene,4.32e-06,.
+TRBV11-2,0008,142197544,ttttctgcacagGagggaagtgtct,ttttctgcacagAagggaagtgtct,downstream gene,4.25e-06,.
+TRBV11-2,0010,142197560,gaagtgtctctgCtacactgtgtct,gaagtgtctctgGtacactgtgtct,downstream gene,4.2e-06,.
+TRBV11-2,0011,142197570,tgctacactgtgTctaagctgctgg,tgctacactgtgActaagctgctgg,non coding transcript exon,4.2e-06,.
+TRBV11-2,0012,142197576,actgtgtctaagCtgctggcacaga,actgtgtctaagGtgctggcacaga,non coding transcript exon,8.81e-05,rs370167735
+TRBV11-2,0013,142197578,tgtgtctaagctGctggcacagaga,tgtgtctaagctTctggcacagaga,non coding transcript exon,8.39e-06,.
+TRBV11-2,0014,142197584,taagctgctggcAcagagatacacg,taagctgctggcGcagagatacacg,non coding transcript exon,0.000109,rs770223542
+TRBV11-2,0015,142197594,gcacagagatacAcggccgagtcct,gcacagagatacGcggccgagtcct,non coding transcript exon,4.19e-06,.
+TRBV11-2,0016,142197595,cacagagatacaCggccgagtcctc,cacagagatacaTggccgagtcctc,non coding transcript exon,7.97e-05,rs528771627
+TRBV11-2,0017,142197596,acagagatacacGgccgagtcctca,acagagatacacAgccgagtcctca,non coding transcript exon,5.45e-05,rs374547139
+TRBV11-2,0018,142197596,acagagatacacGgccgagtcctca,acagagatacacCgccgagtcctca,non coding transcript exon,1.68e-05,rs374547139
+TRBV11-2,0019,142197599,gagatacacggcCgagtcctcaagc,gagatacacggcGgagtcctcaagc,non coding transcript exon,8.39e-06,.
+TRBV11-2,0020,142197599,gagatacacggcCgagtcctcaagc,gagatacacggcTgagtcctcaagc,non coding transcript exon,2.52e-05,.
+TRBV11-2,0021,142197600,agatacacggccGagtcctcaagct,agatacacggccAagtcctcaagct,non coding transcript exon,8.39e-06,.
+TRBV11-2,0022,142197607,cggccgagtcctCaagctttgcagg,cggccgagtcctTaagctttgcagg,non coding transcript exon,1.26e-05,.
+TRBV11-2,0023,142197609,gccgagtcctcaAgctttgcaggct,gccgagtcctcaGgctttgcaggct,non coding transcript exon,4.19e-06,.
+TRBV11-2,0024,142197614,gtcctcaagcttTgcaggctggatc,gtcctcaagcttCgcaggctggatc,non coding transcript exon,4.19e-06,.
+TRBV11-2,0025,142197620,aagctttgcaggCtggatcttgaga,aagctttgcaggTtggatcttgaga,non coding transcript exon,0.243,rs17281
+TRBV11-2,0026,142197624,tttgcaggctggAtcttgagagtgg,tttgcaggctggCtcttgagagtgg,non coding transcript exon,8.39e-06,rs756863775
+TRBV11-2,0027,142197627,gcaggctggatcTtgagagtggagt,gcaggctggatcCtgagagtggagt,non coding transcript exon,4.19e-06,.
+TRBV11-2,0028,142197631,gctggatcttgaGagtggagtctac,gctggatcttgaAagtggagtctac,non coding transcript exon,4.19e-06,.
+TRBV11-2,0029,142197639,ttgagagtggagTCTACTCCTTTGAGCctctctgcagaa,ttgagagtggagTctctctgcagaa,non coding transcript exon,4.19e-06,.
+TRBV11-2,0030,142197640,tgagagtggagtCTactcctttgagc,tgagagtggagtCTctcctttgagc,non coding transcript exon,5.03e-05,rs771356569
+TRBV11-2,0032,142197669,tctgcagaaaatCgatccttaggca,tctgcagaaaatTgatccttaggca,non coding transcript exon,1.68e-05,rs267601336
+TRBV11-2,0033,142197670,ctgcagaaaatcGatccttaggcaa,ctgcagaaaatcAatccttaggcaa,non coding transcript exon,8.39e-06,.
+TRBV11-2,0034,142197672,gcagaaaatcgaTccttaggcaact,gcagaaaatcgaAccttaggcaact,non coding transcript exon,1.26e-05,.
+TRBV11-2,0035,142197678,aatcgatccttaGgcaactgtgaat,aatcgatccttaAgcaactgtgaat,non coding transcript exon,4.19e-06,.
+TRBV11-2,0036,142197686,cttaggcaactgTgaatcatccact,cttaggcaactgCgaatcatccact,non coding transcript exon,4.19e-06,.
+TRBV11-2,0037,142197689,aggcaactgtgaAtcatccactaca,aggcaactgtgaTtcatccactaca,non coding transcript exon,2.1e-05,.
+TRBV11-2,0038,142197723,tgaaactgaatcAgaagctttgggc,tgaaactgaatcGgaagctttgggc,non coding transcript exon,4.19e-06,.
+TRBV11-2,0039,142197734,cagaagctttggGccctgtcccagg,cagaagctttggAccctgtcccagg,non coding transcript exon,0.000214,rs376628705
+TRBV11-2,0040,142197735,agaagctttgggCcctgtcccagga,agaagctttgggTcctgtcccagga,non coding transcript exon,4.19e-06,.
+TRBV11-2,0041,142197741,tttgggccctgtCccaggatctgct,tttgggccctgtGccaggatctgct,non coding transcript exon,8.39e-06,.
+TRBV11-2,0043,142197756,aggatctgctggTaccagtaaaggg,aggatctgctggGaccagtaaaggg,non coding transcript exon,8.39e-06,.
+TRBV11-2,0045,142197762,tgctggtaccagTaaagggtagcat,tgctggtaccagCaaagggtagcat,non coding transcript exon,4.2e-06,.
+TRBV11-2,0046,142197768,taccagtaaaggGtagcatggccag,taccagtaaaggCtagcatggccag,non coding transcript exon,4.2e-06,rs370676421
+TRBV11-2,0047,142197774,taaagggtagcaTggccagatatag,taaagggtagcaCggccagatatag,non coding transcript exon,2.52e-05,rs17163285
+TRBV11-2,0048,142197776,aagggtagcatgGccagatatagga,aagggtagcatgGCCAccagatatagga,non coding transcript exon,3.3e-05,.
+TRBV11-2,0049,142197786,tggccagatataGgattgcaccaaa,tggccagatataAgattgcaccaaa,non coding transcript exon,4.2e-06,.
+TRBV11-2,0050,142197789,ccagatataggaTtgcaccaaaaag,ccagatataggaCtgcaccaaaaag,non coding transcript exon,8.39e-06,.
+TRBV11-2,0051,142197790,cagatataggatTgcaccaaaaagc,cagatataggatAgcaccaaaaagc,non coding transcript exon,4.2e-06,.
+TRBV11-2,0052,142197790,cagatataggatTgcaccaaaaagc,cagatataggatCgcaccaaaaagc,non coding transcript exon,4.2e-06,.
+TRBV11-2,0053,142197801,ttgcaccaaaaaGccacactctgcc,ttgcaccaaaaaTccacactctgcc,non coding transcript exon,1.68e-05,rs373834195
+TRBV11-2,0054,142197802,tgcaccaaaaagCcacactctgcct,tgcaccaaaaagAcacactctgcct,non coding transcript exon,8.4e-06,.
+TRBV11-2,0055,142197804,caccaaaaagccAcactctgccttt,caccaaaaagccGcactctgccttt,non coding transcript exon,4.2e-06,.
+TRBV11-2,0056,142197805,accaaaaagccaCactctgcctttt,accaaaaagccaTactctgcctttt,non coding transcript exon,1.68e-05,.
+TRBV11-2,0057,142197818,actctgccttttCtctataatctta,actctgccttttTtctataatctta,non coding transcript exon,4.2e-06,.
+TRBV11-2,0058,142197822,tgccttttctctATaatcttatatcc,tgccttttctctTaatcttatatcc,non coding transcript exon,4.2e-06,.
+TRBV11-2,0059,142197826,ttttctctataaTcttatatccggg,ttttctctataaCcttatatccggg,non coding transcript exon,4.21e-06,.
+TRBV11-2,0060,142197830,ctctataatcttAtatccgggagac,ctctataatcttCtatccgggagac,non coding transcript exon,5.05e-05,rs139187012
+TRBV11-2,0061,142197830,ctctataatcttAtatccgggagac,ctctataatcttGtatccgggagac,non coding transcript exon,1.68e-05,rs139187012
+TRBV11-2,0062,142197832,ctataatcttatAtccgggagactg,ctataatcttatTtccgggagactg,non coding transcript exon,1.26e-05,.
+TRBV11-2,0063,142197835,taatcttatatcCgggagactgggc,taatcttatatcTgggagactgggc,non coding transcript exon,0.995,rs17280
+TRBV11-2,0064,142197838,tcttatatccggGagactgggcaac,tcttatatccggAagactgggcaac,non coding transcript exon,1.69e-05,.
+TRBV11-2,0065,142197841,tatatccgggagActgggcaactcc,tatatccgggagGctgggcaactcc,non coding transcript exon,4.22e-06,.
+TRBV11-2,0066,142197843,tatccgggagacTgggcaactccag,tatccgggagacCgggcaactccag,non coding transcript exon,8.46e-06,.
+TRBV11-2,0067,142197849,ggagactgggcaActccagcttctg,ggagactgggcaGctccagcttctg,non coding transcript exon,4.24e-06,.
+TRBV11-2,0068,142197853,actgggcaactcCagcttctgtgag,actgggcaactcTagcttctgtgag,non coding transcript exon,4.25e-06,.
+TRBV11-2,0069,142197864,ccagcttctgtgAgttctgagaagg,ccagcttctgtgGgttctgagaagg,non coding transcript exon,4.31e-06,.
+TRBV11-2,0070,142197865,cagcttctgtgaGttctgagaagga,cagcttctgtgaAttctgagaagga,splice region,4.31e-06,.
+TRBV11-2,0071,142197867,gcttctgtgagtTctgagaaggaaa,gcttctgtgagtCctgagaaggaaa,splice region,4.31e-06,.
+TRBV11-2,0072,142197876,agttctgagaagGAaaaagacagaat,agttctgagaagGAaaaagacagaa,intron,3.3e-05,.
+TRBV11-2,0073,142197890,aaaagacagaatTtgaaaacagaag,aaaagacagaatCtgaaaacagaag,intron,1.31e-05,.
+TRBV11-2,0074,142197897,agaatttgaaaaCagaaggaaatga,agaatttgaaaaTagaaggaaatga,intron,0.341,rs17279
+TRBV11-2,0075,142197925,aaataatcagagAgatccaatgtga,aaataatcagagCgatccaatgtga,intron,9.04e-06,rs760260507
+TRBV11-2,0076,142197928,taatcagagagaTccaatgtgatca,taatcagagagaGccaatgtgatca,intron,0.000127,rs183490568
+TRBV11-2,0077,142197930,atcagagagatcCaatgtgatcatg,atcagagagatcAaatgtgatcatg,intron,9.07e-06,.
+TRBV11-2,0078,142197936,gagatccaatgtGatcatggtgttc,gagatccaatgtTatcatggtgttc,intron,4.54e-05,rs759108181
+TRBV11-2,0079,142197949,atcatggtgttcCtaggactcacct,atcatggtgttcTtaggactcacct,intron,1.34e-05,.
+TRBV11-2,0080,142197955,gtgttcctaggaCtcacctgctccc,gtgttcctaggaTtcacctgctccc,splice region,4.5e-06,.
+TRBV11-2,0081,142197958,ttcctaggactcAcctgctcccagg,ttcctaggactcGcctgctcccagg,splice donor,1.34e-05,rs763463801
+TRBV11-2,0082,142197963,aggactcacctgCtcccaggagaca,aggactcacctgTtcccaggagaca,non coding transcript exon,3.57e-05,.
+TRBV11-2,0083,142197973,tgctcccaggagACagagggccgcct,tgctcccaggagACaagggccgcct,non coding transcript exon,0.000232,.
+TRBV11-2,0084,142197979,caggagacagagGgccgcctagcag,caggagacagagAgccgcctagcag,non coding transcript exon,1.77e-05,.
+TRBV11-2,0085,142197980,aggagacagaggGCcgcctagcagag,aggagacagaggCcgcctagcagag,non coding transcript exon,0.000346,.
+TRBV11-2,0086,142197982,gagacagagggcCgcctagcagagg,gagacagagggcGgcctagcagagg,non coding transcript exon,0.000155,rs149749379
+TRBV11-2,0087,142197982,gagacagagggcCgcctagcagagg,gagacagagggcTgcctagcagagg,non coding transcript exon,0.00175,rs149749379
+TRBV11-2,0088,142197983,agacagagggccGcctagcagagga,agacagagggccAcctagcagagga,non coding transcript exon,0.000227,rs369385273
+TRBV11-2,0089,142197986,cagagggccgccTagcagaggagcc,cagagggccgccCagcagaggagcc,non coding transcript exon,0.995,rs148941368
+TRBV11-2,0090,142197988,gagggccgcctaGcagaggagcctg,gagggccgcctaAcagaggagcctg,non coding transcript exon,4.45e-06,rs748058555
+TRBV11-2,0091,142197989,agggccgcctagCAgaggagcctggt,agggccgcctagCAgaggagccggt,non coding transcript exon,7.84e-06,rs746263698
+TRBV11-2,0092,142197991,ggccgcctagcaGaggagcctggtg,ggccgcctagcaAaggagcctggtg,non coding transcript exon,4.47e-06,.
+TRBV11-2,0093,142197996,cctagcagaggaGcctggtgcccat,cctagcagaggaAcctggtgcccat,non coding transcript exon,8.98e-06,.
+TRBV11-2,0094,142197996,cctagcagaggaGcctggtgcccat,cctagcagaggaTcctggtgcccat,non coding transcript exon,4.49e-06,.
+TRBV11-2,0095,142197997,ctagcagaggagCctggtgcccatg,ctagcagaggagGctggtgcccatg,non coding transcript exon,4.5e-06,rs746890441
+TRBV11-2,0096,142198000,gcagaggagcctGgtgcccatggca,gcagaggagcctCgtgcccatggca,non coding transcript exon,9.02e-06,rs771513111
+TRBV11-2,0097,142198001,cagaggagcctgGtgcccatggcag,cagaggagcctgCtgcccatggcag,non coding transcript exon,4.96e-05,.
+TRBV11-2,0098,142198004,aggagcctggtgCccatggcagggt,aggagcctggtgAccatggcagggt,non coding transcript exon,4.53e-06,.
+TRBV11-2,0099,142198011,tggtgcccatggCagggtcagggaa,tggtgcccatggTagggtcagggaa,non coding transcript exon,4.55e-06,.
+TRBV11-2,0100,142198013,gtgcccatggcaGggtcagggaagg,gtgcccatggcaAggtcagggaagg,non coding transcript exon,9.28e-06,rs769329079
+TRBV11-2,0101,142198015,gcccatggcaggGtcagggaaggat,gcccatggcaggCtcagggaaggat,non coding transcript exon,9.29e-06,.
+TRBV11-2,0102,142198019,atggcagggtcaGggaaggatggga,atggcagggtcaAggaaggatggga,non coding transcript exon,4.77e-06,.
+TRBV11-2,0103,142198032,ggaaggatgggaGctttgcccaatc,ggaaggatgggaActttgcccaatc,non coding transcript exon,0.00138,rs138426048
+TRBV11-2,0104,142198033,gaaggatgggagCtttgcccaatca,gaaggatgggagAtttgcccaatca,non coding transcript exon,5.17e-06,.
+TRBV11-2,0105,142198042,gagctttgcccaAtcagggtcactg,gagctttgcccaGtcagggtcactg,non coding transcript exon,1.61e-05,rs368808182
+TRBV11-2,0106,142198044,gctttgcccaatCagggtcactgtg,gctttgcccaatGagggtcactgtg,non coding transcript exon,5.39e-06,.
 TRBV20-1,*02-1,,caacatccgagcTgggttatctgta,caacatccgagcAgggttatctgta,,,
 TRBV20-1,*03-1,,ccaatgagggctCcaaggccacata,ccaatgagggctGcaaggccacata,,,
 TRBV20-1,*04-1,,caacatccgagcTgggttatctgta,caacatccgagcAgggttatctgta,,,
-TRBV20-1,*04-2,,gagtgccgttccCtggactttcagg,gagtgccgttccTtggactttcagg,,,
+TRBV20-1,*04-2,142334696,gagtgccgttccCtggactttcagg,gagtgccgttccTtggactttcagg,synonymous,3.33e-05,.
 TRBV20-1,*04-3,,cagttcccgaaaCagagtctcatgc,cagttcccgaaaAagagtctcatgc,,,
 TRBV20-1,*04-4,,ctgcagtgctagA,ctgcagtgctagT,,,
 TRBV20-1,*05-1,,caacatccgagcTgggttatctgta,caacatccgagcAgggttatctgta,,,
-TRBV20-1,*05-2,,cagttcccgaaaCagagtctcatgc,cagttcccgaaaAagagtctcatgc,,,
+TRBV20-1,*05-2,142334744,cagttcccgaaaCagagtctcatgc,cagttcccgaaaAagagtctcatgc,missense,0.126,rs17211
 TRBV20-1,*06-2,,tcaacatccgagCTgggttatctgta,tcaacatccgagTAgggttatctgta,,,
 TRBV20-1,*06-3,,cagttcccgaaaCagagtctcatgc,cagttcccgaaaAagagtctcatgc,,,
 TRBV20-1,*07-1,,caacatccgagcTgggttatctgta,caacatccgagcAgggttatctgta,,,
@@ -4233,7 +4042,6 @@ TRBV20-1,0090,142334683,ctctgtgaagatCgagtgccgttcc,ctctgtgaagatTgagtgccgttcc,syno
 TRBV20-1,0091,142334686,tgtgaagatcgaGtgccgttccctg,tgtgaagatcgaAtgccgttccctg,synonymous,2e-05,.
 TRBV20-1,0092,142334689,gaagatcgagtgCcgttccctggac,gaagatcgagtgTcgttccctggac,synonymous,3.33e-05,.
 TRBV20-1,0093,142334691,agatcgagtgccGttccctggactt,agatcgagtgccAttccctggactt,missense,2.4e-05,.
-TRBV20-1,0094,142334696,gagtgccgttccCtggactttcagg,gagtgccgttccTtggactttcagg,synonymous,3.33e-05,.
 TRBV20-1,0095,142334710,ggactttcaggcCacaactatgttt,ggactttcaggcAacaactatgttt,synonymous,4e-06,.
 TRBV20-1,0096,142334711,gactttcaggccAcaactatgtttt,gactttcaggccGcaactatgtttt,missense,4e-06,rs374814604
 TRBV20-1,0097,142334715,ttcaggccacaaCtatgttttggta,ttcaggccacaaTtatgttttggta,missense,8e-06,.
@@ -4245,7 +4053,6 @@ TRBV20-1,0102,142334738,tatcgtcagttcCcgaaacagagtc,tatcgtcagttcTcgaaacagagtc,miss
 TRBV20-1,0103,142334739,atcgtcagttccCgaaacagagtct,atcgtcagttccGgaaacagagtct,missense,0.000289,rs201903499
 TRBV20-1,0104,142334739,atcgtcagttccCgaaacagagtct,atcgtcagttccTgaaacagagtct,missense,6e-05,rs201903499
 TRBV20-1,0105,142334740,tcgtcagttcccGaaacagagtctc,tcgtcagttcccAaaacagagtctc,synonymous,4e-06,.
-TRBV20-1,0106,142334744,cagttcccgaaaCagagtctcatgc,cagttcccgaaaAagagtctcatgc,missense,0.126,rs17211
 TRBV20-1,0107,142334744,cagttcccgaaaCAGagtctcatgctg,cagttcccgaaaCagtctcatgctg,frameshift,3.6e-05,.
 TRBV20-1,0108,142334746,gttcccgaaacaGagtctcatgctg,gttcccgaaacaAagtctcatgctg,synonymous,8e-06,.
 TRBV20-1,0109,142334746,gttcccgaaacaGagtctcatgctg,gttcccgaaacaCagtctcatgctg,missense,4e-06,.
@@ -4320,22 +4127,162 @@ TRBV20-1,0177,142334962,acccctgcagctGccctccgcccca,acccctgcagctCccctccgcccca,down
 TRBV20-1,0178,142334968,gcagctgccctcCgccccagcgggc,gcagctgccctcAgccccagcgggc,downstream gene,1.43e-05,.
 TRBV20-1,0179,142334968,gcagctgccctcCgccccagcgggc,gcagctgccctcTgccccagcgggc,downstream gene,4.76e-06,.
 TRBV20-1,0180,142334969,cagctgccctccGccccagcgggcc,cagctgccctccAccccagcgggcc,downstream gene,2.89e-05,.
-TRBV16,*02-1,,aggacacagttaTgttttttggtac,aggacacagttaGgttttttggtac,,,
-TRBV16,*03-1,,ttcaagttcttgAtttccttccaga,ttcaagttcttgGtttccttccaga,,,
-TRBV15,*02-1,,ggcctgggggacAcagccatgtacc,ggcctgggggacGcagccatgtacc,,,
-TRBV15,*03-1,,acccaagataccAggttacccagtt,acccaagataccGggttacccagtt,,,
-TRBV15,*03-2,,ttccactactatGacaaagatttta,ttccactactatAacaaagatttta,,,
-TRBV15,*03-3,,tttctgctttctTgacatccgctca,tttctgctttctAgacatccgctca,,,
-TRBV15,*03-4,,ggcctgggggacAcagccatgtacc,ggcctgggggacGcagccatgtacc,,,
-TRBV15,*03-5,,cagccatgtaccTgtgtgccaccag,cagccatgtaccAgtgtgccaccag,,,
-TRBV14,*02-1,,taaacaggatgaGtccggtatgccc,taaacaggatgaAtccggtatgccc,,,
-TRBV13,*02-1,,gacatctgatcaAagaaaagaggga,gacatctgatcaGagaaaagaggga,,,
-TRBV13,*02-2,,gtaccagcagggTccaggtcaggac,gtaccagcagggCccaggtcaggac,,,
-TRBV13,*02-3,,gacccccagttcCtcatttcgtttt,gacccccagttcTtcatttcgtttt,,,
-TRBV29/OR9-2,*02-1,,cctggacagagcCtgacactgattg,cctggacagagcGtgacactgattg,,,
-TRBV7-8,*02-1,,cagcgcacacagCaggaggactccg,cagcgcacacagAaggaggactccg,,,
-TRBV7-8,*03-1,,ccaacaggccctGgggcaggggcca,ccaacaggccctCgggcaggggcca,,,
-TRBV7-8,*03-3,,tgtgccagcagcTTa,tgtgccagcagcCGa,,,
+TRBV29-1,*02-1,,taacattctcaaCtctgactgtgag,taacattctcaaGtctgactgtgag,,,
+TRBV29-1,0001,142448036,aaacagagtgggAaggaactacgct,aaacagagtgggGaggaactacgct,upstream gene,3.31e-05,.
+TRBV29-1,0002,142448045,gggaaggaactaCgctgtaggaagg,gggaaggaactaTgctgtaggaagg,upstream gene,0.000331,rs368122405
+TRBV29-1,0003,142448063,aggaaggaaagaTgaacttgagttt,aggaaggaaagaCgaacttgagttt,5' UTR,3.31e-05,.
+TRBV29-1,0004,142448080,ttgagtttcactTcttagtgccttt,ttgagtttcactCcttagtgccttt,5' UTR,6.6e-06,.
+TRBV29-1,0005,142448081,tgagtttcacttCttagtgcctttt,tgagtttcacttTttagtgcctttt,5' UTR,2.63e-05,rs372083527
+TRBV29-1,0006,142448086,ttcacttcttagTgccttttctcag,ttcacttcttagGgccttttctcag,5' UTR,1.29e-05,.
+TRBV29-1,0007,142448088,cacttcttagtgCcttttctcaggg,cacttcttagtgTcttttctcaggg,5' UTR,0.000156,rs535389084
+TRBV29-1,0008,142448107,tcaggggagaggCcatcacttgaag,tcaggggagaggTcatcacttgaag,5' UTR,6.63e-05,.
+TRBV29-1,0009,142448111,gggagaggccatCacttgaagatgc,gggagaggccatGacttgaagatgc,5' UTR,3.95e-05,rs376710711
+TRBV29-1,0010,142448114,agaggccatcacTtgaagatgctga,agaggccatcacGtgaagatgctga,5' UTR,1.15e-05,rs367783161
+TRBV29-1,0011,142448115,gaggccatcactTgaagatgctgag,gaggccatcactGgaagatgctgag,5' UTR,3.31e-05,.
+TRBV29-1,0012,142448121,atcacttgaagaTgctgagtcttct,atcacttgaagaCgctgagtcttct,start lost,5.6e-06,.
+TRBV29-1,0013,142448126,ttgaagatgctgAgtcttctgctcc,ttgaagatgctgTgtcttctgctcc,missense,5.53e-06,.
+TRBV29-1,0014,142448134,gctgagtcttctGctccttctcctg,gctgagtcttctActccttctcctg,synonymous,2.19e-05,.
+TRBV29-1,0015,142448135,ctgagtcttctgCtccttctcctgg,ctgagtcttctgAtccttctcctgg,missense,1.64e-05,.
+TRBV29-1,0016,142448145,tgctccttctccTgggactaggtat,tgctccttctccAgggactaggtat,missense,1.41e-05,rs361328
+TRBV29-1,0017,142448146,gctccttctcctGggactaggtatg,gctccttctcctCggactaggtatg,synonymous,4.94e-05,.
+TRBV29-1,0018,142448147,ctccttctcctgGgactaggtatga,ctccttctcctgAgactaggtatga,missense,5.49e-06,.
+TRBV29-1,0019,142448148,tccttctcctggGactaggtatgag,tccttctcctggAactaggtatgag,missense,3.32e-05,rs370553205
+TRBV29-1,0020,142448149,ccttctcctgggActaggtatgagc,ccttctcctgggGctaggtatgagc,synonymous,5.54e-06,.
+TRBV29-1,0021,142448154,tcctgggactagGtatgagccttgt,tcctgggactagAtatgagccttgt,splice donor,3.34e-05,.
+TRBV29-1,0022,142448157,tgggactaggtaTgagccttgtctt,tgggactaggtaAgagccttgtctt,splice region,5.64e-06,.
+TRBV29-1,0023,142448161,actaggtatgagCcttgtcttttga,actaggtatgagActtgtcttttga,splice region,1.72e-05,.
+TRBV29-1,0024,142448161,actaggtatgagCcttgtcttttga,actaggtatgagTcttgtcttttga,splice region,8.03e-05,.
+TRBV29-1,0025,142448166,gtatgagccttgTcttttgaggagt,gtatgagccttgCcttttgaggagt,intron,2.93e-05,.
+TRBV29-1,0026,142448167,tatgagccttgtCttttgaggagtc,tatgagccttgtTttttgaggagtc,intron,5.89e-06,.
+TRBV29-1,0027,142448172,gccttgtcttttGaggagtctgggg,gccttgtcttttTaggagtctgggg,intron,1.83e-05,.
+TRBV29-1,0028,142448178,tcttttgaggagTctggggttaatg,tcttttgaggagGctggggttaatg,intron,5.48e-05,.
+TRBV29-1,0029,142448180,ttttgaggagtcTGgggttaatgtta,ttttgaggagtcTgggttaatgtta,intron,6.52e-05,rs751357713
+TRBV29-1,0030,142448181,tttgaggagtctGgggttaatgtta,tttgaggagtctTgggttaatgtta,intron,1.28e-05,.
+TRBV29-1,0031,142448183,tgaggagtctggGgttaatgttaac,tgaggagtctggAgttaatgttaac,intron,1.88e-05,.
+TRBV29-1,0032,142448184,gaggagtctgggGttaatgttaaca,gaggagtctgggAttaatgttaaca,intron,6.61e-06,.
+TRBV29-1,0033,142448199,aatgttaacactGGGTGGAAAggtggaaagact,aatgttaacactGGgtggaaagact,intron,0.51,rs201198343
+TRBV29-1,0034,142448203,ttaacactgggtGgaaaggtggaaa,ttaacactgggtAgaaaggtggaaa,intron,6.79e-06,.
+TRBV29-1,0035,142448373,gataaagcagagACcttcctgcctgg,gataaagcagagActtcctgcctgg,intron,9.14e-06,.
+TRBV29-1,0036,142448375,taaagcagagacCttcctgcctggg,taaagcagagacAttcctgcctggg,intron,1.36e-05,.
+TRBV29-1,0037,142448382,gagaccttcctgCctggggagatgt,gagaccttcctgTctggggagatgt,intron,3.31e-05,.
+TRBV29-1,0038,142448388,ttcctgcctgggGagatgtctgacc,ttcctgcctgggAagatgtctgacc,intron,4.38e-06,.
+TRBV29-1,0039,142448392,tgcctggggagaTgtctgaccccaa,tgcctggggagaGgtctgaccccaa,intron,3.32e-05,rs751067230
+TRBV29-1,0040,142448393,gcctggggagatGtctgaccccaag,gcctggggagatAtctgaccccaag,intron,4.34e-06,.
+TRBV29-1,0041,142448397,ggggagatgtctGaccccaagcttg,ggggagatgtctCaccccaagcttg,intron,1.53e-05,rs371758793
+TRBV29-1,0042,142448399,ggagatgtctgaCcccaagcttgtc,ggagatgtctgaAcccaagcttgtc,intron,8.62e-06,.
+TRBV29-1,0043,142448399,ggagatgtctgaCcccaagcttgtc,ggagatgtctgaTcccaagcttgtc,intron,7.63e-06,rs767999064
+TRBV29-1,0044,142448403,atgtctgaccccAagcttgtcggtc,atgtctgaccccCagcttgtcggtc,intron,1.52e-05,rs780538981
+TRBV29-1,0045,142448404,tgtctgaccccaAgcttgtcggtcc,tgtctgaccccaGgcttgtcggtcc,intron,0.00162,rs139379949
+TRBV29-1,0046,142448411,ccccaagcttgtCggtcctcatgaa,ccccaagcttgtAggtcctcatgaa,intron,4.25e-06,rs370088642
+TRBV29-1,0047,142448411,ccccaagcttgtCggtcctcatgaa,ccccaagcttgtTggtcctcatgaa,intron,4.25e-06,rs370088642
+TRBV29-1,0048,142448412,cccaagcttgtcGgtcctcatgaat,cccaagcttgtcAgtcctcatgaat,intron,8.48e-06,.
+TRBV29-1,0049,142448416,agcttgtcggtcCtcatgaatatct,agcttgtcggtcTtcatgaatatct,intron,0.00027,rs184589109
+TRBV29-1,0050,142448418,cttgtcggtcctCatgaatatctct,cttgtcggtcctTatgaatatctct,intron,4.22e-06,.
+TRBV29-1,0051,142448426,tcctcatgaataTctctctggaact,tcctcatgaataActctctggaact,intron,4.21e-06,.
+TRBV29-1,0052,142448427,cctcatgaatatCtctctggaacta,cctcatgaatatAtctctggaacta,intron,4.21e-06,.
+TRBV29-1,0053,142448430,catgaatatctcTctggaactaggc,catgaatatctcCctggaactaggc,intron,3.32e-05,.
+TRBV29-1,0054,142448438,tctctctggaacTaggctctgtgtt,tctctctggaacCaggctctgtgtt,splice region,0.000231,rs375187325
+TRBV29-1,0055,142448438,tctctctggaacTaggctctgtgtt,tctctctggaacGaggctctgtgtt,splice region,8.4e-06,rs375187325
+TRBV29-1,0056,142448442,tctggaactaggCtctgtgttcagt,tctggaactaggTtctgtgttcagt,splice region,4.2e-06,rs369390159
+TRBV29-1,0057,142448444,tggaactaggctCtgtgttcagtgc,tggaactaggctTtgtgttcagtgc,missense,7.46e-06,rs761345164
+TRBV29-1,0058,142448445,ggaactaggctcTgtgttcagtgct,ggaactaggctcCgtgttcagtgct,synonymous,4.62e-05,.
+TRBV29-1,0059,142448454,ctctgtgttcagTgctgtcatctct,ctctgtgttcagCgctgtcatctct,synonymous,4.2e-06,.
+TRBV29-1,0060,142448459,tgttcagtgctgTcatctctcaaaa,tgttcagtgctgCcatctctcaaaa,missense,6.65e-05,.
+TRBV29-1,0061,142448460,gttcagtgctgtCatctctcaaaag,gttcagtgctgtTatctctcaaaag,synonymous,4.2e-06,.
+TRBV29-1,0062,142448461,ttcagtgctgtcAtctctcaaaagc,ttcagtgctgtcGtctctcaaaagc,missense,1.12e-05,.
+TRBV29-1,0063,142448472,catctctcaaaaGccaagcagggat,catctctcaaaaCccaagcagggat,missense,1.12e-05,rs372904157
+TRBV29-1,0064,142448473,atctctcaaaagCcaagcagggata,atctctcaaaagTcaagcagggata,missense,4.2e-06,.
+TRBV29-1,0065,142448478,tcaaaagccaagCagggatatctgt,tcaaaagccaagAagggatatctgt,missense,4.19e-06,rs375871498
+TRBV29-1,0066,142448478,tcaaaagccaagCagggatatctgt,tcaaaagccaagTagggatatctgt,synonymous,2.1e-05,rs375871498
+TRBV29-1,0067,142448483,agccaagcagggAtatctgtcaacg,agccaagcagggGtatctgtcaacg,missense,0.000113,.
+TRBV29-1,0068,142448484,gccaagcagggaTatctgtcaacgt,gccaagcagggaCatctgtcaacgt,synonymous,6.29e-05,.
+TRBV29-1,0069,142448486,caagcagggataTctgtcaacgtgg,caagcagggataCctgtcaacgtgg,missense,8.39e-06,.
+TRBV29-1,0070,142448494,gatatctgtcaaCgtggaacctccc,gatatctgtcaaAgtggaacctccc,missense,4.19e-06,rs369087862
+TRBV29-1,0071,142448494,gatatctgtcaaCgtggaacctccc,gatatctgtcaaTgtggaacctccc,missense,4.1e-05,rs369087862
+TRBV29-1,0072,142448497,atctgtcaacgtGgaacctccctga,atctgtcaacgtAgaacctccctga,missense,5.21e-05,rs373010776
+TRBV29-1,0073,142448510,gaacctccctgaCgatccagtgtca,gaacctccctgaAgatccagtgtca,missense,4.19e-06,.
+TRBV29-1,0074,142448510,gaacctccctgaCgatccagtgtca,gaacctccctgaTgatccagtgtca,missense,8.39e-06,.
+TRBV29-1,0075,142448511,aacctccctgacGatccagtgtcaa,aacctccctgacAatccagtgtcaa,synonymous,0.000108,rs570979355
+TRBV29-1,0076,142448511,aacctccctgacGatccagtgtcaa,aacctccctgacCatccagtgtcaa,synonymous,4.19e-06,.
+TRBV29-1,0077,142448513,cctccctgacgaTccagtgtcaagt,cctccctgacgaAccagtgtcaagt,missense,4.19e-06,.
+TRBV29-1,0078,142448526,ccagtgtcaagtCgatagccaagtc,ccagtgtcaagtTgatagccaagtc,synonymous,4.61e-05,.
+TRBV29-1,0079,142448527,cagtgtcaagtcGatagccaagtca,cagtgtcaagtcAatagccaagtca,missense,0.00019,rs550118360
+TRBV29-1,0080,142448536,gtcgatagccaaGtcaccatgatgt,gtcgatagccaaAtcaccatgatgt,missense,0.000115,rs377067576
+TRBV29-1,0081,142448543,gccaagtcaccaTgatgttctggta,gccaagtcaccaCgatgttctggta,missense,8.39e-06,.
+TRBV29-1,0082,142448550,caccatgatgttCtggtaccgtcag,caccatgatgttTtggtaccgtcag,synonymous,4.19e-06,.
+TRBV29-1,0083,142448551,accatgatgttcTggtaccgtcagc,accatgatgttcCggtaccgtcagc,missense,6.62e-05,rs371471590
+TRBV29-1,0084,142448551,accatgatgttcTGGTACCgtcagcaacctg,accatgatgttcTGtcagcaacctg,inframe deletion,1.26e-05,.
+TRBV29-1,0085,142448553,catgatgttctgGtaccgtcagcaa,catgatgttctgAtaccgtcagcaa,stop gained,3.78e-05,.
+TRBV29-1,0086,142448556,gatgttctggtaCcgtcagcaacct,gatgttctggtaTcgtcagcaacct,synonymous,4.2e-06,.
+TRBV29-1,0087,142448557,atgttctggtacCgtcagcaacctg,atgttctggtacTgtcagcaacctg,missense,1.26e-05,.
+TRBV29-1,0088,142448558,tgttctggtaccGtcagcaacctgg,tgttctggtaccAtcagcaacctgg,missense,5.96e-05,rs375926475
+TRBV29-1,0089,142448566,taccgtcagcaaCctggacagagcc,taccgtcagcaaGctggacagagcc,missense,4.2e-06,.
+TRBV29-1,0090,142448566,taccgtcagcaaCctggacagagcc,taccgtcagcaaTctggacagagcc,missense,4.2e-06,.
+TRBV29-1,0091,142448569,cgtcagcaacctGgacagagcctga,cgtcagcaacctAgacagagcctga,missense,0.000155,rs144203472
+TRBV29-1,0092,142448571,tcagcaacctggAcagagcctgaca,tcagcaacctggGcagagcctgaca,synonymous,8.39e-06,.
+TRBV29-1,0093,142448573,agcaacctggacAgagcctgacact,agcaacctggacGgagcctgacact,missense,1.68e-05,.
+TRBV29-1,0094,142448577,acctggacagagCctgacactgatc,acctggacagagGctgacactgatc,missense,4.2e-06,.
+TRBV29-1,0095,142448586,gagcctgacactGatcgcaactgca,gagcctgacactTatcgcaactgca,synonymous,4.2e-06,.
+TRBV29-1,0096,142448590,ctgacactgatcGcaactgcaaatc,ctgacactgatcAcaactgcaaatc,missense,1.86e-05,rs377648489
+TRBV29-1,0097,142448593,acactgatcgcaActgcaaatcagg,acactgatcgcaGctgcaaatcagg,missense,4.2e-06,.
+TRBV29-1,0098,142448607,tgcaaatcagggCtctgaggccaca,tgcaaatcagggTtctgaggccaca,synonymous,2.1e-05,.
+TRBV29-1,0099,142448609,caaatcagggctCtgaggccacata,caaatcagggctGtgaggccacata,missense,4.2e-06,.
+TRBV29-1,0100,142448614,cagggctctgagGccacatatgaga,cagggctctgagAccacatatgaga,missense,4.2e-06,.
+TRBV29-1,0101,142448615,agggctctgaggCcacatatgagag,agggctctgaggAcacatatgagag,missense,4.2e-06,.
+TRBV29-1,0102,142448616,gggctctgaggcCacatatgagagt,gggctctgaggcTacatatgagagt,synonymous,1.12e-05,rs754848052
+TRBV29-1,0103,142448620,tctgaggccacaTatgagagtggat,tctgaggccacaCatgagagtggat,missense,4.2e-06,.
+TRBV29-1,0104,142448623,gaggccacatatGagagtggatttg,gaggccacatatAagagtggatttg,missense,3.31e-05,.
+TRBV29-1,0105,142448625,ggccacatatgaGagtggatttgtc,ggccacatatgaCagtggatttgtc,missense,4.2e-06,.
+TRBV29-1,0106,142448628,cacatatgagagTggatttgtcatt,cacatatgagagAggatttgtcatt,missense,3.32e-05,.
+TRBV29-1,0107,142448630,catatgagagtgGatttgtcattga,catatgagagtgTatttgtcattga,missense,8.4e-06,.
+TRBV29-1,0108,142448638,agtggatttgtcAttgacaagtttc,agtggatttgtcCttgacaagtttc,missense,2.24e-05,rs771834679
+TRBV29-1,0109,142448638,agtggatttgtcAttgacaagtttc,agtggatttgtcGttgacaagtttc,missense,1.49e-05,rs771834679
+TRBV29-1,0110,142448639,gtggatttgtcaTtgacaagtttcc,gtggatttgtcaCtgacaagtttcc,missense,0.00038,rs146048073
+TRBV29-1,0111,142448641,ggatttgtcattGacaagtttccca,ggatttgtcattAacaagtttccca,missense,8.4e-06,rs113722411
+TRBV29-1,0112,142448641,ggatttgtcattGacaagtttccca,ggatttgtcattCacaagtttccca,missense,0.000358,rs113722411
+TRBV29-1,0113,142448650,attgacaagtttCccatcagccgcc,attgacaagtttTccatcagccgcc,missense,2.1e-05,.
+TRBV29-1,0114,142448653,gacaagtttcccAtcagccgcccaa,gacaagtttcccCtcagccgcccaa,missense,4.2e-06,.
+TRBV29-1,0115,142448655,caagtttcccatCagccgcccaaac,caagtttcccatAagccgcccaaac,synonymous,8.4e-06,.
+TRBV29-1,0116,142448659,tttcccatcagcCgcccaaacctaa,tttcccatcagcTgcccaaacctaa,missense,1.86e-05,rs367943558
+TRBV29-1,0117,142448660,ttcccatcagccGcccaaacctaac,ttcccatcagccAcccaaacctaac,missense,1.26e-05,.
+TRBV29-1,0118,142448663,ccatcagccgccCaaacctaacatt,ccatcagccgccAaaacctaacatt,missense,4.2e-06,.
+TRBV29-1,0119,142448663,ccatcagccgccCaaacctaacatt,ccatcagccgccTaaacctaacatt,missense,4.2e-06,.
+TRBV29-1,0120,142448683,acattctcaactCtgactgtgagca,acattctcaactTtgactgtgagca,synonymous,4.2e-06,rs371557034
+TRBV29-1,0121,142448698,actgtgagcaacAtgagccctgaag,actgtgagcaacCtgagccctgaag,missense,0.0276,rs17214
+TRBV29-1,0122,142448699,ctgtgagcaacaTgagccctgaaga,ctgtgagcaacaCgagccctgaaga,missense,4.2e-06,.
+TRBV29-1,0123,142448700,tgtgagcaacatGagccctgaagac,tgtgagcaacatAagccctgaagac,missense,8.41e-06,.
+TRBV29-1,0124,142448702,tgagcaacatgaGccctgaagacag,tgagcaacatgaAccctgaagacag,missense,2.52e-05,.
+TRBV29-1,0125,142448703,gagcaacatgagCcctgaagacagc,gagcaacatgagAcctgaagacagc,missense,1.26e-05,.
+TRBV29-1,0126,142448712,gagccctgaagaCagcagcatatat,gagccctgaagaGagcagcatatat,missense,8.42e-06,.
+TRBV29-1,0127,142448715,ccctgaagacagCagcatatatctc,ccctgaagacagAagcatatatctc,missense,6.32e-05,.
+TRBV29-1,0128,142448715,ccctgaagacagCagcatatatctc,ccctgaagacagTagcatatatctc,synonymous,1.26e-05,.
+TRBV29-1,0129,142448719,gaagacagcagcAtatatctctgca,gaagacagcagcGtatatctctgca,missense,3.31e-05,.
+TRBV29-1,0130,142448722,gacagcagcataTatctctgcagcg,gacagcagcataAatctctgcagcg,missense,1.27e-05,.
+TRBV29-1,0131,142448723,acagcagcatatATCtctgcagcgttg,acagcagcatatATctgcagcgttg,frameshift,7.49e-06,.
+TRBV29-1,0132,142448724,cagcagcatataTctctgcagcgtt,cagcagcatataActctgcagcgtt,stop gained,4.23e-06,.
+TRBV29-1,0133,142448727,cagcatatatctCtgcagcgttgaa,cagcatatatctGtgcagcgttgaa,synonymous,3.76e-05,rs367582255
+TRBV29-1,0134,142448728,agcatatatctcTgcagcgttgaag,agcatatatctcCgcagcgttgaag,missense,4.24e-06,.
+TRBV29-1,0135,142448730,catatatctctgCagcgttgaagac,catatatctctgTagcgttgaagac,synonymous,3.31e-05,.
+TRBV29-1,0136,142448733,atatctctgcagCgttgaagacaca,atatctctgcagTgttgaagacaca,synonymous,5.3e-05,rs770606486
+TRBV29-1,0137,142448734,tatctctgcagcGttgaagacacag,tatctctgcagcAttgaagacacag,missense,5.99e-05,rs372238829
+TRBV29-1,0138,142448736,tctctgcagcgtTgaagacacagtg,tctctgcagcgtCgaagacacagtg,synonymous,4.29e-06,.
+TRBV29-1,0139,142448742,cagcgttgaagaCacagtgcggggc,cagcgttgaagaTacagtgcggggc,downstream gene,8.71e-06,.
+TRBV29-1,0140,142448744,gcgttgaagacaCagtgcggggcac,gcgttgaagacaTagtgcggggcac,downstream gene,4.42e-06,.
+TRBV29-1,0141,142448746,gttgaagacacaGtgcggggcacag,gttgaagacacaAtgcggggcacag,downstream gene,4.4e-06,.
+TRBV29-1,0142,142448749,gaagacacagtgCggggcacagatc,gaagacacagtgAggggcacagatc,downstream gene,1.35e-05,rs375342247
+TRBV29-1,0143,142448749,gaagacacagtgCggggcacagatc,gaagacacagtgTggggcacagatc,downstream gene,0.000218,rs375342247
+TRBV29-1,0144,142448750,aagacacagtgcGgggcacagatca,aagacacagtgcAgggcacagatca,downstream gene,8.74e-05,rs369582960
+TRBV29-1,0145,142448750,aagacacagtgcGgggcacagatca,aagacacagtgcTgggcacagatca,downstream gene,3.32e-05,rs369582960
+TRBV29-1,0146,142448753,acacagtgcgggGcacagatcaaag,acacagtgcgggAcacagatcaaag,downstream gene,4.6e-06,.
+TRBV29-1,0147,142448753,acacagtgcgggGcacagatcaaag,acacagtgcgggTcacagatcaaag,downstream gene,1.38e-05,.
+TRBV29-1,0148,142448763,gggcacagatcaAagatctgagcaa,gggcacagatcaCagatctgagcaa,downstream gene,5.01e-06,.
+TRBV29-1,0149,142448773,caaagatctgagCaagaacctcagc,caaagatctgagAaagaacctcagc,downstream gene,4e-05,rs541317945
+TRBV29-1,0150,142448774,aaagatctgagcAagaacctcagct,aaagatctgagcGagaacctcagct,downstream gene,5.85e-06,.
+TRBV29-1,0151,142448778,atctgagcaagaAcctcagctctct,atctgagcaagaGcctcagctctct,downstream gene,6.37e-05,.
+TRBV29-1,0152,142448783,agcaagaacctcAgctctctcctac,agcaagaacctcGgctctctcctac,downstream gene,6.9e-06,.
+TRBV29-1,0153,142448785,caagaacctcagCtctctcctaccc,caagaacctcagAtctctcctaccc,downstream gene,3.32e-05,.
+TRBV29-1,0154,142448787,agaacctcagctCtctcctacccag,agaacctcagctGtctcctacccag,downstream gene,3.82e-05,.
+TRBV29-1,0155,142448791,cctcagctctctCctacccagctcc,cctcagctctctTctacccagctcc,downstream gene,7.86e-06,.
 TRBV24-1,0001,142364178,tctatttccatgCcctgcttccctc,tctatttccatgAcctgcttccctc,upstream gene,9.93e-05,rs533351559
 TRBV24-1,0002,142364193,tgcttccctcaaCatccagagctgg,tgcttccctcaaTatccagagctgg,upstream gene,1.2e-05,rs376928542
 TRBV24-1,0003,142364195,cttccctcaacaTccagagctggaa,cttccctcaacaCccagagctggaa,upstream gene,4.53e-06,.
