@@ -11,12 +11,12 @@ import sys
 import snpfunctions as fnx
 import Levenshtein as lev
 
-__version__ = '3.3.2'
+__version__ = '3.3.3'
 
 
 def populate_empty_imgt_fields(gene, snp_id):
     """
-    The IMGT data does not come with the annotations that the ExAC data does, and thus will have empty fields
+    The IMGT data does not come with the annotations that the gnomAD data does, and thus will have empty fields
     In order to get it to plot the same these need to be populated with empty strings
     """
     for field in ['position', 'type', 'freq', 'rsid']:
@@ -31,12 +31,13 @@ if __name__ == '__main__':
     chromosomes = coll.defaultdict(int)
     snps = coll.defaultdict(fnx.double_nest)
     path_to_data = 'Raw_Files/'
+    out_dir = 'Output_SNP_Files/'
 
     # Define pad distance, i.e. how many nt to take on either side of the variant position
     pad = 12
 
     # Read in gene level data
-    with open("TCR_Gene_Details.csv") as inf:
+    with open(path_to_data + "TCR_Gene_Details.csv") as inf:
         for line in inf:
             if "Symbol" not in line:
                 bits = line.rstrip().split(",")
@@ -46,31 +47,31 @@ if __name__ == '__main__':
                 ids[ens_id] = gene
                 chromosomes[gene] = chromosome
 
-    # Get exac data
-    exac_files = [path_to_data+x for x in os.listdir(path_to_data)
-                  if x.startswith("exac_") is True and x.endswith(".csv") is True][::-1]
+    # Get gnomad data
+    gnomad_files = [path_to_data+x for x in os.listdir(path_to_data)
+                  if x.startswith("gnomad_") is True and x.endswith(".csv") is True][::-1]
 
     # Get IMGT data
     imgt_files = [path_to_data+x for x in os.listdir(path_to_data)
                   if x.startswith("imgt_") is True and x.endswith(".fasta") is True]
 
-    # Read in the SNP data (from ExAC files harvested from gnomAD), give every row a number,
-    for fl in exac_files:
-        print "Reading in file", str(exac_files.index(fl)+1), "out of", str(len(exac_files)) + ":", fl
+    # Read in the SNP data (from gnomAD files harvested from gnomAD), give every row a number,
+    for fl in gnomad_files:
+        print "Reading in file", str(gnomad_files.index(fl)+1), "out of", str(len(gnomad_files)) + ":", fl
         ens_id = fl.split("_")[2]
         with open(fl) as inf:
             cnt = 1
             for line in inf:
+                bits = line.replace("\"", "").rstrip().split(",")
                 if "Chrom" in line:
-                    key = line
+                    key = bits
                 else:
-                    bits = line.replace("\"", "").rstrip().split(",")
                     snps[ids[ens_id]][fnx.tidy(cnt)]['position'] = int(bits[1])
                     snps[ids[ens_id]][fnx.tidy(cnt)]['chr'] = int(bits[0])
                     snps[ids[ens_id]][fnx.tidy(cnt)]['rsid'] = bits[2]
                     snps[ids[ens_id]][fnx.tidy(cnt)]['from'] = bits[3]
                     snps[ids[ens_id]][fnx.tidy(cnt)]['to'] = bits[4]
-                    snps[ids[ens_id]][fnx.tidy(cnt)]['t_cons'] = bits[8]
+                    snps[ids[ens_id]][fnx.tidy(cnt)]['t_cons'] = bits[10]
 
                     # Get SNP, if we're dealing with a single nt change (that's a difference base!)
                     if len(snps[ids[ens_id]][fnx.tidy(cnt)]['from']) == 1 \
@@ -105,9 +106,9 @@ if __name__ == '__main__':
                     else:
                         snps[ids[ens_id]][fnx.tidy(cnt)]['ref'], snps[ids[ens_id]][fnx.tidy(cnt)]['alt'] = '', ''
 
-                    snps[ids[ens_id]][fnx.tidy(cnt)]['type'] = bits[9]
-                    snps[ids[ens_id]][fnx.tidy(cnt)]['prot_consequence'] = bits[6]
-                    snps[ids[ens_id]][fnx.tidy(cnt)]['freq'] = float(bits[14])
+                    snps[ids[ens_id]][fnx.tidy(cnt)]['type'] = bits[11]
+                    snps[ids[ens_id]][fnx.tidy(cnt)]['prot_consequence'] = bits[9]
+                    snps[ids[ens_id]][fnx.tidy(cnt)]['freq'] = float(bits[16])
                     cnt += 1
 
     # Loop through IMGT file, taking the prototypic allele (*01) as reference infer and record variant positions
@@ -183,13 +184,13 @@ if __name__ == '__main__':
                         start = diffs[i+1][1] - pad
                         to_capitalise = [diffs[i+1][1]]
 
-    # See whether the IMGT polymorphism is already present in the ExAC data
-    # If it is, combine the two (keeping the name from IMGT and the rest of the data from ExAC) in third dict
+    # See whether the IMGT polymorphism is already present in the gnomAD data
+    # If it is, combine the two (keeping the name from IMGT and the rest of the data from gnomAD) in third dict
     out_snps = coll.defaultdict(fnx.double_nest)
 
     for gene in snps.keys():
         if gene in imgt_snps.keys():
-            # If the ExAC SNP is also present in the IMGT data, find which it is and combine them
+            # If the gnomAD SNP is also present in the IMGT data, find which it is and combine them
             imgt_combos = [imgt_snps[gene][x]['ref']+'|'+imgt_snps[gene][x]['alt'] for x in imgt_snps[gene]]
             for snp_id in snps[gene]:
                 if snps[gene][snp_id]['ref'] not in ['', []] and snps[gene][snp_id]['alt'] not in ['', []]:
@@ -204,7 +205,7 @@ if __name__ == '__main__':
                     else:
                         out_snps[gene][snp_id] = snps[gene][snp_id]
 
-            # Having added all the IMGT sequences that are also in ExAC, add the remaining IMGT SNPs
+            # Having added all the IMGT sequences that are also in gnomAD, add the remaining IMGT SNPs
             for imgt_id in imgt_snps[gene]:
                 if imgt_snps[gene][imgt_id]['ignore'] is not True:
                     out_snps[gene][imgt_id] = imgt_snps[gene][imgt_id]
@@ -219,14 +220,17 @@ if __name__ == '__main__':
 
     # Write data out to those gene specific files
     print "Writing data out..."
-    with open('TRAV.snps', 'w') as av_file, open('TRBV.snps', 'w') as bv_file, \
-            open('TRAJ.snps', 'w') as aj_file, open('TRBJ.snps', 'w') as bj_file:
+    with open(out_dir + 'TRAV.snps', 'w') as av_file, open(out_dir + 'TRBV.snps', 'w') as bv_file, \
+            open(out_dir + 'TRAJ.snps', 'w') as aj_file, open(out_dir + 'TRBJ.snps', 'w') as bj_file:
 
         # Add comments detailing version number
         for out_file in [av_file, bv_file, aj_file, bj_file]:
             summary_str = "# SNPs produced with tcr-snps.py, version " + str(__version__) + \
                           "\n# See https://github.com/JamieHeather/tcr-snps\n"
             out_file.write(summary_str)
+
+        # Write headers to comments
+        out_file.write("#Position,Reference,Alternative,Type,Frequency,RSID\n")
 
         # Write out only those SNPs for which we could find appropriate info
         for g in out_snps:

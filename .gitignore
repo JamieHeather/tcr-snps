@@ -1,1 +1,9 @@
 .idea/*
+!*.py
+!*.csv
+!*.fasta
+!*.md
+!*.snps
+!.gitignore
+*DS_Store*
+*.pyc
